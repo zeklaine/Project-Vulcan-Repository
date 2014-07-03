@@ -4320,7 +4320,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_2c1546a29c384a358cca2df777098468.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_e8d5d4456b0b4a879109a8a1ad2e3e6c.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -4854,7 +4854,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_859e728db1a4487694186c61d54af6b8.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_208352ae640f4c4fa5acddf2d5440f9f.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -4879,7 +4879,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_8b5545b900f94b40a98f2177136fa690.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_681808eaf9304383a715e0d41507c583.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -4904,7 +4904,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_96594d7d179a49eba0e040fb358bf929.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_43d5f2fe5448420b802ff337caf2043a.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -5038,7 +5038,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_e8006b43885845f4b413af19cad02d18.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_6be0952755a4446692312794d5d94aaf.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -5133,7 +5133,7 @@
     </Node>
     <Node ToolID="163">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1902" y="2154" />
+        <Position x="1890" y="2154" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -5325,7 +5325,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_e8ff7a7d150645179d551c1803978a38.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_72119e1b1bc34c149997c52c4f6112d3.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -5368,7 +5368,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
           <ByName_OutputMode>All</ByName_OutputMode>
           <Mode>ByName</Mode>
           <SetOutputOrder value="False" />
@@ -5661,160 +5661,6 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="191">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2658" y="1566" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <SelectFields>
-            <SelectField field="STUSRV2" selected="True" rename="Academic/Career Counseling" />
-            <SelectField field="ACTCM25" selected="True" />
-            <SelectField field="ACTCM75" selected="True" />
-            <SelectField field="ACTEN25" selected="True" />
-            <SelectField field="ACTEN75" selected="True" />
-            <SelectField field="ACTMT25" selected="True" />
-            <SelectField field="ACTMT75" selected="True" />
-            <SelectField field="ACTNUM" selected="True" />
-            <SelectField field="ACTPCT" selected="True" />
-            <SelectField field="ACTWR25" selected="True" />
-            <SelectField field="ACTWR75" selected="True" />
-            <SelectField field="ADDR" selected="True" />
-            <SelectField field="BAAC150" selected="True" rename="Adjusted Bach Cohort - 150" />
-            <SelectField field="BAAC200" selected="True" rename="Adjusted Bach Cohort - 200" />
-            <SelectField field="L4AC150" selected="True" rename="Adjusted Cert Cohort - 150" />
-            <SelectField field="L4AC200" selected="True" rename="Adjusted Cert Cohort - 200" />
-            <SelectField field="RRPTCTA" selected="True" rename="Adjusted PT Prev Year Cohort" />
-            <SelectField field="ADMINURL" selected="True" />
-            <SelectField field="ADMCON7" selected="True" rename="Admission Test Scores" />
-            <SelectField field="ADMSSNM" selected="True" rename="Admissions - Men" />
-            <SelectField field="ADMSSNW" selected="True" rename="Admissions - Women" />
-            <SelectField field="ADMSSN" selected="True" rename="Admissions Total" />
-            <SelectField field="IALIAS" selected="True" rename="Alias" />
-            <SelectField field="APPLCNM" selected="True" rename="Applicants - Men" />
-            <SelectField field="APPLCNW" selected="True" rename="Applicants - Women" />
-            <SelectField field="APPLCN" selected="True" rename="Applicants Total" />
-            <SelectField field="LEVEL3" selected="True" rename="Associates Deg" />
-            <SelectField field="BAAEXCL" selected="True" rename="Bach Cohort Additional Exclusions - 200" />
-            <SelectField field="BAEXCLU" selected="True" rename="Bach Cohort Exclusions - 150" />
-            <SelectField field="BASTEND" selected="True" rename="Bach Cohort Still Enrolled - 200" />
-            <SelectField field="LEVEL5" selected="True" rename="Bach Deg" />
-            <SelectField field="BANC100" selected="True" rename="Bach Persist Number - 100" />
-            <SelectField field="BANC150" selected="True" rename="Bach Persist Number - 150" />
-            <SelectField field="BANC200A" selected="True" rename="Bach Persist Number - 150 to 200" />
-            <SelectField field="BANC200" selected="True" rename="Bach Persist Number - 200" />
-            <SelectField field="BAGR100" selected="True" rename="Bach Persist Percent - 100" />
-            <SelectField field="BAGR150" selected="True" rename="Bach Persist Percent - 150" />
-            <SelectField field="BAGR200" selected="True" rename="Bach Persist Percent - 200" />
-            <SelectField field="Input_#4_UNITID" selected="True" rename="Binary EF" />
-            <SelectField field="Input_#3_UNITID" selected="True" rename="Binary GR200" />
-            <SelectField field="Input_#2_UNITID" selected="True" rename="Binary IC" />
-            <SelectField field="CALSYS" selected="True" />
-            <SelectField field="CBSA" selected="True" />
-            <SelectField field="CBSATYPE" selected="True" />
-            <SelectField field="L4AEXCL" selected="True" rename="Cert Cohort Additional Exclusions - 200" />
-            <SelectField field="L4EXCLU" selected="True" rename="Cert Cohort Exclusions - 150" />
-            <SelectField field="L4STEND" selected="True" rename="Cert Cohort Still Enrolled - 200" />
-            <SelectField field="L4NC100" selected="True" rename="Cert Persist Number - 100" />
-            <SelectField field="L4NC150" selected="True" rename="Cert Persist Number - 150" />
-            <SelectField field="L4NC200A" selected="True" rename="Cert Persist Number - 150 to 200" />
-            <SelectField field="L4NC200" selected="True" rename="Cert Persist Number - 200" />
-            <SelectField field="L4GR100" selected="True" rename="Cert Persist Percent - 100" />
-            <SelectField field="L4GR200" selected="True" rename="Cert Persist Percent - 200" />
-            <SelectField field="L4GR150" selected="True" rename="Cert Persist Percent 150" />
-            <SelectField field="CITY" selected="True" />
-            <SelectField field="CONTROL" selected="True" />
-            <SelectField field="CSA" selected="True" />
-            <SelectField field="PGRCOHRT" selected="True" rename="Current Year Cohort Percent of Entering Class" />
-            <SelectField field="LEVEL19" selected="True" rename="Doctors Deg - Other" />
-            <SelectField field="LEVEL18" selected="True" rename="Doctors Deg - Prof Practice" />
-            <SelectField field="LEVEL17" selected="True" rename="Doctors Deg - Research/Schol" />
-            <SelectField field="STUSRV3" selected="True" rename="Employment Services" />
-            <SelectField field="ENRLM" selected="True" rename="Enrolled - Men" />
-            <SelectField field="ENRLT" selected="True" rename="Enrolled - Total" />
-            <SelectField field="ENRLW" selected="True" rename="Enrolled - Women" />
-            <SelectField field="ENRLFTM" selected="True" rename="Enrolled FT - Men" />
-            <SelectField field="ENRLFTW" selected="True" rename="Enrolled FT - Women" />
-            <SelectField field="ENRLFT" selected="True" rename="Enrolled Full Time Total" />
-            <SelectField field="ENRLPT" selected="True" rename="Enrolled Part Time Total" />
-            <SelectField field="ENRLPTM" selected="True" rename="Enrolled PT - Men" />
-            <SelectField field="ENRLPTW" selected="True" rename="Enrolled PT - Women" />
-            <SelectField field="RRFTEX" selected="True" rename="Exclusions from Full Time Prev Year Cohort" />
-            <SelectField field="RRPTEX" selected="True" rename="Exclusions from PT Prev Year Cohort" />
-            <SelectField field="FIPS" selected="True" />
-            <SelectField field="GRCOHRT" selected="True" rename="FT First Time UG" />
-            <SelectField field="RRFTCT" selected="True" rename="FT Prev Year Cohort" />
-            <SelectField field="FT_FTUG" selected="True" />
-            <SelectField field="FT_UG" selected="True" />
-            <SelectField field="HBCU" selected="True" rename="Historically Black" />
-            <SelectField field="HOSPITAL" selected="True" />
-            <SelectField field="INSTCAT" selected="True" />
-            <SelectField field="INSTNM" selected="True" />
-            <SelectField field="INSTSIZE" selected="True" />
-            <SelectField field="IPED_UNIT_ID" selected="False" />
-            <SelectField field="LANDGRNT" selected="True" />
-            <SelectField field="LATITUDE" selected="True" rename="Latitude" />
-            <SelectField field="LEVEL1" selected="True" rename="Less Than 1Yr Cert" />
-            <SelectField field="ICLEVEL" selected="True" rename="Level" />
-            <SelectField field="LONGITUD" selected="True" rename="Longitude" />
-            <SelectField field="LEVEL7" selected="True" rename="Masters Deg" />
-            <SelectField field="MEDICAL" selected="True" />
-            <SelectField field="STUSRV9" selected="True" rename="No Services" />
-            <SelectField field="OBEREG" selected="True" />
-            <SelectField field="STUSRV8" selected="True" rename="On-Campus Daycare" />
-            <SelectField field="LEVEL2" selected="True" rename="One but Less Than 2Yr Cert" />
-            <SelectField field="OPEFLAG" selected="True" />
-            <SelectField field="OPENADMP" selected="True" />
-            <SelectField field="LEVEL12" selected="True" rename="Other Deg" />
-            <SelectField field="GENTELE" selected="True" rename="Phone" />
-            <SelectField field="STUSRV4" selected="True" rename="Placement Services" />
-            <SelectField field="LEVEL6" selected="True" rename="Postbacc Cert" />
-            <SelectField field="LEVEL8" selected="True" rename="Post-Masters Deg" />
-            <SelectField field="PSET4FLG" selected="True" />
-            <SelectField field="RRFTCTA" selected="True" rename="PT Adjusted Prev Year Cohort" />
-            <SelectField field="RRPTCT" selected="True" rename="PT Prev Year Cohort" />
-            <SelectField field="ADMCON5" selected="True" rename="Recommendations" />
-            <SelectField field="STUSRV1" selected="True" rename="Remedial Services" />
-            <SelectField field="RET_NMF" selected="True" rename="Retention Number - FT" />
-            <SelectField field="RET_NMP" selected="True" rename="Retention Number - PT" />
-            <SelectField field="RET_PCF" selected="True" rename="Retention Percent - FT" />
-            <SelectField field="RET_PCP" selected="True" rename="Retention Percent - PT" />
-            <SelectField field="BAREVCT" selected="True" rename="Revised Bach Cohort" />
-            <SelectField field="L4REVCT" selected="True" rename="Revised Cert Cohort" />
-            <SelectField field="Right_ACT_CODE" selected="False" />
-            <SelectField field="SATMT25" selected="True" />
-            <SelectField field="SATMT75" selected="True" />
-            <SelectField field="SATNUM" selected="True" />
-            <SelectField field="SATPCT" selected="True" />
-            <SelectField field="SATVR25" selected="True" />
-            <SelectField field="SATVR75" selected="True" />
-            <SelectField field="SATWR25" selected="True" />
-            <SelectField field="SATWR75" selected="True" />
-            <SelectField field="ADMCON1" selected="True" rename="Secondary School GPA" />
-            <SelectField field="ADMCON2" selected="True" rename="Secondary School Rank" />
-            <SelectField field="ADMCON3" selected="True" rename="Secondary School Record" />
-            <SelectField field="STABBR" selected="True" />
-            <SelectField field="STUFACR" selected="True" rename="Student/Faculty Ratio" />
-            <SelectField field="UGENTERN" selected="True" rename="Total Entering Undergrad" />
-            <SelectField field="TRIBAL" selected="True" />
-            <SelectField field="LEVEL4" selected="True" rename="Two but Less Than 4Yr Cert" />
-            <SelectField field="UNITID" selected="True" />
-            <SelectField field="LOCALE" selected="True" rename="Urbanization" />
-            <SelectField field="WEBADDR" selected="True" />
-            <SelectField field="YEAR" selected="True" />
-            <SelectField field="ZIP" selected="True" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
     <Node ToolID="197">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
         <Position x="2574" y="1470" />
@@ -5829,6 +5675,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
+          <AnnotationText>Input Binary Flags</AnnotationText>
           <DefaultAnnotationText>Input_#2_UNITID=if IsNull([Input_#2_UNITID]) then 0 else 1 endif
 Input_#3_UNITID=if IsNull([Input_#3_UNITID]) then 0 else 1 endif
 Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotationText>
@@ -5845,19 +5692,152 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
         <Configuration>
           <JoinByRecPos value="False" />
           <JoinFields>
-            <JoinInfo connection="#1">
-              <Field field="UNITID" />
-            </JoinInfo>
             <JoinInfo connection="#2">
               <Field field="IPED_UNIT_ID" />
+            </JoinInfo>
+            <JoinInfo connection="#1">
+              <Field field="UNITID" />
             </JoinInfo>
           </JoinFields>
           <CartesianMode>Error</CartesianMode>
           <OutputJoinOnly value="False" />
           <SelectConfiguration>
             <Configuration outputConnection="Output">
-              <OrderChanged value="False" />
+              <OrderChanged value="True" />
               <SelectFields>
+                <SelectField field="Input_#1_UNITID" selected="True" />
+                <SelectField field="Input_#1_INSTNM" selected="True" />
+                <SelectField field="Input_#1_ADDR" selected="True" />
+                <SelectField field="Input_#1_CITY" selected="True" />
+                <SelectField field="Input_#1_STABBR" selected="True" />
+                <SelectField field="Input_#1_ZIP" selected="True" />
+                <SelectField field="Input_#1_FIPS" selected="True" />
+                <SelectField field="Input_#1_OBEREG" selected="True" />
+                <SelectField field="Input_#1_Phone" selected="True" />
+                <SelectField field="Input_#1_OPEFLAG" selected="True" />
+                <SelectField field="Input_#1_WEBADDR" selected="True" />
+                <SelectField field="Input_#1_ADMINURL" selected="True" />
+                <SelectField field="Input_#1_Level" selected="True" />
+                <SelectField field="Input_#1_CONTROL" selected="True" />
+                <SelectField field="Input_#1_Historically Black" selected="True" />
+                <SelectField field="Input_#1_HOSPITAL" selected="True" />
+                <SelectField field="Input_#1_MEDICAL" selected="True" />
+                <SelectField field="Input_#1_TRIBAL" selected="True" />
+                <SelectField field="Input_#1_Urbanization" selected="True" />
+                <SelectField field="Input_#1_PSET4FLG" selected="True" />
+                <SelectField field="Input_#1_Alias" selected="True" />
+                <SelectField field="Input_#1_INSTCAT" selected="True" />
+                <SelectField field="Input_#1_LANDGRNT" selected="True" />
+                <SelectField field="Input_#1_INSTSIZE" selected="True" />
+                <SelectField field="Input_#1_CBSA" selected="True" />
+                <SelectField field="Input_#1_CBSATYPE" selected="True" />
+                <SelectField field="Input_#1_CSA" selected="True" />
+                <SelectField field="Input_#1_Longitude" selected="True" />
+                <SelectField field="Input_#1_Latitude" selected="True" />
+                <SelectField field="Input_#1_Binary IC" selected="True" />
+                <SelectField field="Input_#1_Less Than 1Yr Cert" selected="True" />
+                <SelectField field="Input_#1_One but Less Than 2Yr Cert" selected="True" />
+                <SelectField field="Input_#1_Associates Deg" selected="True" />
+                <SelectField field="Input_#1_Two but Less Than 4Yr Cert" selected="True" />
+                <SelectField field="Input_#1_Bach Deg" selected="True" />
+                <SelectField field="Input_#1_Postbacc Cert" selected="True" />
+                <SelectField field="Input_#1_Masters Deg" selected="True" />
+                <SelectField field="Input_#1_Post-Masters Deg" selected="True" />
+                <SelectField field="Input_#1_Other Deg" selected="True" />
+                <SelectField field="Input_#1_Doctors Deg - Research/School" selected="True" />
+                <SelectField field="Input_#1_Doctors Deg - Prof Practice" selected="True" />
+                <SelectField field="Input_#1_Doctors Deg - Other" selected="True" />
+                <SelectField field="Input_#1_OPENADMP" selected="True" />
+                <SelectField field="Input_#1_Secondary School GPA" selected="True" />
+                <SelectField field="Input_#1_Secondary School Rank" selected="True" />
+                <SelectField field="Input_#1_Secondary School Record" selected="True" />
+                <SelectField field="Input_#1_Recommendations" selected="True" />
+                <SelectField field="Input_#1_Admission Test Scores" selected="True" />
+                <SelectField field="Input_#1_Applicants - Men" selected="True" />
+                <SelectField field="Input_#1_Applicants - Women" selected="True" />
+                <SelectField field="Input_#1_Admissions - Men" selected="True" />
+                <SelectField field="Input_#1_Admissions - Women" selected="True" />
+                <SelectField field="Input_#1_Enrolled FT - Men" selected="True" />
+                <SelectField field="Input_#1_Enrolled FT - Women" selected="True" />
+                <SelectField field="Input_#1_Enrolled PT - Men" selected="True" />
+                <SelectField field="Input_#1_Enrolled PT - Women" selected="True" />
+                <SelectField field="Input_#1_SATNUM" selected="True" />
+                <SelectField field="Input_#1_SATPCT" selected="True" />
+                <SelectField field="Input_#1_ACTNUM" selected="True" />
+                <SelectField field="Input_#1_ACTPCT" selected="True" />
+                <SelectField field="Input_#1_SATVR25" selected="True" />
+                <SelectField field="Input_#1_SATVR75" selected="True" />
+                <SelectField field="Input_#1_SATMT25" selected="True" />
+                <SelectField field="Input_#1_SATMT75" selected="True" />
+                <SelectField field="Input_#1_SATWR25" selected="True" />
+                <SelectField field="Input_#1_SATWR75" selected="True" />
+                <SelectField field="Input_#1_ACTCM25" selected="True" />
+                <SelectField field="Input_#1_ACTCM75" selected="True" />
+                <SelectField field="Input_#1_ACTEN25" selected="True" />
+                <SelectField field="Input_#1_ACTEN75" selected="True" />
+                <SelectField field="Input_#1_ACTMT25" selected="True" />
+                <SelectField field="Input_#1_ACTMT75" selected="True" />
+                <SelectField field="Input_#1_ACTWR25" selected="True" />
+                <SelectField field="Input_#1_ACTWR75" selected="True" />
+                <SelectField field="Input_#1_Remedial Services" selected="True" />
+                <SelectField field="Input_#1_Academic/Career Counseling" selected="True" />
+                <SelectField field="Input_#1_Employment Services" selected="True" />
+                <SelectField field="Input_#1_Placement Services" selected="True" />
+                <SelectField field="Input_#1_On-Campus Daycare" selected="True" />
+                <SelectField field="Input_#1_No Services" selected="True" />
+                <SelectField field="Input_#1_CALSYS" selected="True" />
+                <SelectField field="Input_#1_Enrolled - Men" selected="True" />
+                <SelectField field="Input_#1_Enrolled - Women" selected="True" />
+                <SelectField field="Input_#1_Enrolled - Total" selected="True" />
+                <SelectField field="Input_#1_Applicants Total" selected="True" />
+                <SelectField field="Input_#1_Admissions Total" selected="True" />
+                <SelectField field="Input_#1_Enrolled Full Time Total" selected="True" />
+                <SelectField field="Input_#1_Enrolled Part Time Total" selected="True" />
+                <SelectField field="Input_#1_Binary GR200" selected="True" />
+                <SelectField field="Input_#1_Revised Bach Cohort" selected="True" />
+                <SelectField field="Input_#1_Bach Cohort Exclusions - 150" selected="True" />
+                <SelectField field="Input_#1_Adjusted Bach Cohort - 150" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Number - 100" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Percent - 100" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Number - 150" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Percent - 150" selected="True" />
+                <SelectField field="Input_#1_Bach Cohort Additional Exclusions - 200" selected="True" />
+                <SelectField field="Input_#1_Adjusted Bach Cohort - 200" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Number - 150 to 200" selected="True" />
+                <SelectField field="Input_#1_Bach Cohort Still Enrolled - 200" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Number - 200" selected="True" />
+                <SelectField field="Input_#1_Bach Persist Percent - 200" selected="True" />
+                <SelectField field="Input_#1_Revised Cert Cohort" selected="True" />
+                <SelectField field="Input_#1_Cert Cohort Exclusions - 150" selected="True" />
+                <SelectField field="Input_#1_Adjusted Cert Cohort - 150" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Number - 100" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Percent - 100" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Number - 150" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Percent 150" selected="True" />
+                <SelectField field="Input_#1_Cert Cohort Additional Exclusions - 200" selected="True" />
+                <SelectField field="Input_#1_Adjusted Cert Cohort - 200" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Number - 150 to 200" selected="True" />
+                <SelectField field="Input_#1_Cert Cohort Still Enrolled - 200" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Number - 200" selected="True" />
+                <SelectField field="Input_#1_Cert Persist Percent - 200" selected="True" />
+                <SelectField field="Input_#1_Binary EF" selected="True" />
+                <SelectField field="Input_#1_FT First Time UG" selected="True" />
+                <SelectField field="Input_#1_Total Entering Undergrad" selected="True" />
+                <SelectField field="Input_#1_Current Year Cohort Percent of Entering Class" selected="True" />
+                <SelectField field="Input_#1_FT Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_Exclusions from Full Time Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_PT Adjusted Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_Retention Number - FT" selected="True" />
+                <SelectField field="Input_#1_Retention Percent - FT" selected="True" />
+                <SelectField field="Input_#1_PT Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_Exclusions from PT Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_Adjusted PT Prev Year Cohort" selected="True" />
+                <SelectField field="Input_#1_Retention Number - PT" selected="True" />
+                <SelectField field="Input_#1_Retention Percent - PT" selected="True" />
+                <SelectField field="Input_#1_Student/Faculty Ratio" selected="True" />
+                <SelectField field="Input_#1_YEAR" selected="True" />
+                <SelectField field="Input_#2_ACT_CODE" selected="True" />
+                <SelectField field="Input_#2_CONF" selected="True" />
                 <SelectField field="Input_#2_Right_ACT_CODE" selected="False" />
                 <SelectField field="Input_#2_IPED_UNIT_ID" selected="False" />
                 <SelectField field="*Unknown" selected="True" />
@@ -5879,7 +5859,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7896_476d387c8cfb4e8fb1dc205f2c20ca36\Engine_6696_272b2df3ef0d41b290d914d486c81f18.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_0d619381fc8640b5bc4dbe3144afb770.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -5900,80 +5880,14 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="205">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2826" y="1794" />
+        <Position x="3006" y="1782" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <SelectFields>
-            <SelectField field="ACTCM25" selected="False" />
-            <SelectField field="ACTCM75" selected="False" />
-            <SelectField field="ACTEN25" selected="False" />
-            <SelectField field="ACTEN75" selected="False" />
-            <SelectField field="ACTMT25" selected="False" />
-            <SelectField field="ACTMT75" selected="False" />
-            <SelectField field="ACTNUM" selected="False" />
-            <SelectField field="ACTPCT" selected="False" />
-            <SelectField field="ACTWR25" selected="False" />
-            <SelectField field="ACTWR75" selected="False" />
-            <SelectField field="Secondary School GPA" selected="False" />
-            <SelectField field="Secondary School Rank" selected="False" />
-            <SelectField field="Secondary School Record" selected="False" />
-            <SelectField field="Recommendations" selected="False" />
-            <SelectField field="Admission Test Scores" selected="False" />
-            <SelectField field="Admissions Total" selected="False" />
-            <SelectField field="Admissions - Men" selected="False" />
-            <SelectField field="Admissions - Women" selected="False" />
-            <SelectField field="Applicants Total" selected="False" />
-            <SelectField field="Applicants - Men" selected="False" />
-            <SelectField field="Applicants - Women" selected="False" />
-            <SelectField field="Adjusted Bach Cohort - 150" selected="False" />
-            <SelectField field="Adjusted Bach Cohort - 200" selected="False" />
-            <SelectField field="Bach Cohort Additional Exclusions - 200" selected="False" />
-            <SelectField field="Bach Cohort Exclusions - 150" selected="False" />
-            <SelectField field="Bach Persist Percent - 100" selected="False" />
-            <SelectField field="Bach Persist Percent - 150" selected="False" />
-            <SelectField field="Bach Persist Percent - 200" selected="False" />
-            <SelectField field="Bach Persist Number - 100" selected="False" />
-            <SelectField field="Bach Persist Number - 150" selected="False" />
-            <SelectField field="Bach Persist Number - 200" selected="False" />
-            <SelectField field="Bach Persist Number - 150 to 200" selected="False" />
-            <SelectField field="Revised Bach Cohort" selected="False" />
-            <SelectField field="Bach Cohort Still Enrolled - 200" selected="False" />
-            <SelectField field="CALSYS" selected="False" />
-            <SelectField field="Enrolled Full Time Total" selected="False" />
-            <SelectField field="Enrolled FT - Men" selected="False" />
-            <SelectField field="Enrolled FT - Women" selected="False" />
-            <SelectField field="Enrolled - Men" selected="False" />
-            <SelectField field="Enrolled Part Time Total" selected="False" />
-            <SelectField field="Enrolled PT - Men" selected="False" />
-            <SelectField field="Enrolled PT - Women" selected="False" />
-            <SelectField field="Enrolled - Total" selected="False" />
-            <SelectField field="Enrolled - Women" selected="False" />
-            <SelectField field="FT_FTUG" selected="False" />
-            <SelectField field="FT_UG" selected="False" />
-            <SelectField field="FT First Time UG" selected="False" />
             <SelectField field="Binary IC" selected="False" />
-            <SelectField field="Binary GR200" selected="False" />
-            <SelectField field="Binary EF" selected="False" />
-            <SelectField field="Adjusted Cert Cohort - 150" selected="False" />
-            <SelectField field="Adjusted Cert Cohort - 200" selected="False" />
-            <SelectField field="Cert Cohort Additional Exclusions - 200" selected="False" />
-            <SelectField field="Cert Cohort Exclusions - 150" selected="False" />
-            <SelectField field="Cert Persist Percent - 100" selected="False" />
-            <SelectField field="Cert Persist Percent 150" selected="False" />
-            <SelectField field="Cert Persist Percent - 200" selected="False" />
-            <SelectField field="Cert Persist Number - 100" selected="False" />
-            <SelectField field="Cert Persist Number - 150" selected="False" />
-            <SelectField field="Cert Persist Number - 200" selected="False" />
-            <SelectField field="Cert Persist Number - 150 to 200" selected="False" />
-            <SelectField field="Revised Cert Cohort" selected="False" />
-            <SelectField field="Cert Cohort Still Enrolled - 200" selected="False" />
             <SelectField field="Less Than 1Yr Cert" selected="False" />
-            <SelectField field="Other Deg" selected="False" />
-            <SelectField field="Doctors Deg - Research/Schol" selected="False" />
-            <SelectField field="Doctors Deg - Prof Practice" selected="False" />
-            <SelectField field="Doctors Deg - Other" selected="False" />
             <SelectField field="One but Less Than 2Yr Cert" selected="False" />
             <SelectField field="Associates Deg" selected="False" />
             <SelectField field="Two but Less Than 4Yr Cert" selected="False" />
@@ -5981,36 +5895,103 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
             <SelectField field="Postbacc Cert" selected="False" />
             <SelectField field="Masters Deg" selected="False" />
             <SelectField field="Post-Masters Deg" selected="False" />
+            <SelectField field="Other Deg" selected="False" />
+            <SelectField field="Doctors Deg - Research/School" selected="False" />
+            <SelectField field="Doctors Deg - Prof Practice" selected="False" />
+            <SelectField field="Doctors Deg - Other" selected="False" />
             <SelectField field="OPENADMP" selected="False" />
-            <SelectField field="Current Year Cohort Percent of Entering Class" selected="False" />
-            <SelectField field="Retention Number - FT" selected="False" />
-            <SelectField field="Retention Number - PT" selected="False" />
-            <SelectField field="Retention Percent - FT" selected="False" />
-            <SelectField field="Retention Percent - PT" selected="False" />
-            <SelectField field="FT Prev Year Cohort" selected="False" />
-            <SelectField field="PT Adjusted Prev Year Cohort" selected="False" />
-            <SelectField field="Exclusions from Full Time Prev Year Cohort" selected="False" />
-            <SelectField field="PT Prev Year Cohort" selected="False" />
-            <SelectField field="Adjusted PT Prev Year Cohort" selected="False" />
-            <SelectField field="Exclusions from PT Prev Year Cohort" selected="False" />
-            <SelectField field="SATMT25" selected="False" />
-            <SelectField field="SATMT75" selected="False" />
+            <SelectField field="Secondary School GPA" selected="False" />
+            <SelectField field="Secondary School Rank" selected="False" />
+            <SelectField field="Secondary School Record" selected="False" />
+            <SelectField field="Recommendations" selected="False" />
+            <SelectField field="Admission Test Scores" selected="False" />
+            <SelectField field="Applicants - Men" selected="False" />
+            <SelectField field="Applicants - Women" selected="False" />
+            <SelectField field="Admissions - Men" selected="False" />
+            <SelectField field="Admissions - Women" selected="False" />
+            <SelectField field="Enrolled FT - Men" selected="False" />
+            <SelectField field="Enrolled FT - Women" selected="False" />
+            <SelectField field="Enrolled PT - Men" selected="False" />
+            <SelectField field="Enrolled PT - Women" selected="False" />
             <SelectField field="SATNUM" selected="False" />
             <SelectField field="SATPCT" selected="False" />
+            <SelectField field="ACTNUM" selected="False" />
+            <SelectField field="ACTPCT" selected="False" />
             <SelectField field="SATVR25" selected="False" />
             <SelectField field="SATVR75" selected="False" />
+            <SelectField field="SATMT25" selected="False" />
+            <SelectField field="SATMT75" selected="False" />
             <SelectField field="SATWR25" selected="False" />
             <SelectField field="SATWR75" selected="False" />
-            <SelectField field="Student/Faculty Ratio" selected="False" />
+            <SelectField field="ACTCM25" selected="False" />
+            <SelectField field="ACTCM75" selected="False" />
+            <SelectField field="ACTEN25" selected="False" />
+            <SelectField field="ACTEN75" selected="False" />
+            <SelectField field="ACTMT25" selected="False" />
+            <SelectField field="ACTMT75" selected="False" />
+            <SelectField field="ACTWR25" selected="False" />
+            <SelectField field="ACTWR75" selected="False" />
             <SelectField field="Remedial Services" selected="False" />
             <SelectField field="Academic/Career Counseling" selected="False" />
             <SelectField field="Employment Services" selected="False" />
             <SelectField field="Placement Services" selected="False" />
             <SelectField field="On-Campus Daycare" selected="False" />
             <SelectField field="No Services" selected="False" />
+            <SelectField field="CALSYS" selected="False" />
+            <SelectField field="Enrolled - Men" selected="False" />
+            <SelectField field="Enrolled - Women" selected="False" />
+            <SelectField field="Enrolled - Total" selected="False" />
+            <SelectField field="Applicants Total" selected="False" />
+            <SelectField field="Admissions Total" selected="False" />
+            <SelectField field="Enrolled Full Time Total" selected="False" />
+            <SelectField field="Enrolled Part Time Total" selected="False" />
+            <SelectField field="Binary GR200" selected="False" />
+            <SelectField field="Revised Bach Cohort" selected="False" />
+            <SelectField field="Bach Cohort Exclusions - 150" selected="False" />
+            <SelectField field="Adjusted Bach Cohort - 150" selected="False" />
+            <SelectField field="Bach Persist Number - 100" selected="False" />
+            <SelectField field="Bach Persist Percent - 100" selected="False" />
+            <SelectField field="Bach Persist Number - 150" selected="False" />
+            <SelectField field="Bach Persist Percent - 150" selected="False" />
+            <SelectField field="Bach Cohort Additional Exclusions - 200" selected="False" />
+            <SelectField field="Adjusted Bach Cohort - 200" selected="False" />
+            <SelectField field="Bach Persist Number - 150 to 200" selected="False" />
+            <SelectField field="Bach Cohort Still Enrolled - 200" selected="False" />
+            <SelectField field="Bach Persist Number - 200" selected="False" />
+            <SelectField field="Bach Persist Percent - 200" selected="False" />
+            <SelectField field="Revised Cert Cohort" selected="False" />
+            <SelectField field="Cert Cohort Exclusions - 150" selected="False" />
+            <SelectField field="Adjusted Cert Cohort - 150" selected="False" />
+            <SelectField field="Cert Persist Number - 100" selected="False" />
+            <SelectField field="Cert Persist Percent - 100" selected="False" />
+            <SelectField field="Cert Persist Number - 150" selected="False" />
+            <SelectField field="Cert Persist Percent 150" selected="False" />
+            <SelectField field="Cert Cohort Additional Exclusions - 200" selected="False" />
+            <SelectField field="Adjusted Cert Cohort - 200" selected="False" />
+            <SelectField field="Cert Persist Number - 150 to 200" selected="False" />
+            <SelectField field="Cert Cohort Still Enrolled - 200" selected="False" />
+            <SelectField field="Cert Persist Number - 200" selected="False" />
+            <SelectField field="Cert Persist Percent - 200" selected="False" />
+            <SelectField field="Binary EF" selected="False" />
+            <SelectField field="FT First Time UG" selected="False" />
             <SelectField field="Total Entering Undergrad" selected="False" />
+            <SelectField field="Current Year Cohort Percent of Entering Class" selected="False" />
+            <SelectField field="FT Prev Year Cohort" selected="False" />
+            <SelectField field="Exclusions from Full Time Prev Year Cohort" selected="False" />
+            <SelectField field="PT Adjusted Prev Year Cohort" selected="False" />
+            <SelectField field="Retention Number - FT" selected="False" />
+            <SelectField field="Retention Percent - FT" selected="False" />
+            <SelectField field="PT Prev Year Cohort" selected="False" />
+            <SelectField field="Exclusions from PT Prev Year Cohort" selected="False" />
+            <SelectField field="Adjusted PT Prev Year Cohort" selected="False" />
+            <SelectField field="Retention Number - PT" selected="False" />
+            <SelectField field="Retention Percent - PT" selected="False" />
+            <SelectField field="Student/Faculty Ratio" selected="False" />
             <SelectField field="ACT_CODE" selected="False" />
             <SelectField field="CONF" selected="False" />
+            <SelectField field="Doctors Deg - Research/Schol" selected="False" />
+            <SelectField field="FT_FTUG" selected="False" />
+            <SelectField field="FT_UG" selected="False" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -6024,7 +6005,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="206">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2730" y="1470" />
+        <Position x="2658" y="1554" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -6130,6 +6111,698 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="207">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2850" y="1794" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[PSET4FLG]=='1'
+and
+[INSTCAT] in ('1','2','3','4')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PSET4FLG]=='1'
+and
+[INSTCAT] in ('1','2','3','4')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="209">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2946" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_3e1b6c7392314740979b9e4feb6b823e.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="210">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2946" y="1878" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_c66086990d824225afbc3eeaf5421cf2.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="211">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3102" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_aeaba9290e0c4741ac5217b8eb71be83.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="212">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="3126" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="UNITID" order="Ascending" />
+            <Field field="YEAR" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UNITID - Ascending
+YEAR - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="213">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3234" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="UNITID" action="GroupBy" rename="UNITID" />
+            <SummarizeField field="INSTNM" action="First" rename="INSTNM" />
+            <SummarizeField field="ADDR" action="First" rename="ADDR" />
+            <SummarizeField field="CITY" action="First" rename="CITY" />
+            <SummarizeField field="STABBR" action="First" rename="STABBR" />
+            <SummarizeField field="ZIP" action="First" rename="ZIP" />
+            <SummarizeField field="FIPS" action="First" rename="FIPS" />
+            <SummarizeField field="OBEREG" action="First" rename="OBEREG" />
+            <SummarizeField field="Phone" action="First" rename="Phone" />
+            <SummarizeField field="OPEFLAG" action="First" rename="OPEFLAG" />
+            <SummarizeField field="WEBADDR" action="First" rename="WEBADDR" />
+            <SummarizeField field="ADMINURL" action="First" rename="ADMINURL" />
+            <SummarizeField field="Level" action="First" rename="Level" />
+            <SummarizeField field="CONTROL" action="First" rename="CONTROL" />
+            <SummarizeField field="Historically Black" action="First" rename="Historically Black" />
+            <SummarizeField field="HOSPITAL" action="First" rename="HOSPITAL" />
+            <SummarizeField field="MEDICAL" action="First" rename="MEDICAL" />
+            <SummarizeField field="TRIBAL" action="First" rename="TRIBAL" />
+            <SummarizeField field="Urbanization" action="First" rename="Urbanization" />
+            <SummarizeField field="PSET4FLG" action="First" rename="PSET4FLG" />
+            <SummarizeField field="Alias" action="First" rename="Alias" />
+            <SummarizeField field="INSTCAT" action="First" rename="INSTCAT" />
+            <SummarizeField field="LANDGRNT" action="First" rename="LANDGRNT" />
+            <SummarizeField field="INSTSIZE" action="First" rename="INSTSIZE" />
+            <SummarizeField field="CBSA" action="First" rename="CBSA" />
+            <SummarizeField field="CBSATYPE" action="First" rename="CBSATYPE" />
+            <SummarizeField field="CSA" action="First" rename="CSA" />
+            <SummarizeField field="Longitude" action="First" rename="Longitude" />
+            <SummarizeField field="Latitude" action="First" rename="Latitude" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="214">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3330" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_6664c5ccf5ae466e9dd8200b52280c05.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="216">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="3366" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="INSTNM" />
+            <Field name="ADDR" />
+            <Field name="UNITID" selected="False" />
+            <Field name="CITY" selected="False" />
+            <Field name="STABBR" selected="False" />
+            <Field name="ZIP" selected="False" />
+            <Field name="FIPS" selected="False" />
+            <Field name="OBEREG" selected="False" />
+            <Field name="Phone" selected="False" />
+            <Field name="OPEFLAG" selected="False" />
+            <Field name="WEBADDR" selected="False" />
+            <Field name="ADMINURL" selected="False" />
+            <Field name="Level" selected="False" />
+            <Field name="CONTROL" selected="False" />
+            <Field name="Historically Black" selected="False" />
+            <Field name="HOSPITAL" selected="False" />
+            <Field name="MEDICAL" selected="False" />
+            <Field name="TRIBAL" selected="False" />
+            <Field name="Urbanization" selected="False" />
+            <Field name="PSET4FLG" selected="False" />
+            <Field name="Alias" selected="False" />
+            <Field name="INSTCAT" selected="False" />
+            <Field name="LANDGRNT" selected="False" />
+            <Field name="INSTSIZE" selected="False" />
+            <Field name="CBSA" selected="False" />
+            <Field name="CBSATYPE" selected="False" />
+            <Field name="CSA" selected="False" />
+            <Field name="Longitude" selected="False" />
+            <Field name="Latitude" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>REGEX_Replace([_CurrentField_], "[a-z0-9,&amp;' ./#():;-]", "")</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_Replace([_CurrentField_], "[a-z0-9,&amp;' ./#():;-]", "")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="217">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3462" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_d155aa80793f40699f73b45439981a5e.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="218">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="3474" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="CITY" />
+            <Field name="STABBR" />
+            <Field name="UNITID" selected="False" />
+            <Field name="INSTNM" selected="False" />
+            <Field name="ADDR" selected="False" />
+            <Field name="ZIP" selected="False" />
+            <Field name="FIPS" selected="False" />
+            <Field name="OBEREG" selected="False" />
+            <Field name="Phone" selected="False" />
+            <Field name="OPEFLAG" selected="False" />
+            <Field name="WEBADDR" selected="False" />
+            <Field name="ADMINURL" selected="False" />
+            <Field name="Level" selected="False" />
+            <Field name="CONTROL" selected="False" />
+            <Field name="Historically Black" selected="False" />
+            <Field name="HOSPITAL" selected="False" />
+            <Field name="MEDICAL" selected="False" />
+            <Field name="TRIBAL" selected="False" />
+            <Field name="Urbanization" selected="False" />
+            <Field name="PSET4FLG" selected="False" />
+            <Field name="Alias" selected="False" />
+            <Field name="INSTCAT" selected="False" />
+            <Field name="LANDGRNT" selected="False" />
+            <Field name="INSTSIZE" selected="False" />
+            <Field name="CBSA" selected="False" />
+            <Field name="CBSATYPE" selected="False" />
+            <Field name="CSA" selected="False" />
+            <Field name="Longitude" selected="False" />
+            <Field name="Latitude" selected="False" />
+            <Field name="New_INSTNM" selected="False" />
+            <Field name="New_ADDR" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>REGEX_Replace([_CurrentField_], "[a-z'. -]", "")</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_Replace([_CurrentField_], "[a-z'. -]", "")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="219">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3558" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_1a9d03090a0b4f4dab35a1e3fd0c6fe0.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="220">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3570" y="1866" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="New_CITY" action="GroupBy" rename="New_CITY" />
+            <SummarizeField field="New_STABBR" action="GroupBy" rename="New_STABBR" />
+            <SummarizeField field="New_INSTNM" action="GroupBy" rename="New_INSTNM" />
+            <SummarizeField field="New_ADDR" action="GroupBy" rename="New_ADDR" />
+            <SummarizeField field="UNITID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="221">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3666" y="1866" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_844c9ed0315b49faa1a97aacb570cd93.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="223">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3666" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_63aa7aad930940fd93ce3341ef485339.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="224">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="3582" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>ZIP</Field>
+          <RegExExpression value="^(\d{5})[\-]?(\d{4})?$" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>ZIP</RootName>
+            <NumFields value="2" />
+            <ErrorHandling>Ignore</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Zip5" type="V_String" size="254" />
+            <Field field="Zip4" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>ZIP_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+^(\d{5})[\-]?(\d{4})?$</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="225">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="3678" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Phone</Field>
+          <RegExExpression value="^(\d{3})[\ -]?(\d{3})[\ -]?(\d{4})[\ x-]?(\d*)$" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Phone</RootName>
+            <NumFields value="2" />
+            <ErrorHandling>Ignore</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Phone Area" type="V_String" size="254" />
+            <Field field="Phone Exchange" type="V_String" size="254" />
+            <Field field="Phone Num" type="V_String" size="254" />
+            <Field field="Phone Ext" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Phone_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+^(\d{3})[\ -]?(\d{3})[\ -]?...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="226">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3762" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_d77b1defffb149409dac3e9a3e7fd0ec.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="227">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="3774" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="WEBADDR" />
+            <Field name="ADMINURL" />
+            <Field name="UNITID" selected="False" />
+            <Field name="INSTNM" selected="False" />
+            <Field name="ADDR" selected="False" />
+            <Field name="CITY" selected="False" />
+            <Field name="STABBR" selected="False" />
+            <Field name="ZIP" selected="False" />
+            <Field name="FIPS" selected="False" />
+            <Field name="OBEREG" selected="False" />
+            <Field name="Phone" selected="False" />
+            <Field name="OPEFLAG" selected="False" />
+            <Field name="Level" selected="False" />
+            <Field name="CONTROL" selected="False" />
+            <Field name="Historically Black" selected="False" />
+            <Field name="HOSPITAL" selected="False" />
+            <Field name="MEDICAL" selected="False" />
+            <Field name="TRIBAL" selected="False" />
+            <Field name="Urbanization" selected="False" />
+            <Field name="PSET4FLG" selected="False" />
+            <Field name="Alias" selected="False" />
+            <Field name="INSTCAT" selected="False" />
+            <Field name="LANDGRNT" selected="False" />
+            <Field name="INSTSIZE" selected="False" />
+            <Field name="CBSA" selected="False" />
+            <Field name="CBSATYPE" selected="False" />
+            <Field name="CSA" selected="False" />
+            <Field name="Longitude" selected="False" />
+            <Field name="Latitude" selected="False" />
+            <Field name="New_INSTNM" selected="False" />
+            <Field name="New_ADDR" selected="False" />
+            <Field name="New_CITY" selected="False" />
+            <Field name="New_STABBR" selected="False" />
+            <Field name="Zip5" selected="False" />
+            <Field name="Zip4" selected="False" />
+            <Field name="Phone Area" selected="False" />
+            <Field name="Phone Exchange" selected="False" />
+            <Field name="Phone Num" selected="False" />
+            <Field name="Phone Ext" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>New_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>REGEX_Replace([_CurrentField_], "[a-z0-9/#+_:%&amp;=~?'. -]", "")</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_Replace([_CurrentField_], "[a-z0-9/#+_:%&amp;=~?'. -]", "")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="228">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3870" y="1866" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="New_WEBADDR" action="GroupBy" rename="New_WEBADDR" />
+            <SummarizeField field="New_ADMINURL" action="GroupBy" rename="New_ADMINURL" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="229">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3966" y="1866" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_9f442c25989b49cd974284402134fee8.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="230">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3870" y="1710" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_08755af2749a4e899ab049f4db1ca780.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="231">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3870" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="PhoneDisplay" type="V_String" size="254" expression="'('+ToString([Phone Area])+') '+ToString([Phone Exchange])+'-'+ToString([Phone Num])&#xA;+&#xA;if IsEmpty([Phone Ext])&#xA;then ''&#xA;else ' x'+ToString([Phone Ext])&#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PhoneDisplay='('+ToString([Phone Area])+') '+ToString([Phone ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="232">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3966" y="1782" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4804_45a618c3c2494b03872f430f93cc261e\Engine_6696_43d9160032bf4e578ace3f5ac75913b9.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -6442,12 +7115,8 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
       <Destination ToolID="199" Connection="Input" />
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="191" Connection="Output" />
+      <Origin ToolID="206" Connection="Output" />
       <Destination ToolID="199" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="197" Connection="Output" />
-      <Destination ToolID="191" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="197" Connection="Output" />
@@ -6459,7 +7128,99 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Connection>
     <Connection>
       <Origin ToolID="199" Connection="Output" />
+      <Destination ToolID="207" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="205" Connection="Output" />
+      <Destination ToolID="211" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="205" Connection="Output" />
+      <Destination ToolID="212" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="207" Connection="True" />
       <Destination ToolID="205" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="207" Connection="True" />
+      <Destination ToolID="209" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="207" Connection="False" />
+      <Destination ToolID="210" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="212" Connection="Output" />
+      <Destination ToolID="213" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="213" Connection="Output" />
+      <Destination ToolID="214" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="213" Connection="Output" />
+      <Destination ToolID="216" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="216" Connection="Output" />
+      <Destination ToolID="217" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="216" Connection="Output" />
+      <Destination ToolID="218" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="218" Connection="Output" />
+      <Destination ToolID="219" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="218" Connection="Output" />
+      <Destination ToolID="224" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="218" Connection="Output" />
+      <Destination ToolID="220" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="220" Connection="Output" />
+      <Destination ToolID="221" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="224" Connection="Output" />
+      <Destination ToolID="223" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="224" Connection="Output" />
+      <Destination ToolID="225" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="225" Connection="Output" />
+      <Destination ToolID="226" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="225" Connection="Output" />
+      <Destination ToolID="227" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="227" Connection="Output" />
+      <Destination ToolID="228" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="227" Connection="Output" />
+      <Destination ToolID="230" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="227" Connection="Output" />
+      <Destination ToolID="231" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="228" Connection="Output" />
+      <Destination ToolID="229" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="231" Connection="Output" />
+      <Destination ToolID="232" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
