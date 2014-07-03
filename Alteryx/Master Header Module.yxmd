@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="YEAR" selected="True" type="String" size="19" />
+            <SelectField field="UNITID" selected="True" type="String" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDs Data for Dave.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YEAR" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="UNITID" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="INSTNM" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ADDR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="CITY" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="STABBR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ZIP" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="WEBADDR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ADMINURL" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="FIPS" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="OBEREG" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Phone" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Longitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Latitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="306" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="INSTNM" selected="True" />
+            <Field field="ADDR" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STABBR" selected="True" />
+            <Field field="ZIP" selected="True" />
+            <Field field="WEBADDR" selected="True" />
+            <Field field="ADMINURL" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YEAR" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="UNITID" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="INSTNM" size="105" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ADDR" size="76" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="CITY" size="23" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="STABBR" size="2" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="String" />
+            <Field name="ZIP" size="10" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="String" />
+            <Field name="WEBADDR" size="143" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="ADMINURL" size="150" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="FIPS" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="OBEREG" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Phone" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Longitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Latitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="546" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="UNITID" order="Ascending" />
+            <Field field="YEAR" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UNITID - Ascending
+YEAR - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7716_7fe48c37c906498c977c47ad670d7034\Engine_6620_1bab9c61079c492f815c382e9ea5c047.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="666" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="UNITID" action="GroupBy" rename="UNITID" />
+            <SummarizeField field="INSTNM" action="First" rename="First_INSTNM" />
+            <SummarizeField field="INSTNM" action="Last" rename="Last_INSTNM" />
+            <SummarizeField field="ADDR" action="First" rename="First_ADDR" />
+            <SummarizeField field="ADDR" action="Last" rename="Last_ADDR" />
+            <SummarizeField field="CITY" action="First" rename="First_CITY" />
+            <SummarizeField field="CITY" action="Last" rename="Last_CITY" />
+            <SummarizeField field="STABBR" action="First" rename="First_STABBR" />
+            <SummarizeField field="STABBR" action="Last" rename="Last_STABBR" />
+            <SummarizeField field="ZIP" action="First" rename="First_ZIP" />
+            <SummarizeField field="ZIP" action="Last" rename="Last_ZIP" />
+            <SummarizeField field="WEBADDR" action="First" rename="First_WEBADDR" />
+            <SummarizeField field="WEBADDR" action="Last" rename="Last_WEBADDR" />
+            <SummarizeField field="ADMINURL" action="First" rename="First_ADMINURL" />
+            <SummarizeField field="ADMINURL" action="Last" rename="Last_ADMINURL" />
+            <SummarizeField field="FIPS" action="First" rename="First_FIPS" />
+            <SummarizeField field="FIPS" action="Last" rename="Last_FIPS" />
+            <SummarizeField field="OBEREG" action="First" rename="First_OBEREG" />
+            <SummarizeField field="OBEREG" action="Last" rename="Last_OBEREG" />
+            <SummarizeField field="Phone" action="First" rename="First_Phone" />
+            <SummarizeField field="Phone" action="Last" rename="Last_Phone" />
+            <SummarizeField field="Longitude" action="First" rename="First_Longitude" />
+            <SummarizeField field="Longitude" action="Last" rename="Last_Longitude" />
+            <SummarizeField field="Latitude" action="First" rename="First_Latitude" />
+            <SummarizeField field="Latitude" action="Last" rename="Last_Latitude" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="798" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="First_INSTNM" selected="True" rename="INSTNM" />
+            <SelectField field="Last_INSTNM" selected="False" />
+            <SelectField field="First_ADDR" selected="True" rename="ADDR" />
+            <SelectField field="Last_ADDR" selected="False" />
+            <SelectField field="First_CITY" selected="True" rename="CITY" />
+            <SelectField field="Last_CITY" selected="False" />
+            <SelectField field="First_STABBR" selected="True" rename="STABBR" />
+            <SelectField field="Last_STABBR" selected="False" />
+            <SelectField field="First_ZIP" selected="True" rename="ZIP" />
+            <SelectField field="Last_ZIP" selected="False" />
+            <SelectField field="First_WEBADDR" selected="True" rename="WEBADDR" />
+            <SelectField field="Last_WEBADDR" selected="False" />
+            <SelectField field="First_ADMINURL" selected="True" rename="ADMINURL" />
+            <SelectField field="Last_ADMINURL" selected="False" />
+            <SelectField field="First_FIPS" selected="True" rename="FIPS" />
+            <SelectField field="Last_FIPS" selected="False" />
+            <SelectField field="First_OBEREG" selected="True" rename="OBEREG" />
+            <SelectField field="Last_OBEREG" selected="False" />
+            <SelectField field="First_Phone" selected="True" rename="Phone" />
+            <SelectField field="Last_Phone" selected="False" />
+            <SelectField field="First_Longitude" selected="True" rename="Longitude" />
+            <SelectField field="Last_Longitude" selected="False" />
+            <SelectField field="First_Latitude" selected="True" rename="Latitude" />
+            <SelectField field="Last_Latitude" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7716_7fe48c37c906498c977c47ad670d7034\Engine_6620_e7750ea8d00d4abd998d60efecb7ea28.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Master Header Module</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

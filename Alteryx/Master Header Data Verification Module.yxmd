@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDs Data for Dave.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YEAR" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="UNITID" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="INSTNM" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ADDR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="CITY" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="STABBR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ZIP" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="WEBADDR" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="ADMINURL" size="255" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="V_WString" />
+            <Field name="FIPS" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="OBEREG" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Phone" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Longitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Latitude" source="File: \\cbrkdp1\incoming\Project Vulcan\Project-Vulcan-Repository\Data\IPEDS\IPEDs Data for Dave.xlsx|`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="YEAR" selected="True" type="String" size="19" />
+            <SelectField field="UNITID" selected="True" type="String" size="19" />
+            <SelectField field="FIPS" selected="True" type="String" size="19" />
+            <SelectField field="OBEREG" selected="True" type="String" size="19" />
+            <SelectField field="Phone" selected="True" type="String" size="19" />
+            <SelectField field="Longitude" selected="True" type="String" size="19" />
+            <SelectField field="Latitude" selected="True" type="String" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="498" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="YEAR" />
+            <Field field="UNITID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="YEAR" selected="False" />
+            <Field field="UNITID" selected="False" />
+            <Field field="INSTNM" selected="True" />
+            <Field field="ADDR" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STABBR" selected="True" />
+            <Field field="ZIP" selected="True" />
+            <Field field="WEBADDR" selected="True" />
+            <Field field="ADMINURL" selected="True" />
+            <Field field="FIPS" selected="True" />
+            <Field field="OBEREG" selected="True" />
+            <Field field="Phone" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_d42ee667c36e4eac8b5272fdf7587cb6.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="594" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="UNITID" order="Ascending" />
+            <Field field="Name" order="Ascending" />
+            <Field field="YEAR" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UNITID - Ascending
+Name - Ascending
+YEAR - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_0c1b8907c88b40dbbe2516198fdffbe4.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="138" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNull([UNITID])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([UNITID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_763d0e57ebbf4a9db3f41aef2c45a50a.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="702" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="UNITID" action="GroupBy" rename="UNITID" />
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Value" action="First" rename="First_Value" />
+            <SummarizeField field="Value" action="Last" rename="Last_Value" />
+            <SummarizeField field="Value" action="Max" rename="Max_Value" />
+            <SummarizeField field="Value" action="Min" rename="Min_Value" />
+            <SummarizeField field="Value" action="Longest" rename="Longest_Value" />
+            <SummarizeField field="Value" action="Shortest" rename="Shortest_Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_894242f85b1647849681ec1d733ba780.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="822" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="UNITID" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="First_Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="19" source="CrossTab:Group:Concat:" type="String" />
+            <Field name="ADDR" size="2048" source="CrossTab:Header:Name:ADDR:Concat:" type="V_WString" />
+            <Field name="ADMINURL" size="2048" source="CrossTab:Header:Name:ADMINURL:Concat:" type="V_WString" />
+            <Field name="CITY" size="2048" source="CrossTab:Header:Name:CITY:Concat:" type="V_WString" />
+            <Field name="FIPS" size="2048" source="CrossTab:Header:Name:FIPS:Concat:" type="V_WString" />
+            <Field name="INSTNM" size="2048" source="CrossTab:Header:Name:INSTNM:Concat:" type="V_WString" />
+            <Field name="Latitude" size="2048" source="CrossTab:Header:Name:Latitude:Concat:" type="V_WString" />
+            <Field name="Longitude" size="2048" source="CrossTab:Header:Name:Longitude:Concat:" type="V_WString" />
+            <Field name="OBEREG" size="2048" source="CrossTab:Header:Name:OBEREG:Concat:" type="V_WString" />
+            <Field name="Phone" size="2048" source="CrossTab:Header:Name:Phone:Concat:" type="V_WString" />
+            <Field name="STABBR" size="2048" source="CrossTab:Header:Name:STABBR:Concat:" type="V_WString" />
+            <Field name="WEBADDR" size="2048" source="CrossTab:Header:Name:WEBADDR:Concat:" type="V_WString" />
+            <Field name="ZIP" size="2048" source="CrossTab:Header:Name:ZIP:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="UNITID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_4b6906be95e040f38d25ab61b35b6b1e.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Value" type="V_WString" size="150" expression="if IsNull(Value) then Null()&#xA;else&#xA;Switch(Name,&quot;Unknown Column&quot;&#xA;,'ADDR','Result1'&#xA;,'CITY','ResultN'&#xA;,'WEBADDR',REGEX_REPLACE(Value, &quot;[a-z0-9,'./ &amp;-]&quot;, &quot;&quot;)&#xA;,'ADMINURL',''&#xA;)&#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Value=if IsNull(Value) then Null()
+else
+Switch(Name,"Unknown ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_74cd6d37c5994ef38b62ef1fcb5fef49.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="INSTNM" type="V_WString" size="105" expression="REGEX_REPLACE(INSTNM, &quot;[^a-z0-9,' .&amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="ADDR" type="V_String" size="76" expression="REGEX_REPLACE(ADDR, &quot;[^a-z0-9,'. &amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="CITY" type="V_String" size="23" expression="REGEX_REPLACE(CITY, &quot;[^a-z0-9, '.&amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="STABBR" type="String" size="2" expression="REGEX_REPLACE(STABBR, &quot;[^a-z0-9,'.&amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="ZIP" type="String" size="10" expression="REGEX_REPLACE(ZIP, &quot;[^0-9-]&quot;, &quot;&quot;)" />
+            <FormulaField field="WEBADDR" type="V_String" size="143" expression="REGEX_REPLACE(webaddr, &quot;[^a-z0-9,'/.&amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="ADMINURL" type="V_String" size="150" expression="REGEX_REPLACE(adminurl, &quot;[^a-z0-9,'/.&amp;-]&quot;, &quot;&quot;)" />
+            <FormulaField field="FIPS" type="String" size="19" expression="FIPS" />
+            <FormulaField field="OBEREG" type="String" size="19" expression="OBEREG" />
+            <FormulaField field="Phone" type="String" size="19" expression="REGEX_REPLACE(phone, &quot;[^0-9]&quot;, &quot;&quot;)" />
+            <FormulaField field="Longitude" type="String" size="19" expression="LONGITUDE" />
+            <FormulaField field="Latitude" type="String" size="19" expression="LATITUDE" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INSTNM=REGEX_REPLACE(INSTNM, "[^a-z0-9,' .&amp;-]", "")
+ADDR=REGEX_REPLACE(ADDR, "[^a-z0-9,'. &amp;-]", "")
+CITY=REGEX_REPLACE(CITY, "[^a-z0-9, '.&amp;-]", "")
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_00f6592f71754dad92758492c91888cf.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4024_f5075295e4864987a04eea12205c6d8c\Engine_4140_cb9bdee9599c4e769b50db1f31fdfc59.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="False" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Master Header Data Verification Module</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
