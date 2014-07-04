@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="167">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="942" y="978" />
+        <Position x="894" y="978" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -27,7 +27,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Conferences.xlsx|`Sheet1$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">%User.repoRoot%\Data\Conferences.xlsx|`Sheet1$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -56,7 +56,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IDQ\idq_tableau.csv</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IDQ\idq_tableau.csv</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>,</Delimeter>
@@ -492,31 +492,6 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
     </Node>
-    <Node ToolID="203">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1362" y="1038" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_485808061efa4589af5957d469458c05.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="205">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
         <Position x="1926" y="1422" />
@@ -753,7 +728,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="207">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="1770" y="1434" />
+        <Position x="1422" y="1098" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -773,11 +748,11 @@ and
     </Node>
     <Node ToolID="209">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1866" y="1350" />
+        <Position x="1530" y="1038" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_65af8780104e4df687d20b781ab7f391.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_fdaf989c41cd49e6bb57305dec0500c2.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -798,11 +773,11 @@ and
     </Node>
     <Node ToolID="210">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1866" y="1518" />
+        <Position x="1542" y="1158" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_fbe60eadf0ca4a7e9442859960ff7569.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_acb9e9dff8f6426c86ff037c8052ec81.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -827,7 +802,7 @@ and
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_586bbd0c55894553a8024f488d2a2026.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_5545fb93959148f6b995f5278de07557.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1179,7 +1154,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="235">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2958" y="1506" />
+        <Position x="2946" y="1590" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1205,7 +1180,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="238">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="3042" y="1506" />
+        <Position x="3030" y="1590" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1224,7 +1199,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="239">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="3150" y="1506" />
+        <Position x="3138" y="1590" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1240,7 +1215,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="242">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2238" y="1542" />
+        <Position x="2226" y="1662" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1267,7 +1242,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="243">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="2142" y="1494" />
+        <Position x="2130" y="1614" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1320,7 +1295,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="244">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="3246" y="1494" />
+        <Position x="3234" y="1578" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1338,11 +1313,11 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="245">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3390" y="1494" />
+        <Position x="3378" y="1578" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_d6f9f1e448aa46a389aee239c1ba20bb.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_0888ea10e56740b5bc95ec8c7ada10b1.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1386,7 +1361,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\ic2010_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2010\ic2010_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -1669,7 +1644,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -1813,7 +1788,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -1936,7 +1911,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\ef2010d_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2010\ef2010d_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -2198,7 +2173,7 @@ YEAR - Descending</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_fe7e0a522756483e8a91227144e12713.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_58bfdd9ba0ef450982c2b26aae25086a.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -2639,7 +2614,7 @@ YEAR - Descending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_aef8062a94b34249a1b29f50a2dcac96.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_046d116e6ca544e8ba72685974f2bbad.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2657,6 +2632,172 @@ YEAR - Descending</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="256">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1878" y="1314" width="100" height="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cleansing the Header data about institutions</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="257">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2910" y="1662" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Parsing off the Aliases</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="258">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1806" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="UNITID" selected="True" />
+            <SelectField field="INSTNM" selected="True" />
+            <SelectField field="ADDR" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STABBR" selected="True" />
+            <SelectField field="ZIP" selected="True" />
+            <SelectField field="Alias" selected="True" />
+            <SelectField field="YEAR" selected="True" />
+            <SelectField field="CONF" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="259">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1890" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Alias</Field>
+          <NumFields value="1" />
+          <Delimeters value="|,;/" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="260">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1998" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>REGEX_Match([Alias], "\s*\w+([.'&amp;\w-]+\s?){0,}\s*")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>REGEX_Match([Alias], "\s*\w+([.'&amp;\w-]+\s?){0,}\s*")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="261">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2094" y="954" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Alias" type="V_String" size="450" expression="Trim([Alias])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alias=Trim([Alias])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="262">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2238" y="954" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_d6f1a81f74254623b0d874057158a04f.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="263">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1770" y="1038" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Parsing off the Aliases</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
     </Node>
     <Node ToolID="255">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
@@ -2969,7 +3110,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\ic2012.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2012\ic2012.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -3257,7 +3398,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -3400,7 +3541,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -3529,7 +3670,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\ef2012d.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2012\ef2012d.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -3793,7 +3934,7 @@ YEAR - Descending</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_749c7d049ef54260a29b4db05a431b87.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_2070da4e11bc429ca68a7824d21b50e1.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -3857,7 +3998,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\ic2011_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2011\ic2011_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -4141,7 +4282,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -4285,7 +4426,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -4414,7 +4555,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\ef2011d_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2011\ef2011d_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -4678,7 +4819,7 @@ YEAR - Descending</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_363603532ade433f86460cc69e327a8f.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_d6c3f6bad632470e9625363c60f519b1.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -4742,7 +4883,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\ic2008.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\ic2008.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5030,7 +5171,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5164,7 +5305,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5287,7 +5428,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\ef2008d.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\ef2008d.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5543,7 +5684,7 @@ YEAR - Descending</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_5fe55dac67cb41f3a90db201f8a67175.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_73f0ea4097d6411dab0fc5ed4b02f5a8.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -5584,7 +5725,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="248">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="618" y="1170" width="140.8385" height="19" />
+        <Position x="618" y="1446" width="140.8385" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -5602,12 +5743,12 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="1249" />
+            <Position x="678" y="1525" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr2012.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2012\gr2012.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5698,7 +5839,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="786" y="1249" />
+            <Position x="786" y="1525" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5750,12 +5891,12 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="1357" />
+            <Position x="678" y="1633" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr2011_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2011\gr2011_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -5846,7 +5987,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="786" y="1357" />
+            <Position x="786" y="1633" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5898,12 +6039,12 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="1465" />
+            <Position x="678" y="1741" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr2010_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2010\gr2010_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -6053,7 +6194,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="786" y="1465" />
+            <Position x="786" y="1741" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6105,12 +6246,12 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="1573" />
+            <Position x="678" y="1849" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr2009_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2009\gr2009_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -6261,7 +6402,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="786" y="1573" />
+            <Position x="786" y="1849" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6313,12 +6454,12 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="1681" />
+            <Position x="678" y="1957" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr2008.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\gr2008.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -6469,7 +6610,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="786" y="1681" />
+            <Position x="786" y="1957" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6521,7 +6662,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="150">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1122" y="1249" />
+            <Position x="870" y="1530" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6539,7 +6680,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="151">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1122" y="1357" />
+            <Position x="870" y="1633" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6557,7 +6698,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="152">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1122" y="1465" />
+            <Position x="870" y="1741" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6575,7 +6716,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="153">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1122" y="1573" />
+            <Position x="870" y="1849" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6593,7 +6734,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="154">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1122" y="1681" />
+            <Position x="870" y="1957" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6611,7 +6752,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="155">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1410" y="1465" />
+            <Position x="1038" y="1734" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6630,11 +6771,11 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="156">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1554" y="1609" />
+            <Position x="1098" y="1794" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_5c93c496957c4f0696d9a527e66e3625.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_6ea16de0dfb64b978042e0582f0db79d.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -6655,7 +6796,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="157">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1362" y="1345" width="100" height="40" />
+            <Position x="1362" y="1621" width="100" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6700,7 +6841,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\ic2009_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2009\ic2009_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -6984,7 +7125,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -7125,7 +7266,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -7248,7 +7389,7 @@ YEAR - Descending</DefaultAnnotationText>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\ef2009d_rv.csv</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2009\ef2009d_rv.csv</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>,</Delimeter>
@@ -7510,7 +7651,7 @@ YEAR - Descending</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6288_920547242fbe4f9f91d69d33ccc935f5\Engine_3608_3f8ba156412b450e8524c141ee383a72.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7028_2dc450a1c8bf419c83b3b7b45ef2f3da\Engine_3608_7f6564a5bbd142b0b4c554afa9ae164e.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -7589,10 +7730,6 @@ YEAR - Descending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="199" Connection="Output" />
-      <Destination ToolID="203" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="199" Connection="Output" />
       <Destination ToolID="207" Connection="Input" />
     </Connection>
     <Connection>
@@ -7614,6 +7751,10 @@ YEAR - Descending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="207" Connection="False" />
       <Destination ToolID="210" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="207" Connection="True" />
+      <Destination ToolID="258" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="212" Connection="Output" />
@@ -7774,6 +7915,22 @@ YEAR - Descending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="253" Connection="Output" />
       <Destination ToolID="254" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="258" Connection="Output" />
+      <Destination ToolID="259" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="259" Connection="Output" />
+      <Destination ToolID="260" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="260" Connection="True" />
+      <Destination ToolID="261" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="261" Connection="Output" />
+      <Destination ToolID="262" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="220" Connection="Output" />
@@ -8023,6 +8180,14 @@ YEAR - Descending</DefaultAnnotationText>
     <ShowConnectionStatusOnlyWhenRunning value="True" />
     <ZoomLevel value="0" />
     <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>repoRoot</Name>
+        <Value>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
     <MetaInfo>
       <NameIsFileName value="True" />
       <Name>IPEDS_Merge_all_with_conferences</Name>
