@@ -1325,7 +1325,7 @@ and
     </Node>
     <Node ToolID="323">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3078" y="510" />
+        <Position x="3078" y="438" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1419,6 +1419,25 @@ and
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="325">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3078" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
     <Node ToolID="321">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
@@ -9512,6 +9531,10 @@ YEAR - Descending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="324" Connection="Output" />
       <Destination ToolID="323" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="324" Connection="Output" />
+      <Destination ToolID="325" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="303" Connection="Output" />
