@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="167">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="498" y="138" />
+        <Position x="318" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -22,7 +22,7 @@
     </Node>
     <Node ToolID="181">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="570" y="330" />
+        <Position x="390" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -51,7 +51,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="183">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="570" y="426" />
+        <Position x="390" y="414" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -230,7 +230,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="185">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="678" y="330" />
+        <Position x="498" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -251,7 +251,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="186">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="678" y="426" />
+        <Position x="498" y="414" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -272,7 +272,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="187">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="786" y="378" />
+        <Position x="606" y="366" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -302,7 +302,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="197">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="678" y="138" />
+        <Position x="498" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -325,7 +325,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="199">
       <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-        <Position x="894" y="258" />
+        <Position x="714" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -479,6 +479,89 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
                 <SelectField field="Input_#2_CONF" selected="True" />
                 <SelectField field="Input_#2_Right_ACT_CODE" selected="False" />
                 <SelectField field="Input_#2_IPED_UNIT_ID" selected="False" />
+                <SelectField field="Input_#1_GENTELE" selected="True" />
+                <SelectField field="Input_#1_ICLEVEL" selected="True" />
+                <SelectField field="Input_#1_HBCU" selected="True" />
+                <SelectField field="Input_#1_LOCALE" selected="True" />
+                <SelectField field="Input_#1_IALIAS" selected="True" />
+                <SelectField field="Input_#1_LONGITUD" selected="True" />
+                <SelectField field="Input_#1_LEVEL1" selected="True" />
+                <SelectField field="Input_#1_LEVEL2" selected="True" />
+                <SelectField field="Input_#1_LEVEL3" selected="True" />
+                <SelectField field="Input_#1_LEVEL4" selected="True" />
+                <SelectField field="Input_#1_LEVEL5" selected="True" />
+                <SelectField field="Input_#1_LEVEL6" selected="True" />
+                <SelectField field="Input_#1_LEVEL7" selected="True" />
+                <SelectField field="Input_#1_LEVEL8" selected="True" />
+                <SelectField field="Input_#1_LEVEL12" selected="True" />
+                <SelectField field="Input_#1_LEVEL17" selected="True" />
+                <SelectField field="Input_#1_LEVEL18" selected="True" />
+                <SelectField field="Input_#1_LEVEL19" selected="True" />
+                <SelectField field="Input_#1_ADMCON1" selected="True" />
+                <SelectField field="Input_#1_ADMCON2" selected="True" />
+                <SelectField field="Input_#1_ADMCON3" selected="True" />
+                <SelectField field="Input_#1_ADMCON5" selected="True" />
+                <SelectField field="Input_#1_ADMCON7" selected="True" />
+                <SelectField field="Input_#1_APPLCNM" selected="True" />
+                <SelectField field="Input_#1_APPLCNW" selected="True" />
+                <SelectField field="Input_#1_ADMSSNM" selected="True" />
+                <SelectField field="Input_#1_ADMSSNW" selected="True" />
+                <SelectField field="Input_#1_ENRLFTM" selected="True" />
+                <SelectField field="Input_#1_ENRLFTW" selected="True" />
+                <SelectField field="Input_#1_ENRLPTM" selected="True" />
+                <SelectField field="Input_#1_ENRLPTW" selected="True" />
+                <SelectField field="Input_#1_STUSRV1" selected="True" />
+                <SelectField field="Input_#1_STUSRV2" selected="True" />
+                <SelectField field="Input_#1_STUSRV3" selected="True" />
+                <SelectField field="Input_#1_STUSRV4" selected="True" />
+                <SelectField field="Input_#1_STUSRV8" selected="True" />
+                <SelectField field="Input_#1_STUSRV9" selected="True" />
+                <SelectField field="Input_#1_ENRLM" selected="True" />
+                <SelectField field="Input_#1_ENRLW" selected="True" />
+                <SelectField field="Input_#1_ENRLT" selected="True" />
+                <SelectField field="Input_#1_APPLCN" selected="True" />
+                <SelectField field="Input_#1_ENRLFT" selected="True" />
+                <SelectField field="Input_#1_ENRLPT" selected="True" />
+                <SelectField field="Input_#1_BAREVCT" selected="True" />
+                <SelectField field="Input_#1_BAEXCLU" selected="True" />
+                <SelectField field="Input_#1_BAAC150" selected="True" />
+                <SelectField field="Input_#1_BANC100" selected="True" />
+                <SelectField field="Input_#1_BAGR100" selected="True" />
+                <SelectField field="Input_#1_BANC150" selected="True" />
+                <SelectField field="Input_#1_BAGR150" selected="True" />
+                <SelectField field="Input_#1_BAAEXCL" selected="True" />
+                <SelectField field="Input_#1_BAAC200" selected="True" />
+                <SelectField field="Input_#1_BANC200A" selected="True" />
+                <SelectField field="Input_#1_BASTEND" selected="True" />
+                <SelectField field="Input_#1_BANC200" selected="True" />
+                <SelectField field="Input_#1_BAGR200" selected="True" />
+                <SelectField field="Input_#1_L4REVCT" selected="True" />
+                <SelectField field="Input_#1_L4EXCLU" selected="True" />
+                <SelectField field="Input_#1_L4AC150" selected="True" />
+                <SelectField field="Input_#1_L4NC100" selected="True" />
+                <SelectField field="Input_#1_L4GR100" selected="True" />
+                <SelectField field="Input_#1_L4NC150" selected="True" />
+                <SelectField field="Input_#1_L4GR150" selected="True" />
+                <SelectField field="Input_#1_L4AEXCL" selected="True" />
+                <SelectField field="Input_#1_L4AC200" selected="True" />
+                <SelectField field="Input_#1_L4NC200A" selected="True" />
+                <SelectField field="Input_#1_L4STEND" selected="True" />
+                <SelectField field="Input_#1_L4NC200" selected="True" />
+                <SelectField field="Input_#1_L4GR200" selected="True" />
+                <SelectField field="Input_#1_GRCOHRT" selected="True" />
+                <SelectField field="Input_#1_UGENTERN" selected="True" />
+                <SelectField field="Input_#1_PGRCOHRT" selected="True" />
+                <SelectField field="Input_#1_RRFTCT" selected="True" />
+                <SelectField field="Input_#1_RRFTEX" selected="True" />
+                <SelectField field="Input_#1_RRFTCTA" selected="True" />
+                <SelectField field="Input_#1_RET_NMF" selected="True" />
+                <SelectField field="Input_#1_RET_PCF" selected="True" />
+                <SelectField field="Input_#1_RRPTCT" selected="True" />
+                <SelectField field="Input_#1_RRPTEX" selected="True" />
+                <SelectField field="Input_#1_RRPTCTA" selected="True" />
+                <SelectField field="Input_#1_RET_NMP" selected="True" />
+                <SelectField field="Input_#1_RET_PCP" selected="True" />
+                <SelectField field="Input_#1_STUFACR" selected="True" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -494,7 +577,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="206">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="798" y="138" />
+        <Position x="618" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -503,8 +586,6 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
             <SelectField field="Input_#2_UNITID" selected="True" rename="Binary IC" />
             <SelectField field="FT_UG" selected="False" />
             <SelectField field="FT_FTUG" selected="False" />
-            <SelectField field="APPLCN" selected="True" rename="Applicants Total" />
-            <SelectField field="ADMSSN" selected="True" rename="Admissions Total" />
             <SelectField field="Input_#3_UNITID" selected="True" rename="Binary GR200" />
             <SelectField field="Input_#4_UNITID" selected="True" rename="Binary EF" />
             <SelectField field="*Unknown" selected="True" />
@@ -521,7 +602,7 @@ Input_#4_UNITID=if IsNull([Input_#4_UNITID]) then 0 else 1 endif</DefaultAnnotat
     </Node>
     <Node ToolID="207">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="1038" y="258" />
+        <Position x="858" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -542,7 +623,7 @@ and
     </Node>
     <Node ToolID="298">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1626" y="258" />
+        <Position x="1446" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -572,7 +653,7 @@ and
     </Node>
     <Node ToolID="299">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1782" y="258" />
+        <Position x="1602" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -630,7 +711,7 @@ and
     </Node>
     <Node ToolID="300">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1350" y="510" />
+        <Position x="1170" y="498" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -658,8 +739,6 @@ and
             <SelectField field="ACTWR25" selected="True" />
             <SelectField field="ACTWR75" selected="True" />
             <SelectField field="CALSYS" selected="True" />
-            <SelectField field="Applicants Total" selected="True" />
-            <SelectField field="Admissions Total" selected="True" />
             <SelectField field="Binary GR200" selected="True" />
             <SelectField field="Binary EF" selected="True" />
             <SelectField field="YEAR" selected="True" />
@@ -699,6 +778,7 @@ and
             <SelectField field="ENRLM" selected="True" />
             <SelectField field="ENRLW" selected="True" />
             <SelectField field="ENRLT" selected="True" />
+            <SelectField field="APPLCN" selected="True" />
             <SelectField field="ENRLFT" selected="True" />
             <SelectField field="ENRLPT" selected="True" />
             <SelectField field="BAREVCT" selected="True" />
@@ -741,6 +821,7 @@ and
             <SelectField field="RET_NMP" selected="True" />
             <SelectField field="RET_PCP" selected="True" />
             <SelectField field="STUFACR" selected="True" />
+            <SelectField field="ADMSSN" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -754,7 +835,7 @@ and
     </Node>
     <Node ToolID="301">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2022" y="354" />
+        <Position x="1842" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -788,11 +869,11 @@ and
     </Node>
     <Node ToolID="320">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2118" y="234" />
+        <Position x="1938" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_2303c899548a40bd8a145ebd5e56cb5f.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_4c1f94ca7d87407cbb0c9f24386c12b8.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -812,38 +893,13 @@ and
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="319">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3126" y="642" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_b6589f4a59914d579871c7ae242ea4d1.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="315">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3126" y="714" />
+        <Position x="2874" y="786" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_0fc1a8531bba4166911593dcdf6539a9.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_1f3c3427beb04546b10d9d5c7edd5efb.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -865,11 +921,11 @@ and
     </Node>
     <Node ToolID="323">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3258" y="438" />
+        <Position x="2862" y="486" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_42d5e1461adf40e392b8a4c3395b574a.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_24dfe963c491460784fd396b3f1c00ff.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -888,80 +944,381 @@ and
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="324">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="3126" y="510" />
+    <Node ToolID="267">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1494" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <GroupFields>
-            <Field field="UNITID" />
-            <Field field="YEAR" />
-          </GroupFields>
-          <HeaderField field="variable" />
-          <DataField field="Encode Value" />
-          <Methods>
-            <Method method="Concat" />
-            <Separator>,</Separator>
-            <FieldSize value="2048" />
-          </Methods>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_b329514cd6b14e51b35ce7845fc98684.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="UNITID" source="CrossTab:Group:Concat:" type="Int32" />
-            <Field name="YEAR" source="CrossTab:Group:Concat:" type="Int32" />
-            <Field name="ADMCON7" size="2048" source="CrossTab:Header:variable:ADMCON7:Concat:" type="V_WString" />
-            <Field name="CALSYS" size="2048" source="CrossTab:Header:variable:CALSYS:Concat:" type="V_WString" />
-            <Field name="CBSATYPE" size="2048" source="CrossTab:Header:variable:CBSATYPE:Concat:" type="V_WString" />
-            <Field name="CONTROL" size="2048" source="CrossTab:Header:variable:CONTROL:Concat:" type="V_WString" />
-            <Field name="FIPS" size="2048" source="CrossTab:Header:variable:FIPS:Concat:" type="V_WString" />
-            <Field name="HBCU" size="2048" source="CrossTab:Header:variable:HBCU:Concat:" type="V_WString" />
-            <Field name="HOSPITAL" size="2048" source="CrossTab:Header:variable:HOSPITAL:Concat:" type="V_WString" />
-            <Field name="ICLEVEL" size="2048" source="CrossTab:Header:variable:ICLEVEL:Concat:" type="V_WString" />
-            <Field name="INSTCAT" size="2048" source="CrossTab:Header:variable:INSTCAT:Concat:" type="V_WString" />
-            <Field name="INSTSIZE" size="2048" source="CrossTab:Header:variable:INSTSIZE:Concat:" type="V_WString" />
-            <Field name="LANDGRNT" size="2048" source="CrossTab:Header:variable:LANDGRNT:Concat:" type="V_WString" />
-            <Field name="LEVEL1" size="2048" source="CrossTab:Header:variable:LEVEL1:Concat:" type="V_WString" />
-            <Field name="LEVEL2" size="2048" source="CrossTab:Header:variable:LEVEL2:Concat:" type="V_WString" />
-            <Field name="LEVEL3" size="2048" source="CrossTab:Header:variable:LEVEL3:Concat:" type="V_WString" />
-            <Field name="LEVEL4" size="2048" source="CrossTab:Header:variable:LEVEL4:Concat:" type="V_WString" />
-            <Field name="LEVEL5" size="2048" source="CrossTab:Header:variable:LEVEL5:Concat:" type="V_WString" />
-            <Field name="LEVEL6" size="2048" source="CrossTab:Header:variable:LEVEL6:Concat:" type="V_WString" />
-            <Field name="LEVEL7" size="2048" source="CrossTab:Header:variable:LEVEL7:Concat:" type="V_WString" />
-            <Field name="LEVEL8" size="2048" source="CrossTab:Header:variable:LEVEL8:Concat:" type="V_WString" />
-            <Field name="LEVEL12" size="2048" source="CrossTab:Header:variable:LEVEL12:Concat:" type="V_WString" />
-            <Field name="LEVEL17" size="2048" source="CrossTab:Header:variable:LEVEL17:Concat:" type="V_WString" />
-            <Field name="LEVEL18" size="2048" source="CrossTab:Header:variable:LEVEL18:Concat:" type="V_WString" />
-            <Field name="LEVEL19" size="2048" source="CrossTab:Header:variable:LEVEL19:Concat:" type="V_WString" />
-            <Field name="MEDICAL" size="2048" source="CrossTab:Header:variable:MEDICAL:Concat:" type="V_WString" />
-            <Field name="OBEREG" size="2048" source="CrossTab:Header:variable:OBEREG:Concat:" type="V_WString" />
-            <Field name="OPENADMP" size="2048" source="CrossTab:Header:variable:OPENADMP:Concat:" type="V_WString" />
-            <Field name="PSET4FLG" size="2048" source="CrossTab:Header:variable:PSET4FLG:Concat:" type="V_WString" />
-            <Field name="STABBR" size="2048" source="CrossTab:Header:variable:STABBR:Concat:" type="V_WString" />
-            <Field name="STUSRV1" size="2048" source="CrossTab:Header:variable:STUSRV1:Concat:" type="V_WString" />
-            <Field name="STUSRV2" size="2048" source="CrossTab:Header:variable:STUSRV2:Concat:" type="V_WString" />
-            <Field name="STUSRV3" size="2048" source="CrossTab:Header:variable:STUSRV3:Concat:" type="V_WString" />
-            <Field name="STUSRV4" size="2048" source="CrossTab:Header:variable:STUSRV4:Concat:" type="V_WString" />
-            <Field name="STUSRV8" size="2048" source="CrossTab:Header:variable:STUSRV8:Concat:" type="V_WString" />
-            <Field name="STUSRV9" size="2048" source="CrossTab:Header:variable:STUSRV9:Concat:" type="V_WString" />
-            <Field name="TRIBAL" size="2048" source="CrossTab:Header:variable:TRIBAL:Concat:" type="V_WString" />
-          </RecordInfo>
-          <SortInfo>
-            <Field field="UNITID" order="Asc" />
-            <Field field="YEAR" order="Asc" />
-          </SortInfo>
-        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="325">
+    <Node ToolID="297">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1446" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_0a1394241ea54fbea4a90ebb45bfeefa.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_cec7b04369ad4b0d8699b39f7fe21b8b.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>GR Cohorts Data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="333">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2862" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="UNITID" order="Ascending" />
+            <Field field="YEAR" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UNITID - Ascending
+YEAR - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="334">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2958" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_5258935afbbf47c9bcd0b53e6f160b34.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="335">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="3258" y="510" />
+        <Position x="2154" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="341">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3162" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="UNITID" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="UNITID" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Left_ACT_CODE" selected="True" />
+                <SelectField field="Left_ACTCM25" selected="True" />
+                <SelectField field="Left_ACTCM75" selected="True" />
+                <SelectField field="Left_ACTEN25" selected="True" />
+                <SelectField field="Left_ACTEN75" selected="True" />
+                <SelectField field="Left_ACTMT25" selected="True" />
+                <SelectField field="Left_ACTMT75" selected="True" />
+                <SelectField field="Left_ACTNUM" selected="True" />
+                <SelectField field="Left_ACTPCT" selected="True" />
+                <SelectField field="Left_ACTWR25" selected="True" />
+                <SelectField field="Left_ACTWR75" selected="True" />
+                <SelectField field="Left_ADDR" selected="True" />
+                <SelectField field="Left_ADMCON1" selected="True" />
+                <SelectField field="Left_ADMCON2" selected="True" />
+                <SelectField field="Left_ADMCON3" selected="True" />
+                <SelectField field="Left_ADMCON5" selected="True" />
+                <SelectField field="Left_ADMCON7" selected="True" />
+                <SelectField field="Right_ADMCON7" selected="True" rename="ADMCON7_value" />
+                <SelectField field="Left_ADMINURL" selected="True" />
+                <SelectField field="Left_Admissions Total" selected="True" />
+                <SelectField field="Left_ADMSSNM" selected="True" />
+                <SelectField field="Left_ADMSSNW" selected="True" />
+                <SelectField field="Left_APPLCNM" selected="True" />
+                <SelectField field="Left_APPLCNW" selected="True" />
+                <SelectField field="Left_Applicants Total" selected="True" />
+                <SelectField field="Left_BAAC150" selected="True" />
+                <SelectField field="Left_BAAC200" selected="True" />
+                <SelectField field="Left_BAAEXCL" selected="True" />
+                <SelectField field="Left_BAEXCLU" selected="True" />
+                <SelectField field="Left_BAGR100" selected="True" />
+                <SelectField field="Left_BAGR150" selected="True" />
+                <SelectField field="Left_BAGR200" selected="True" />
+                <SelectField field="Left_BANC100" selected="True" />
+                <SelectField field="Left_BANC150" selected="True" />
+                <SelectField field="Left_BANC200" selected="True" />
+                <SelectField field="Left_BANC200A" selected="True" />
+                <SelectField field="Left_BAREVCT" selected="True" />
+                <SelectField field="Left_BASTEND" selected="True" />
+                <SelectField field="Left_Binary EF" selected="True" />
+                <SelectField field="Left_Binary GR200" selected="True" />
+                <SelectField field="Left_Binary IC" selected="True" />
+                <SelectField field="Left_CALSYS" selected="True" />
+                <SelectField field="Right_CALSYS" selected="True" rename="CALSYS_value" />
+                <SelectField field="Left_CBSA" selected="True" />
+                <SelectField field="Left_CBSATYPE" selected="True" />
+                <SelectField field="Right_CBSATYPE" selected="True" rename="CBSATYPE_value" />
+                <SelectField field="Left_CITY" selected="True" />
+                <SelectField field="Left_CONF" selected="True" />
+                <SelectField field="Right_CONTROL" selected="True" rename="CONTROL_value" />
+                <SelectField field="Left_CONTROL" selected="True" />
+                <SelectField field="Left_CSA" selected="True" />
+                <SelectField field="Left_ENRLFT" selected="True" />
+                <SelectField field="Left_ENRLFTM" selected="True" />
+                <SelectField field="Left_ENRLFTW" selected="True" />
+                <SelectField field="Left_ENRLM" selected="True" />
+                <SelectField field="Left_ENRLPT" selected="True" />
+                <SelectField field="Left_ENRLPTM" selected="True" />
+                <SelectField field="Left_ENRLPTW" selected="True" />
+                <SelectField field="Left_ENRLT" selected="True" />
+                <SelectField field="Left_ENRLW" selected="True" />
+                <SelectField field="Left_FIPS" selected="True" />
+                <SelectField field="Right_FIPS" selected="True" rename="FIPS_value" />
+                <SelectField field="Left_GENTELE" selected="True" />
+                <SelectField field="Left_GRCOHRT" selected="True" />
+                <SelectField field="Left_HBCU" selected="True" />
+                <SelectField field="Right_HBCU" selected="True" rename="HBCU_value" />
+                <SelectField field="Left_HOSPITAL" selected="True" />
+                <SelectField field="Right_HOSPITAL" selected="True" rename="HOSPITAL_value" />
+                <SelectField field="Left_ICLEVEL" selected="True" />
+                <SelectField field="Right_ICLEVEL" selected="True" rename="ICLEVEL_value" />
+                <SelectField field="Left_INSTCAT" selected="True" />
+                <SelectField field="Right_INSTCAT" selected="True" rename="INSTCAT_value" />
+                <SelectField field="Left_INSTNM" selected="True" />
+                <SelectField field="Left_INSTSIZE" selected="True" />
+                <SelectField field="Right_INSTSIZE" selected="True" rename="INSTSIZE_value" />
+                <SelectField field="Left_L4AC150" selected="True" />
+                <SelectField field="Left_L4AC200" selected="True" />
+                <SelectField field="Left_L4AEXCL" selected="True" />
+                <SelectField field="Left_L4EXCLU" selected="True" />
+                <SelectField field="Left_L4GR100" selected="True" />
+                <SelectField field="Left_L4GR150" selected="True" />
+                <SelectField field="Left_L4GR200" selected="True" />
+                <SelectField field="Left_L4NC100" selected="True" />
+                <SelectField field="Left_L4NC150" selected="True" />
+                <SelectField field="Left_L4NC200" selected="True" />
+                <SelectField field="Left_L4NC200A" selected="True" />
+                <SelectField field="Left_L4REVCT" selected="True" />
+                <SelectField field="Left_L4STEND" selected="True" />
+                <SelectField field="Left_LANDGRNT" selected="True" />
+                <SelectField field="Right_LANDGRNT" selected="True" rename="LANDGRNT_value" />
+                <SelectField field="Left_LATITUDE" selected="True" />
+                <SelectField field="Left_LEVEL1" selected="True" />
+                <SelectField field="Right_LEVEL1" selected="True" rename="LEVEL1_value" />
+                <SelectField field="Left_LEVEL12" selected="True" />
+                <SelectField field="Right_LEVEL12" selected="True" rename="LEVEL12_value" />
+                <SelectField field="Left_LEVEL17" selected="True" />
+                <SelectField field="Right_LEVEL17" selected="True" rename="LEVEL17_value" />
+                <SelectField field="Left_LEVEL18" selected="True" />
+                <SelectField field="Right_LEVEL18" selected="True" rename="LEVEL18_value" />
+                <SelectField field="Left_LEVEL19" selected="True" />
+                <SelectField field="Right_LEVEL19" selected="True" rename="LEVEL19_value" />
+                <SelectField field="Left_LEVEL2" selected="True" />
+                <SelectField field="Right_LEVEL2" selected="True" rename="LEVEL2_value" />
+                <SelectField field="Left_LEVEL3" selected="True" />
+                <SelectField field="Right_LEVEL3" selected="True" rename="LEVEL3_value" />
+                <SelectField field="Left_LEVEL4" selected="True" />
+                <SelectField field="Right_LEVEL4" selected="True" rename="LEVEL4_value" />
+                <SelectField field="Left_LEVEL5" selected="True" />
+                <SelectField field="Right_LEVEL5" selected="True" rename="LEVEL5_value" />
+                <SelectField field="Left_LEVEL6" selected="True" />
+                <SelectField field="Right_LEVEL6" selected="True" rename="LEVEL6_value" />
+                <SelectField field="Left_LEVEL7" selected="True" />
+                <SelectField field="Right_LEVEL7" selected="True" rename="LEVEL7_value" />
+                <SelectField field="Left_LEVEL8" selected="True" />
+                <SelectField field="Right_LEVEL8" selected="True" rename="LEVEL8_value" />
+                <SelectField field="Left_LOCALE" selected="True" />
+                <SelectField field="Right_LOCALE" selected="True" rename="LOCALE_value" />
+                <SelectField field="Left_LONGITUD" selected="True" />
+                <SelectField field="Left_MEDICAL" selected="True" />
+                <SelectField field="Right_MEDICAL" selected="True" rename="MEDICAL_value" />
+                <SelectField field="Left_OBEREG" selected="True" />
+                <SelectField field="Right_OBEREG" selected="True" rename="OBEREG_value" />
+                <SelectField field="Left_OPEFLAG" selected="True" />
+                <SelectField field="Left_OPENADMP" selected="True" />
+                <SelectField field="Right_OPENADMP" selected="True" rename="OPENADMP_value" />
+                <SelectField field="Left_PGRCOHRT" selected="True" />
+                <SelectField field="Left_Phone Area" selected="True" />
+                <SelectField field="Left_Phone Exchange" selected="True" />
+                <SelectField field="Left_PhoneDisplay" selected="True" />
+                <SelectField field="Left_PSET4FLG" selected="True" />
+                <SelectField field="Right_PSET4FLG" selected="True" rename="PSET4FLG_value" />
+                <SelectField field="Left_RET_NMF" selected="True" />
+                <SelectField field="Left_RET_NMP" selected="True" />
+                <SelectField field="Left_RET_PCF" selected="True" />
+                <SelectField field="Left_RET_PCP" selected="True" />
+                <SelectField field="Left_RRFTCT" selected="True" />
+                <SelectField field="Left_RRFTCTA" selected="True" />
+                <SelectField field="Left_RRFTEX" selected="True" />
+                <SelectField field="Left_RRPTCT" selected="True" />
+                <SelectField field="Left_RRPTCTA" selected="True" />
+                <SelectField field="Left_RRPTEX" selected="True" />
+                <SelectField field="Left_SATMT25" selected="True" />
+                <SelectField field="Left_SATMT75" selected="True" />
+                <SelectField field="Left_SATNUM" selected="True" />
+                <SelectField field="Left_SATPCT" selected="True" />
+                <SelectField field="Left_SATVR25" selected="True" />
+                <SelectField field="Left_SATVR75" selected="True" />
+                <SelectField field="Left_SATWR25" selected="True" />
+                <SelectField field="Left_SATWR75" selected="True" />
+                <SelectField field="Left_Selectivity_Admission Rate" selected="True" />
+                <SelectField field="Left_Selectivity_Test_Scores" selected="True" />
+                <SelectField field="Left_STABBR" selected="True" />
+                <SelectField field="Left_STUFACR" selected="True" />
+                <SelectField field="Left_STUSRV1" selected="True" />
+                <SelectField field="Right_STUSRV1" selected="True" rename="STUSRV1_value" />
+                <SelectField field="Left_STUSRV2" selected="True" />
+                <SelectField field="Right_STUSRV2" selected="True" rename="STUSRV2_value" />
+                <SelectField field="Left_STUSRV3" selected="True" />
+                <SelectField field="Right_STUSRV3" selected="True" rename="STUSRV3_value" />
+                <SelectField field="Left_STUSRV4" selected="True" />
+                <SelectField field="Right_STUSRV4" selected="True" rename="STUSRV4_value" />
+                <SelectField field="Left_STUSRV8" selected="True" />
+                <SelectField field="Right_STUSRV8" selected="True" rename="STUSRV8_value" />
+                <SelectField field="Left_STUSRV9" selected="True" />
+                <SelectField field="Right_STUSRV9" selected="True" rename="STUSRV9_value" />
+                <SelectField field="Left_TRIBAL" selected="True" />
+                <SelectField field="Right_TRIBAL" selected="True" rename="TRIBAL_value" />
+                <SelectField field="Left_UGENTERN" selected="True" />
+                <SelectField field="Right_UNITID" selected="False" />
+                <SelectField field="Left_UNITID" selected="True" />
+                <SelectField field="Left_WEBADDR" selected="True" />
+                <SelectField field="Right_YEAR" selected="False" rename="Right_YEAR" />
+                <SelectField field="Left_YEAR" selected="True" />
+                <SelectField field="Left_ZIP" selected="True" />
+                <SelectField field="Left_Zip4" selected="True" />
+                <SelectField field="Left_Zip5" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="342">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3246" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_a8924e90c4f145719b65f62bbbe26b8d.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="343">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3318" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -980,7 +1337,7 @@ and
     </Node>
     <Node ToolID="326">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="450" y="66" width="137.1701" height="19" />
+        <Position x="270" y="54" width="137.1701" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -998,7 +1355,7 @@ and
       <ChildNodes>
         <Node ToolID="124">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="510" y="145" />
+            <Position x="330" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1023,7 +1380,7 @@ and
         </Node>
         <Node ToolID="130">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="582" y="145" />
+            <Position x="402" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1048,7 +1405,7 @@ and
         </Node>
         <Node ToolID="165">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="666" y="145" />
+            <Position x="486" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1073,7 +1430,7 @@ and
         </Node>
         <Node ToolID="132">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="750" y="145" />
+            <Position x="570" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1098,7 +1455,7 @@ and
         </Node>
         <Node ToolID="133">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="834" y="145" />
+            <Position x="654" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1123,92 +1480,16 @@ and
         </Node>
       </ChildNodes>
     </Node>
-    <Node ToolID="267">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1674" y="342" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_39e989c943ef41e4b84239e88b9475de.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="297">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1626" y="186" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_d9ec62b50caf4d9db3f3ed3344810a5f.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="156">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="426" y="306" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_b3450c0e03e140e9990eab73818bc64d.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <AnnotationText>GR Cohorts Data</AnnotationText>
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="327">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="978" y="390" width="218.9342" height="19" />
+        <Position x="798" y="378" width="251" height="216.5508" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Highest Level In/Out Filter Browses</Caption>
           <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
-          <Disabled value="True" />
-          <Folded value="True" />
+          <Disabled value="False" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -1219,11 +1500,11 @@ and
       <ChildNodes>
         <Node ToolID="209">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1038" y="469" />
+            <Position x="858" y="457" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_5360_a058dff407dd428083220d5d83a9404d\Engine_3672_9a3bef1aa0094e16a9b0c725498d9358.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_c2e0a455416e49c78260917c374251e3.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -1245,11 +1526,11 @@ and
         </Node>
         <Node ToolID="210">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1110" y="469" />
+            <Position x="930" y="457" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_5360_a058dff407dd428083220d5d83a9404d\Engine_3672_16bd62da0fc741bab622b1d134cf6bb6.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_9c537b0d8bb84b5ba2e3e3c46c59c577.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -1273,14 +1554,14 @@ and
     </Node>
     <Node ToolID="321">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2166" y="155" width="899" height="744.7539" />
+        <Position x="2010" y="359" width="153.7668" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Codebook substitution</Caption>
           <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
           <Disabled value="False" />
-          <Folded value="False" />
+          <Folded value="True" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -1289,308 +1570,9 @@ and
         </Annotation>
       </Properties>
       <ChildNodes>
-        <Node ToolID="303">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="2226" y="457" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Fields>
-                <Field field="UNITID" selected="True" />
-                <Field field="INSTNM" selected="True" />
-                <Field field="ADDR" selected="True" />
-                <Field field="CITY" selected="True" />
-                <Field field="STABBR" selected="True" />
-                <Field field="ZIP" selected="True" />
-                <Field field="FIPS" selected="True" />
-                <Field field="OBEREG" selected="True" />
-                <Field field="OPEFLAG" selected="True" />
-                <Field field="WEBADDR" selected="True" />
-                <Field field="ADMINURL" selected="True" />
-                <Field field="CONTROL" selected="True" />
-                <Field field="HOSPITAL" selected="True" />
-                <Field field="MEDICAL" selected="True" />
-                <Field field="TRIBAL" selected="True" />
-                <Field field="PSET4FLG" selected="True" />
-                <Field field="INSTCAT" selected="True" />
-                <Field field="LANDGRNT" selected="True" />
-                <Field field="INSTSIZE" selected="True" />
-                <Field field="CBSA" selected="True" />
-                <Field field="CBSATYPE" selected="True" />
-                <Field field="CSA" selected="True" />
-                <Field field="LATITUDE" selected="True" />
-                <Field field="Zip5" selected="True" />
-                <Field field="Zip4" selected="True" />
-                <Field field="Phone Area" selected="True" />
-                <Field field="Phone Exchange" selected="True" />
-                <Field field="PhoneDisplay" selected="True" />
-                <Field field="Selectivity_Admission Rate" selected="True" />
-                <Field field="Selectivity_Test_Scores" selected="True" />
-                <Field field="ICLEVEL" selected="True" />
-                <Field field="GENTELE" selected="True" />
-                <Field field="LOCALE" selected="True" />
-                <Field field="LONGITUD" selected="True" />
-                <Field field="HBCU" selected="True" />
-                <Field field="Binary IC" selected="True" />
-                <Field field="OPENADMP" selected="True" />
-                <Field field="SATNUM" selected="True" />
-                <Field field="SATPCT" selected="True" />
-                <Field field="ACTNUM" selected="True" />
-                <Field field="ACTPCT" selected="True" />
-                <Field field="SATVR25" selected="True" />
-                <Field field="SATVR75" selected="True" />
-                <Field field="SATMT25" selected="True" />
-                <Field field="SATMT75" selected="True" />
-                <Field field="SATWR25" selected="True" />
-                <Field field="SATWR75" selected="True" />
-                <Field field="ACTCM25" selected="True" />
-                <Field field="ACTCM75" selected="True" />
-                <Field field="ACTEN25" selected="True" />
-                <Field field="ACTEN75" selected="True" />
-                <Field field="ACTMT25" selected="True" />
-                <Field field="ACTMT75" selected="True" />
-                <Field field="ACTWR25" selected="True" />
-                <Field field="ACTWR75" selected="True" />
-                <Field field="CALSYS" selected="True" />
-                <Field field="Applicants Total" selected="True" />
-                <Field field="Admissions Total" selected="True" />
-                <Field field="Binary GR200" selected="True" />
-                <Field field="Binary EF" selected="True" />
-                <Field field="ACT_CODE" selected="True" />
-                <Field field="CONF" selected="True" />
-                <Field field="LEVEL1" selected="True" />
-                <Field field="LEVEL2" selected="True" />
-                <Field field="LEVEL3" selected="True" />
-                <Field field="LEVEL4" selected="True" />
-                <Field field="LEVEL5" selected="True" />
-                <Field field="LEVEL6" selected="True" />
-                <Field field="LEVEL7" selected="True" />
-                <Field field="LEVEL8" selected="True" />
-                <Field field="LEVEL12" selected="True" />
-                <Field field="LEVEL17" selected="True" />
-                <Field field="LEVEL18" selected="True" />
-                <Field field="LEVEL19" selected="True" />
-                <Field field="ADMCON1" selected="True" />
-                <Field field="ADMCON2" selected="True" />
-                <Field field="ADMCON3" selected="True" />
-                <Field field="ADMCON5" selected="True" />
-                <Field field="ADMCON7" selected="True" />
-                <Field field="APPLCNM" selected="True" />
-                <Field field="APPLCNW" selected="True" />
-                <Field field="ADMSSNM" selected="True" />
-                <Field field="ADMSSNW" selected="True" />
-                <Field field="ENRLFTM" selected="True" />
-                <Field field="ENRLFTW" selected="True" />
-                <Field field="ENRLPTM" selected="True" />
-                <Field field="ENRLPTW" selected="True" />
-                <Field field="STUSRV1" selected="True" />
-                <Field field="STUSRV2" selected="True" />
-                <Field field="STUSRV3" selected="True" />
-                <Field field="STUSRV4" selected="True" />
-                <Field field="STUSRV8" selected="True" />
-                <Field field="STUSRV9" selected="True" />
-                <Field field="ENRLM" selected="True" />
-                <Field field="ENRLW" selected="True" />
-                <Field field="ENRLT" selected="True" />
-                <Field field="ENRLFT" selected="True" />
-                <Field field="ENRLPT" selected="True" />
-                <Field field="BAREVCT" selected="True" />
-                <Field field="BAEXCLU" selected="True" />
-                <Field field="BAAC150" selected="True" />
-                <Field field="BANC100" selected="True" />
-                <Field field="BAGR100" selected="True" />
-                <Field field="BANC150" selected="True" />
-                <Field field="BAGR150" selected="True" />
-                <Field field="BAAEXCL" selected="True" />
-                <Field field="BAAC200" selected="True" />
-                <Field field="BANC200A" selected="True" />
-                <Field field="BASTEND" selected="True" />
-                <Field field="BANC200" selected="True" />
-                <Field field="BAGR200" selected="True" />
-                <Field field="L4REVCT" selected="True" />
-                <Field field="L4EXCLU" selected="True" />
-                <Field field="L4AC150" selected="True" />
-                <Field field="L4NC100" selected="True" />
-                <Field field="L4GR100" selected="True" />
-                <Field field="L4NC150" selected="True" />
-                <Field field="L4GR150" selected="True" />
-                <Field field="L4AEXCL" selected="True" />
-                <Field field="L4AC200" selected="True" />
-                <Field field="L4NC200A" selected="True" />
-                <Field field="L4STEND" selected="True" />
-                <Field field="L4NC200" selected="True" />
-                <Field field="L4GR200" selected="True" />
-                <Field field="GRCOHRT" selected="True" />
-                <Field field="UGENTERN" selected="True" />
-                <Field field="PGRCOHRT" selected="True" />
-                <Field field="RRFTCT" selected="True" />
-                <Field field="RRFTEX" selected="True" />
-                <Field field="RRFTCTA" selected="True" />
-                <Field field="RET_NMF" selected="True" />
-                <Field field="RET_PCF" selected="True" />
-                <Field field="RRPTCT" selected="True" />
-                <Field field="RRPTEX" selected="True" />
-                <Field field="RRPTCTA" selected="True" />
-                <Field field="RET_NMP" selected="True" />
-                <Field field="RET_PCP" selected="True" />
-                <Field field="STUFACR" selected="True" />
-                <Field field="*Unknown" selected="True" />
-              </Fields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-            <MetaInfo connection="Output">
-              <RecordInfo>
-                <Field name="UNITID" source="Summarize: GroupBy - UNITID" type="Int32" />
-                <Field name="INSTNM" size="83" source="Formula: REGEX_Replace(Trim([_CurrentField_]), &quot;[^a-z0-9,&amp;' ./#():;-]&quot;, &quot;&quot;)" type="V_String" />
-                <Field name="ADDR" size="76" source="Formula: REGEX_Replace(Trim([_CurrentField_]), &quot;[^a-z0-9,&amp;' ./#():;-]&quot;, &quot;&quot;)" type="V_String" />
-                <Field name="CITY" size="23" source="Formula: REGEX_Replace([_CurrentField_], &quot;[^a-z'. -]&quot;, &quot;&quot;)" type="V_String" />
-                <Field name="STABBR" size="2" source="Formula: REGEX_Replace([_CurrentField_], &quot;[^a-z'. -]&quot;, &quot;&quot;)" type="String" />
-                <Field name="ZIP" size="10" source="File: (Multiple Sources)" type="String" />
-                <Field name="FIPS" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="OBEREG" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="OPEFLAG" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="WEBADDR" size="143" source="Formula: REGEX_Replace(Trim([_CurrentField_]), &quot;[^a-z0-9/#+_:%&amp;=~?'. -]&quot;, &quot;&quot;)" type="V_String" />
-                <Field name="ADMINURL" size="141" source="Formula: REGEX_Replace(Trim([_CurrentField_]), &quot;[^a-z0-9/#+_:%&amp;=~?'. -]&quot;, &quot;&quot;)" type="V_String" />
-                <Field name="CONTROL" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="HOSPITAL" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="MEDICAL" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="TRIBAL" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="PSET4FLG" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="INSTCAT" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LANDGRNT" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="INSTSIZE" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="CBSA" source="File: (Multiple Sources)" type="Int32" />
-                <Field name="CBSATYPE" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="CSA" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LATITUDE" source="File: (Multiple Sources)" type="Double" />
-                <Field description="RegEx: Parsed from ZIP" name="Zip5" size="5" source="RegEx: Parsed from ZIP" type="String" />
-                <Field description="RegEx: Parsed from ZIP" name="Zip4" size="4" source="RegEx: Parsed from ZIP" type="String" />
-                <Field description="RegEx: Parsed from GENTELE" name="Phone Area" source="RegEx: Parsed from GENTELE" type="Int16" />
-                <Field description="RegEx: Parsed from GENTELE" name="Phone Exchange" source="RegEx: Parsed from GENTELE" type="Int16" />
-                <Field name="PhoneDisplay" size="21" source="Formula: '('+ToString([Phone Area])+') '+ToString([Phone Exchange])+'-'+ToString([Phone Num])&#xA;+&#xA;if IsEmpty([Phone Ext])&#xA;then ''&#xA;else ' x'+ToString([Phone Ext])&#xA;endif" type="V_String" />
-                <Field name="Selectivity_Admission Rate" size="17" source="Formula: IF     [AdmissionsRate] == 101 THEN 'Open Admission'&#xA;ELSEIF [AdmissionsRate] == 100 THEN 'Open Admission'&#xA;ELSEIF [AdmissionsRate] &gt;= 76  THEN  '76%-100% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 51  THEN  '51%-75% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 26  THEN  '26%-50% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 11  THEN  '11%-25% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;=  0  THEN  '&lt;10% Admitted'&#xA;ELSE 'Unknown Admission' ENDIF" type="String" />
-                <Field name="Selectivity_Test_Scores" size="33" source="Formula: IF [OPENADMP] == '1' THEN 'Open Admission'&#xA;ELSEIF [ADMCON7] != '1' THEN 'Scores not required for admission'&#xA;ELSEIF [Selectivity_ACT_Equiv-Avg Score] &gt;= 27  THEN  'Highly Selective (&gt;27)'&#xA;ELSEIF [Selectivity_ACT_Equiv-Avg Score]  &gt;= 24  THEN  'Moderately Selective (24-27)'&#xA;ELSEIF [Selectivity_ACT_Equiv-Avg Score]  &gt;=  0  THEN  'Less Selective (&lt;24)'&#xA;ELSE 'Unknown Admission' ENDIF" type="V_String" />
-                <Field name="ICLEVEL" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="GENTELE" source="File: (Multiple Sources)" type="Int64" />
-                <Field name="LOCALE" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LONGITUD" source="File: (Multiple Sources)" type="Double" />
-                <Field name="HBCU" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="Binary IC" source="Formula: if IsNull([Input_#2_UNITID]) then 0 else 1 endif" type="Byte" />
-                <Field name="OPENADMP" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="SATNUM" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATPCT" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTNUM" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTPCT" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATVR25" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATVR75" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATMT25" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATMT75" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATWR25" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="SATWR75" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTCM25" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTCM75" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTEN25" size="2" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTEN75" size="2" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTMT25" size="2" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTMT75" size="2" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTWR25" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="ACTWR75" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="CALSYS" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="Applicants Total" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="Admissions Total" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="Binary GR200" source="Formula: if IsNull([Input_#3_UNITID]) then 0 else 1 endif" type="Byte" />
-                <Field name="Binary EF" source="Formula: if IsNull([Input_#4_UNITID]) then 0 else 1 endif" type="Byte" />
-                <Field name="YEAR" source="Formula: (Multiple Sources)" type="Int32" />
-                <Field name="ACT_CODE" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Conferences.xlsx|`Sheet1$`" type="Int16" />
-                <Field name="CONF" size="15" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Conferences.xlsx|`Sheet1$`" type="V_String" />
-                <Field name="LEVEL1" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL2" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL3" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL4" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL5" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL6" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LEVEL7" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LEVEL8" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LEVEL12" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="LEVEL17" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LEVEL18" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="LEVEL19" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ADMCON1" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ADMCON2" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ADMCON3" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ADMCON5" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ADMCON7" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="APPLCNM" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="APPLCNW" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="ADMSSNM" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="ADMSSNW" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLFTM" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLFTW" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLPTM" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLPTW" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="STUSRV1" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="STUSRV2" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="STUSRV3" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="STUSRV4" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="STUSRV8" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="STUSRV9" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="ENRLM" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLW" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLT" size="5" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLFT" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="ENRLPT" size="4" source="File: (Multiple Sources)" type="String" />
-                <Field name="BAREVCT" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAEXCLU" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAAC150" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BANC100" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAGR100" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="BANC150" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAGR150" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="BAAEXCL" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAAC200" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BANC200A" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BASTEND" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BANC200" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="BAGR200" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="L4REVCT" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4EXCLU" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4AC150" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4NC100" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4GR100" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="L4NC150" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4GR150" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="L4AEXCL" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="L4AC200" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4NC200A" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4STEND" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4NC200" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="L4GR200" size="3" source="File: (Multiple Sources)" type="String" />
-                <Field name="GRCOHRT" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="UGENTERN" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="PGRCOHRT" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="RRFTCT" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RRFTEX" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RRFTCTA" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RET_NMF" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RET_PCF" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="RRPTCT" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RRPTEX" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RRPTCTA" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RET_NMP" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="RET_PCP" source="File: (Multiple Sources)" type="Byte" />
-                <Field name="STUFACR" source="File: (Multiple Sources)" type="Int16" />
-              </RecordInfo>
-            </MetaInfo>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
-        </Node>
         <Node ToolID="307">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2310" y="456.9999" />
+            <Position x="2130" y="444.9999" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1600,7 +1582,6 @@ and
                 <SelectField field="INSTNM" selected="True" />
                 <SelectField field="ADDR" selected="True" />
                 <SelectField field="CITY" selected="True" />
-                <SelectField field="STABBR" selected="True" />
                 <SelectField field="ZIP" selected="True" />
                 <SelectField field="FIPS" selected="True" />
                 <SelectField field="OBEREG" selected="True" />
@@ -1652,8 +1633,6 @@ and
                 <SelectField field="ACTWR25" selected="True" />
                 <SelectField field="ACTWR75" selected="True" />
                 <SelectField field="CALSYS" selected="True" />
-                <SelectField field="Applicants Total" selected="True" />
-                <SelectField field="Admissions Total" selected="True" />
                 <SelectField field="Binary GR200" selected="True" />
                 <SelectField field="Binary EF" selected="True" />
                 <SelectField field="YEAR" selected="True" />
@@ -1693,6 +1672,7 @@ and
                 <SelectField field="ENRLM" selected="True" />
                 <SelectField field="ENRLW" selected="True" />
                 <SelectField field="ENRLT" selected="True" />
+                <SelectField field="APPLCN" selected="True" />
                 <SelectField field="ENRLFT" selected="True" />
                 <SelectField field="ENRLPT" selected="True" />
                 <SelectField field="BAREVCT" selected="True" />
@@ -1735,6 +1715,7 @@ and
                 <SelectField field="RET_NMP" selected="True" />
                 <SelectField field="RET_PCP" selected="True" />
                 <SelectField field="STUFACR" selected="True" />
+                <SelectField field="ADMSSN" selected="True" />
                 <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
@@ -1748,7 +1729,7 @@ and
         </Node>
         <Node ToolID="308">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="2454" y="589" />
+            <Position x="2226" y="450" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1762,7 +1743,6 @@ and
                 <Field field="INSTNM" selected="False" />
                 <Field field="ADDR" selected="False" />
                 <Field field="CITY" selected="False" />
-                <Field field="STABBR" selected="True" />
                 <Field field="ZIP" selected="False" />
                 <Field field="FIPS" selected="True" />
                 <Field field="OBEREG" selected="True" />
@@ -1790,7 +1770,7 @@ and
                 <Field field="Selectivity_Test_Scores" selected="False" />
                 <Field field="ICLEVEL" selected="True" />
                 <Field field="GENTELE" selected="False" />
-                <Field field="LOCALE" selected="False" />
+                <Field field="LOCALE" selected="True" />
                 <Field field="LONGITUD" selected="False" />
                 <Field field="HBCU" selected="True" />
                 <Field field="Binary IC" selected="False" />
@@ -1910,7 +1890,7 @@ and
         </Node>
         <Node ToolID="310">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="2238" y="708.9999" />
+            <Position x="2070" y="690" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1932,6 +1912,7 @@ Table=`'Key-Value Pairs$'`</DefaultAnnotationText>
                 <Field name="datafile" size="255" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Key-Value Pairs.xlsx|`'Key-Value Pairs$'`" type="V_WString" />
                 <Field name="variable" size="255" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Key-Value Pairs.xlsx|`'Key-Value Pairs$'`" type="V_WString" />
                 <Field name="codeValue" size="255" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Key-Value Pairs.xlsx|`'Key-Value Pairs$'`" type="V_WString" />
+                <Field name="encodeValue_RAW" size="255" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Key-Value Pairs.xlsx|`'Key-Value Pairs$'`" type="V_WString" />
                 <Field name="encodeValue" size="255" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Key-Value Pairs.xlsx|`'Key-Value Pairs$'`" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
@@ -1940,7 +1921,7 @@ Table=`'Key-Value Pairs$'`</DefaultAnnotationText>
         </Node>
         <Node ToolID="311">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2358" y="709.0001" />
+            <Position x="2166" y="690" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1963,19 +1944,20 @@ Table=`'Key-Value Pairs$'`</DefaultAnnotationText>
         </Node>
         <Node ToolID="312">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2454" y="709" />
+            <Position x="2262" y="690" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="Encode Value" type="V_WString" size="255" expression="trim(TitleCase([encodeValue]))" />
                 <FormulaField field="Code Value" type="V_WString" size="64" expression="trim([codeValue])" />
+                <FormulaField field="Encode Value" type="V_WString" size="255" expression="//[Code Value] + ' - ' + &#xA;trim([encodeValue])" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Encode Value=trim(TitleCase([encodeValue]))
-Code Value=trim([codeValue])</DefaultAnnotationText>
+              <DefaultAnnotationText>Code Value=trim([codeValue])
+Encode Value=//[Code Value] + ' - ' + 
+trim([encodeValue])</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -1983,7 +1965,7 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
         </Node>
         <Node ToolID="313">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="2778" y="649" />
+            <Position x="2394" y="558" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -2021,7 +2003,7 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
         </Node>
         <Node ToolID="318">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="2946" y="709" />
+            <Position x="2490" y="786" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2043,14 +2025,14 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
         </Node>
         <Node ToolID="329">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="2550" y="234" width="427.8174" height="402.8516" />
+            <Position x="2454" y="438" width="223.8703" height="19" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Caption>Codebook Browsers and Debuggers</Caption>
               <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
               <Disabled value="False" />
-              <Folded value="False" />
+              <Folded value="True" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -2061,11 +2043,11 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
           <ChildNodes>
             <Node ToolID="314">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2706" y="313" />
+                <Position x="2610" y="517" />
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_5a0fd29647cb404abccafa9ad1fba89b.yxdb</TempFile>
+                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_667e600399e1464380dce49276aa342e.yxdb</TempFile>
                   <Layout>
                     <ViewMode>Single</ViewMode>
                     <ViewSize value="100" />
@@ -2087,11 +2069,11 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
             </Node>
             <Node ToolID="316">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2826" y="397" />
+                <Position x="2730" y="601" />
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_ab5dff30841f40eb834715c208733bcc.yxdb</TempFile>
+                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_c93e96d60feb43c8a9fdb55c90706eab.yxdb</TempFile>
                   <Layout>
                     <ViewMode>Single</ViewMode>
                     <ViewSize value="100" />
@@ -2113,7 +2095,7 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
             </Node>
             <Node ToolID="330">
               <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="2610" y="397" />
+                <Position x="2514" y="601" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2133,11 +2115,11 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
             </Node>
             <Node ToolID="331">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2706" y="402" />
+                <Position x="2610" y="606" />
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_5971b9e6d85f4543964bd920e59b7049.yxdb</TempFile>
+                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_2f4b2a2d6cdf48b28d0d48513b2b2038.yxdb</TempFile>
                   <Layout>
                     <ViewMode>Single</ViewMode>
                     <ViewSize value="100" />
@@ -2159,11 +2141,11 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
             </Node>
             <Node ToolID="332">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2706" y="486" />
+                <Position x="2610" y="690" />
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4780_c3d29e874f244c8d8d096d14e03829e7\Engine_3672_cdffbaada44a4ba699e4a69039300321.yxdb</TempFile>
+                  <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_276439b2d12244b59f8ddf71f6209dca.yxdb</TempFile>
                   <Layout>
                     <ViewMode>Single</ViewMode>
                     <ViewSize value="100" />
@@ -2185,11 +2167,164 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
             </Node>
           </ChildNodes>
         </Node>
+        <Node ToolID="324">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="2622" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="UNITID" />
+                <Field field="YEAR" />
+              </GroupFields>
+              <HeaderField field="variable" />
+              <DataField field="Encode Value" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNITID" size="1000" source="CrossTab:Group:Concat:" type="V_String" />
+                <Field name="YEAR" source="CrossTab:Group:Concat:" type="Int32" />
+                <Field name="ADMCON7" size="2048" source="CrossTab:Header:variable:ADMCON7:Concat:" type="V_WString" />
+                <Field name="CALSYS" size="2048" source="CrossTab:Header:variable:CALSYS:Concat:" type="V_WString" />
+                <Field name="CBSATYPE" size="2048" source="CrossTab:Header:variable:CBSATYPE:Concat:" type="V_WString" />
+                <Field name="CONTROL" size="2048" source="CrossTab:Header:variable:CONTROL:Concat:" type="V_WString" />
+                <Field name="FIPS" size="2048" source="CrossTab:Header:variable:FIPS:Concat:" type="V_WString" />
+                <Field name="HBCU" size="2048" source="CrossTab:Header:variable:HBCU:Concat:" type="V_WString" />
+                <Field name="HOSPITAL" size="2048" source="CrossTab:Header:variable:HOSPITAL:Concat:" type="V_WString" />
+                <Field name="ICLEVEL" size="2048" source="CrossTab:Header:variable:ICLEVEL:Concat:" type="V_WString" />
+                <Field name="INSTCAT" size="2048" source="CrossTab:Header:variable:INSTCAT:Concat:" type="V_WString" />
+                <Field name="INSTSIZE" size="2048" source="CrossTab:Header:variable:INSTSIZE:Concat:" type="V_WString" />
+                <Field name="LANDGRNT" size="2048" source="CrossTab:Header:variable:LANDGRNT:Concat:" type="V_WString" />
+                <Field name="LEVEL1" size="2048" source="CrossTab:Header:variable:LEVEL1:Concat:" type="V_WString" />
+                <Field name="LEVEL2" size="2048" source="CrossTab:Header:variable:LEVEL2:Concat:" type="V_WString" />
+                <Field name="LEVEL3" size="2048" source="CrossTab:Header:variable:LEVEL3:Concat:" type="V_WString" />
+                <Field name="LEVEL4" size="2048" source="CrossTab:Header:variable:LEVEL4:Concat:" type="V_WString" />
+                <Field name="LEVEL5" size="2048" source="CrossTab:Header:variable:LEVEL5:Concat:" type="V_WString" />
+                <Field name="LEVEL6" size="2048" source="CrossTab:Header:variable:LEVEL6:Concat:" type="V_WString" />
+                <Field name="LEVEL7" size="2048" source="CrossTab:Header:variable:LEVEL7:Concat:" type="V_WString" />
+                <Field name="LEVEL8" size="2048" source="CrossTab:Header:variable:LEVEL8:Concat:" type="V_WString" />
+                <Field name="LEVEL12" size="2048" source="CrossTab:Header:variable:LEVEL12:Concat:" type="V_WString" />
+                <Field name="LEVEL17" size="2048" source="CrossTab:Header:variable:LEVEL17:Concat:" type="V_WString" />
+                <Field name="LEVEL18" size="2048" source="CrossTab:Header:variable:LEVEL18:Concat:" type="V_WString" />
+                <Field name="LEVEL19" size="2048" source="CrossTab:Header:variable:LEVEL19:Concat:" type="V_WString" />
+                <Field name="LOCALE" size="2048" source="CrossTab:Header:variable:LOCALE:Concat:" type="V_WString" />
+                <Field name="MEDICAL" size="2048" source="CrossTab:Header:variable:MEDICAL:Concat:" type="V_WString" />
+                <Field name="OBEREG" size="2048" source="CrossTab:Header:variable:OBEREG:Concat:" type="V_WString" />
+                <Field name="OPENADMP" size="2048" source="CrossTab:Header:variable:OPENADMP:Concat:" type="V_WString" />
+                <Field name="PSET4FLG" size="2048" source="CrossTab:Header:variable:PSET4FLG:Concat:" type="V_WString" />
+                <Field name="STUSRV1" size="2048" source="CrossTab:Header:variable:STUSRV1:Concat:" type="V_WString" />
+                <Field name="STUSRV2" size="2048" source="CrossTab:Header:variable:STUSRV2:Concat:" type="V_WString" />
+                <Field name="STUSRV3" size="2048" source="CrossTab:Header:variable:STUSRV3:Concat:" type="V_WString" />
+                <Field name="STUSRV4" size="2048" source="CrossTab:Header:variable:STUSRV4:Concat:" type="V_WString" />
+                <Field name="STUSRV8" size="2048" source="CrossTab:Header:variable:STUSRV8:Concat:" type="V_WString" />
+                <Field name="STUSRV9" size="2048" source="CrossTab:Header:variable:STUSRV9:Concat:" type="V_WString" />
+                <Field name="TRIBAL" size="2048" source="CrossTab:Header:variable:TRIBAL:Concat:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="UNITID" order="Asc" />
+                <Field field="YEAR" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="325">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2718" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="UNITID" selected="True" />
+                <SelectField field="STABBR" selected="False" />
+                <SelectField field="FIPS" selected="True" />
+                <SelectField field="OBEREG" selected="True" />
+                <SelectField field="ICLEVEL" selected="True" />
+                <SelectField field="CONTROL" selected="True" />
+                <SelectField field="HBCU" selected="True" />
+                <SelectField field="HOSPITAL" selected="True" />
+                <SelectField field="MEDICAL" selected="True" />
+                <SelectField field="TRIBAL" selected="True" />
+                <SelectField field="PSET4FLG" selected="True" />
+                <SelectField field="INSTCAT" selected="True" />
+                <SelectField field="LANDGRNT" selected="True" />
+                <SelectField field="INSTSIZE" selected="True" />
+                <SelectField field="CBSATYPE" selected="True" />
+                <SelectField field="LEVEL1" selected="True" />
+                <SelectField field="LEVEL2" selected="True" />
+                <SelectField field="LEVEL3" selected="True" />
+                <SelectField field="LEVEL4" selected="True" />
+                <SelectField field="LEVEL5" selected="True" />
+                <SelectField field="LEVEL6" selected="True" />
+                <SelectField field="LEVEL7" selected="True" />
+                <SelectField field="LEVEL8" selected="True" />
+                <SelectField field="LEVEL12" selected="True" />
+                <SelectField field="LEVEL17" selected="True" />
+                <SelectField field="LEVEL18" selected="True" />
+                <SelectField field="LEVEL19" selected="True" />
+                <SelectField field="OPENADMP" selected="True" />
+                <SelectField field="ADMCON7" selected="True" />
+                <SelectField field="STUSRV1" selected="True" />
+                <SelectField field="STUSRV2" selected="True" />
+                <SelectField field="STUSRV3" selected="True" />
+                <SelectField field="STUSRV4" selected="True" />
+                <SelectField field="STUSRV8" selected="True" />
+                <SelectField field="STUSRV9" selected="True" />
+                <SelectField field="CALSYS" selected="True" />
+                <SelectField field="YEAR" selected="True" />
+                <SelectField field="LOCALE" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="319">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2502" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_8084_565f3de965964ead98f580067a504199\Engine_8032_a625bd1d3dc64634bb95867600ba917d.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="305">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1350" y="270" width="152.1232" height="19" />
+        <Position x="1170" y="258" width="152.1232" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2207,47 +2342,115 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="268">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1410" y="680" />
+            <Position x="1230" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <OrderChanged value="False" />
               <SelectFields>
                 <SelectField field="UNITID" selected="True" type="Int32" size="4" />
-                <SelectField field="INSTNM" selected="True" />
-                <SelectField field="OPENADMP" selected="True" />
-                <SelectField field="SATNUM" selected="True" />
-                <SelectField field="SATPCT" selected="True" />
-                <SelectField field="ACTNUM" selected="True" />
-                <SelectField field="ACTPCT" selected="True" />
-                <SelectField field="SATVR25" selected="True" />
-                <SelectField field="SATVR75" selected="True" />
-                <SelectField field="SATMT25" selected="True" />
-                <SelectField field="SATMT75" selected="True" />
-                <SelectField field="SATWR25" selected="True" />
-                <SelectField field="SATWR75" selected="True" />
-                <SelectField field="ACTCM25" selected="True" />
-                <SelectField field="ACTCM75" selected="True" />
-                <SelectField field="ACTEN25" selected="True" />
-                <SelectField field="ACTEN75" selected="True" />
-                <SelectField field="ACTMT25" selected="True" />
-                <SelectField field="ACTMT75" selected="True" />
-                <SelectField field="ACTWR25" selected="True" />
-                <SelectField field="ACTWR75" selected="True" />
-                <SelectField field="Applicants Total" selected="True" />
-                <SelectField field="Admissions Total" selected="True" />
-                <SelectField field="YEAR" selected="True" />
-                <SelectField field="ADMCON1" selected="True" />
-                <SelectField field="ADMCON2" selected="True" />
-                <SelectField field="ADMCON3" selected="True" />
-                <SelectField field="ADMCON5" selected="True" />
-                <SelectField field="ADMCON7" selected="True" />
-                <SelectField field="APPLCNM" selected="True" />
-                <SelectField field="APPLCNW" selected="True" />
-                <SelectField field="ADMSSNM" selected="True" />
-                <SelectField field="ADMSSNW" selected="True" />
-                <SelectField field="ENRLFTM" selected="True" />
-                <SelectField field="*Unknown" selected="False" />
+                <SelectField field="ADDR" selected="False" />
+                <SelectField field="CITY" selected="False" />
+                <SelectField field="STABBR" selected="False" />
+                <SelectField field="ZIP" selected="False" />
+                <SelectField field="FIPS" selected="False" />
+                <SelectField field="OBEREG" selected="False" />
+                <SelectField field="OPEFLAG" selected="False" />
+                <SelectField field="WEBADDR" selected="False" />
+                <SelectField field="ADMINURL" selected="False" />
+                <SelectField field="CONTROL" selected="False" />
+                <SelectField field="HOSPITAL" selected="False" />
+                <SelectField field="MEDICAL" selected="False" />
+                <SelectField field="TRIBAL" selected="False" />
+                <SelectField field="PSET4FLG" selected="False" />
+                <SelectField field="INSTCAT" selected="False" />
+                <SelectField field="LANDGRNT" selected="False" />
+                <SelectField field="INSTSIZE" selected="False" />
+                <SelectField field="CBSA" selected="False" />
+                <SelectField field="CBSATYPE" selected="False" />
+                <SelectField field="CSA" selected="False" />
+                <SelectField field="LATITUDE" selected="False" />
+                <SelectField field="Binary IC" selected="False" />
+                <SelectField field="CALSYS" selected="False" />
+                <SelectField field="Binary GR200" selected="False" />
+                <SelectField field="Binary EF" selected="False" />
+                <SelectField field="ACT_CODE" selected="False" />
+                <SelectField field="CONF" selected="False" />
+                <SelectField field="GENTELE" selected="False" />
+                <SelectField field="ICLEVEL" selected="False" />
+                <SelectField field="HBCU" selected="False" />
+                <SelectField field="LOCALE" selected="False" />
+                <SelectField field="IALIAS" selected="False" />
+                <SelectField field="LONGITUD" selected="False" />
+                <SelectField field="LEVEL1" selected="False" />
+                <SelectField field="LEVEL2" selected="False" />
+                <SelectField field="LEVEL3" selected="False" />
+                <SelectField field="LEVEL4" selected="False" />
+                <SelectField field="LEVEL5" selected="False" />
+                <SelectField field="LEVEL6" selected="False" />
+                <SelectField field="LEVEL7" selected="False" />
+                <SelectField field="LEVEL8" selected="False" />
+                <SelectField field="LEVEL12" selected="False" />
+                <SelectField field="LEVEL17" selected="False" />
+                <SelectField field="LEVEL18" selected="False" />
+                <SelectField field="LEVEL19" selected="False" />
+                <SelectField field="ENRLFTW" selected="False" />
+                <SelectField field="ENRLPTM" selected="False" />
+                <SelectField field="ENRLPTW" selected="False" />
+                <SelectField field="STUSRV1" selected="False" />
+                <SelectField field="STUSRV2" selected="False" />
+                <SelectField field="STUSRV3" selected="False" />
+                <SelectField field="STUSRV4" selected="False" />
+                <SelectField field="STUSRV8" selected="False" />
+                <SelectField field="STUSRV9" selected="False" />
+                <SelectField field="ENRLM" selected="False" />
+                <SelectField field="ENRLW" selected="False" />
+                <SelectField field="ENRLT" selected="False" />
+                <SelectField field="ENRLFT" selected="False" />
+                <SelectField field="ENRLPT" selected="False" />
+                <SelectField field="BAREVCT" selected="False" />
+                <SelectField field="BAEXCLU" selected="False" />
+                <SelectField field="BAAC150" selected="False" />
+                <SelectField field="BANC100" selected="False" />
+                <SelectField field="BAGR100" selected="False" />
+                <SelectField field="BANC150" selected="False" />
+                <SelectField field="BAGR150" selected="False" />
+                <SelectField field="BAAEXCL" selected="False" />
+                <SelectField field="BAAC200" selected="False" />
+                <SelectField field="BANC200A" selected="False" />
+                <SelectField field="BASTEND" selected="False" />
+                <SelectField field="BANC200" selected="False" />
+                <SelectField field="BAGR200" selected="False" />
+                <SelectField field="L4REVCT" selected="False" />
+                <SelectField field="L4EXCLU" selected="False" />
+                <SelectField field="L4AC150" selected="False" />
+                <SelectField field="L4NC100" selected="False" />
+                <SelectField field="L4GR100" selected="False" />
+                <SelectField field="L4NC150" selected="False" />
+                <SelectField field="L4GR150" selected="False" />
+                <SelectField field="L4AEXCL" selected="False" />
+                <SelectField field="L4AC200" selected="False" />
+                <SelectField field="L4NC200A" selected="False" />
+                <SelectField field="L4STEND" selected="False" />
+                <SelectField field="L4NC200" selected="False" />
+                <SelectField field="L4GR200" selected="False" />
+                <SelectField field="GRCOHRT" selected="False" />
+                <SelectField field="UGENTERN" selected="False" />
+                <SelectField field="PGRCOHRT" selected="False" />
+                <SelectField field="RRFTCT" selected="False" />
+                <SelectField field="RRFTEX" selected="False" />
+                <SelectField field="RRFTCTA" selected="False" />
+                <SelectField field="RET_NMF" selected="False" />
+                <SelectField field="RET_PCF" selected="False" />
+                <SelectField field="RRPTCT" selected="False" />
+                <SelectField field="RRPTEX" selected="False" />
+                <SelectField field="RRPTCTA" selected="False" />
+                <SelectField field="RET_NMP" selected="False" />
+                <SelectField field="RET_PCP" selected="False" />
+                <SelectField field="STUFACR" selected="False" />
+                <SelectField field="Admissions Total" selected="False" />
+                <SelectField field="Applicants Total" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
             <Annotation DisplayMode="0">
@@ -2260,12 +2463,12 @@ Code Value=trim([codeValue])</DefaultAnnotationText>
         </Node>
         <Node ToolID="273">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1686" y="680" />
+            <Position x="1506" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="AdmissionsRate" type="Double" size="8" expression="if [OPENADMP] == '1' then 101&#xA;elseif &#xA;     isNull([Admissions Total]) &#xA;  or isNull([Applicants Total]) then 102&#xA;//elseif [Admissions Total] == 0 then -1&#xA;elseif [Applicants Total] == 0 then -2&#xA;else bound(round(&#xA;	([Admissions Total])&#xA;      /([Applicants Total])*100&#xA;     ,1),0,100)&#xA;endif&#xA;" />
+                <FormulaField field="AdmissionsRate" type="Double" size="8" expression="if [OPENADMP] == '1' then 101&#xA;elseif &#xA;     isNull([ADMSSN]) &#xA;  or isNull([APPLCN]) then 102&#xA;//elseif [ADMSSN] == 0 then -1&#xA;elseif [APPLCN] == 0 then -2&#xA;else bound(round(&#xA;	([ADMSSN])&#xA;      /([APPLCN])*100&#xA;     ,1),0,100)&#xA;endif&#xA;" />
                 <FormulaField field="Selectivity_Admission Rate" type="String" size="64" expression="IF     [AdmissionsRate] == 101 THEN 'Open Admission'&#xA;ELSEIF [AdmissionsRate] == 100 THEN 'Open Admission'&#xA;ELSEIF [AdmissionsRate] &gt;= 76  THEN  '76%-100% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 51  THEN  '51%-75% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 26  THEN  '26%-50% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;= 11  THEN  '11%-25% Admitted'&#xA;ELSEIF [AdmissionsRate] &gt;=  0  THEN  '&lt;10% Admitted'&#xA;ELSE 'Unknown Admission' ENDIF" />
               </FormulaFields>
             </Configuration>
@@ -2283,26 +2486,16 @@ Selectivity_Admission Rate=IF     [AdmissionsRate] == 101 THE...</DefaultAnnotat
         </Node>
         <Node ToolID="281">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="1566" y="680" />
+            <Position x="1386" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FieldType>Text</FieldType>
               <Fields orderChanged="False">
-                <Field name="Applicants Total" />
-                <Field name="Admissions Total" />
+                <Field name="APPLCN" />
+                <Field name="ADMSSN" />
                 <Field name="INSTNM" selected="False" />
                 <Field name="OPENADMP" selected="False" />
-                <Field name="Secondary School GPA" selected="False" />
-                <Field name="Secondary School Rank" selected="False" />
-                <Field name="Secondary School Record" selected="False" />
-                <Field name="Recommendations" selected="False" />
-                <Field name="Admission Test Scores" selected="False" />
-                <Field name="Applicants - Men" selected="False" />
-                <Field name="Applicants - Women" selected="False" />
-                <Field name="Admissions - Men" selected="False" />
-                <Field name="Admissions - Women" selected="False" />
-                <Field name="Enrolled FT - Men" selected="False" />
                 <Field name="SATNUM" selected="False" />
                 <Field name="SATPCT" selected="False" />
                 <Field name="ACTNUM" selected="False" />
@@ -2321,6 +2514,18 @@ Selectivity_Admission Rate=IF     [AdmissionsRate] == 101 THE...</DefaultAnnotat
                 <Field name="ACTMT75" selected="False" />
                 <Field name="ACTWR25" selected="False" />
                 <Field name="ACTWR75" selected="False" />
+                <Field name="ADMCON1" selected="False" />
+                <Field name="ADMCON2" selected="False" />
+                <Field name="ADMCON3" selected="False" />
+                <Field name="ADMCON5" selected="False" />
+                <Field name="ADMCON7" selected="False" />
+                <Field name="APPLCNM" selected="False" />
+                <Field name="APPLCNW" selected="False" />
+                <Field name="ADMSSNM" selected="False" />
+                <Field name="ADMSSNW" selected="False" />
+                <Field name="ENRLFTM" selected="False" />
+                <Field name="Applicants Total" selected="False" />
+                <Field name="Admissions Total" selected="False" />
                 <Field name="*Unknown" selected="False" />
               </Fields>
               <CopyOutput value="False" />
@@ -2341,7 +2546,7 @@ else ToNumber([_Curren...</DefaultAnnotationText>
         </Node>
         <Node ToolID="284">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1926" y="680" />
+            <Position x="1746" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2376,7 +2581,7 @@ then ...
         </Node>
         <Node ToolID="286">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="1806" y="680" />
+            <Position x="1626" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2434,7 +2639,7 @@ elseif [_CurrentField...</DefaultAnnotationText>
         </Node>
         <Node ToolID="289">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2034" y="680" />
+            <Position x="1854" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2451,8 +2656,6 @@ elseif [_CurrentField...</DefaultAnnotationText>
                 <SelectField field="SATMT75" selected="True" />
                 <SelectField field="ACTCM25" selected="True" />
                 <SelectField field="ACTCM75" selected="True" />
-                <SelectField field="Applicants Total" selected="True" />
-                <SelectField field="Admissions Total" selected="True" />
                 <SelectField field="YEAR" selected="True" />
                 <SelectField field="ADMCON7" selected="True" />
                 <SelectField field="AdmissionsRate" selected="True" />
@@ -2471,7 +2674,7 @@ elseif [_CurrentField...</DefaultAnnotationText>
         </Node>
         <Node ToolID="290">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="2286" y="680" />
+            <Position x="2106" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2491,7 +2694,7 @@ elseif [_CurrentField...</DefaultAnnotationText>
         </Node>
         <Node ToolID="296">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="2154" y="680" />
+            <Position x="1974" y="668" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2511,7 +2714,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="328">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="2178" y="349" width="223.4245" height="19" />
+            <Position x="1998" y="337" width="223.4245" height="19" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2529,7 +2732,7 @@ YEAR - Descending</DefaultAnnotationText>
           <ChildNodes>
             <Node ToolID="270">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2238" y="488" />
+                <Position x="2058" y="476" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2554,7 +2757,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="280">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2394" y="488" />
+                <Position x="2214" y="476" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2579,7 +2782,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="274">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2514" y="488" />
+                <Position x="2334" y="476" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2604,7 +2807,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="282">
               <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="2514" y="428" />
+                <Position x="2334" y="416" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2624,7 +2827,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="283">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2610" y="428" />
+                <Position x="2430" y="416" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2649,7 +2852,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="287">
               <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="2754" y="488" />
+                <Position x="2574" y="476" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2670,7 +2873,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="288">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2850" y="488" />
+                <Position x="2670" y="476" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2695,7 +2898,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="291">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-                <Position x="2814" y="728" />
+                <Position x="2634" y="716" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2711,7 +2914,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="292">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2910" y="692" />
+                <Position x="2730" y="680" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2736,7 +2939,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="293">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2910" y="764" />
+                <Position x="2730" y="752" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -2765,14 +2968,14 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="271">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1350" y="323" width="1223" height="414.4531" />
+        <Position x="1170" y="311" width="183.9738" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Institution Header Cleansing</Caption>
           <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
           <Disabled value="False" />
-          <Folded value="False" />
+          <Folded value="True" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -2783,7 +2986,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="205">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1458" y="560" />
+            <Position x="1278" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2909,7 +3112,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="212">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1578" y="560.0001" />
+            <Position x="1398" y="548.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2929,7 +3132,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="213">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1686" y="560" />
+            <Position x="1506" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2974,7 +3177,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="216">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="1818" y="560" />
+            <Position x="1638" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3006,7 +3209,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="218">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="1926" y="560" />
+            <Position x="1746" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3040,7 +3243,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="224">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-            <Position x="2034" y="560" />
+            <Position x="1854" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3077,7 +3280,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="225">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-            <Position x="2130" y="560" />
+            <Position x="1950" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3116,7 +3319,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="227">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="2226" y="560" />
+            <Position x="2046" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3158,7 +3361,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="231">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2322" y="560" />
+            <Position x="2142" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3176,7 +3379,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="256">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1410" y="452" width="100" height="52" />
+            <Position x="1230" y="440" width="100" height="52" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3196,7 +3399,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="266">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2454" y="558" />
+            <Position x="2274" y="546" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3261,7 +3464,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="255">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1482" y="402" width="169.214" height="19" />
+            <Position x="1302" y="390" width="169.214" height="19" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3279,7 +3482,7 @@ YEAR - Descending</DefaultAnnotationText>
           <ChildNodes>
             <Node ToolID="220">
               <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="1962" y="639" />
+                <Position x="1782" y="627" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3301,7 +3504,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="221">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2058" y="639" />
+                <Position x="1878" y="627" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3326,7 +3529,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="228">
               <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="2298" y="639" />
+                <Position x="2118" y="627" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3345,7 +3548,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="229">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2370" y="639" />
+                <Position x="2190" y="627" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3370,7 +3573,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="214">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="1626" y="482.9999" />
+                <Position x="1446" y="470.9999" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3395,7 +3598,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="217">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="1758" y="483" />
+                <Position x="1578" y="471" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3420,7 +3623,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="219">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="1854" y="483" />
+                <Position x="1674" y="471" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3445,7 +3648,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="223">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="1962" y="483" />
+                <Position x="1782" y="471" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3470,7 +3673,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="226">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2058" y="483" />
+                <Position x="1878" y="471" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3495,7 +3698,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="230">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2166" y="483" />
+                <Position x="1986" y="471" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3520,7 +3723,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="232">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="2382" y="481" />
+                <Position x="2202" y="469" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3545,7 +3748,7 @@ YEAR - Descending</DefaultAnnotationText>
             </Node>
             <Node ToolID="211">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="1542" y="486" />
+                <Position x="1362" y="474" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -3574,7 +3777,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="246">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="162" width="120.235" height="19" />
+        <Position x="54" y="150" width="120.235" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3592,7 +3795,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="313" />
+            <Position x="114" y="301" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3795,7 +3998,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="313" />
+            <Position x="222" y="301" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3875,7 +4078,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="16">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="241" />
+            <Position x="114" y="229" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3971,7 +4174,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="241" />
+            <Position x="222" y="229" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4019,7 +4222,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="385" />
+            <Position x="114" y="373" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4098,7 +4301,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="385" />
+            <Position x="222" y="373" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4142,7 +4345,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="48">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="457" />
+            <Position x="114" y="445" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4201,7 +4404,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="457" />
+            <Position x="222" y="445" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4235,7 +4438,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="164">
           <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-            <Position x="480" y="361" />
+            <Position x="300" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4405,7 +4608,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="166">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="588" y="361" />
+            <Position x="408" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4425,7 +4628,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="272">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1158" y="90" width="129.9567" height="19" />
+        <Position x="978" y="78" width="129.9567" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4443,7 +4646,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="258">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1254" y="181" />
+            <Position x="1074" y="169" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4471,7 +4674,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="259">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="1338" y="181" />
+            <Position x="1158" y="169" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4490,7 +4693,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="260">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1446" y="181" />
+            <Position x="1266" y="169" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4506,7 +4709,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="261">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1542" y="169" />
+            <Position x="1362" y="157" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4524,7 +4727,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="262">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1686" y="169" />
+            <Position x="1506" y="157" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4549,7 +4752,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="263">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1218" y="253" width="100" height="40" />
+            <Position x="1038" y="241" width="100" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4571,7 +4774,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="251">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="66" width="120.235" height="19" />
+        <Position x="54" y="54" width="120.235" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4589,7 +4792,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="217" />
+            <Position x="114" y="205" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4797,7 +5000,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="217" />
+            <Position x="222" y="205" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4877,7 +5080,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="145" />
+            <Position x="114" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4972,7 +5175,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="145" />
+            <Position x="222" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5020,7 +5223,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="289" />
+            <Position x="114" y="277" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5103,7 +5306,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="289" />
+            <Position x="222" y="277" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5149,7 +5352,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="44">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="361" />
+            <Position x="114" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5208,7 +5411,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="45">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="361" />
+            <Position x="222" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5242,7 +5445,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="123">
           <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-            <Position x="462" y="253" />
+            <Position x="282" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5414,7 +5617,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="159">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="582" y="241" />
+            <Position x="402" y="229" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5434,7 +5637,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="250">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="114" width="120.235" height="19" />
+        <Position x="54" y="102" width="120.235" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -5452,7 +5655,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="265" />
+            <Position x="114" y="253" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5656,7 +5859,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="265" />
+            <Position x="222" y="253" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5736,7 +5939,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="193" />
+            <Position x="114" y="181" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5832,7 +6035,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="193" />
+            <Position x="222" y="181" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5880,7 +6083,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="337" />
+            <Position x="114" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5963,7 +6166,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="337" />
+            <Position x="222" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6009,7 +6212,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294.0001" y="409" />
+            <Position x="114.0001" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6068,7 +6271,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="47">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="409" />
+            <Position x="222" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6102,7 +6305,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="126">
           <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-            <Position x="486" y="306" />
+            <Position x="306" y="294" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6274,7 +6477,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="160">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="618" y="318" />
+            <Position x="438" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6294,7 +6497,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="249">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="258" width="120.235" height="19" />
+        <Position x="54" y="246" width="120.235" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -6312,7 +6515,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="10">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="409" />
+            <Position x="114" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6520,7 +6723,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="409" />
+            <Position x="222" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6600,7 +6803,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="337" />
+            <Position x="114" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6688,7 +6891,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="21">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="337" />
+            <Position x="222" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6734,7 +6937,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="481" />
+            <Position x="114" y="469" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6813,7 +7016,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="43">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="481" />
+            <Position x="222" y="469" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6857,7 +7060,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="553" />
+            <Position x="114" y="541" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6914,7 +7117,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="553" />
+            <Position x="222" y="541" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6947,7 +7150,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="129">
           <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-            <Position x="462" y="445" />
+            <Position x="282" y="433" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7114,7 +7317,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="163">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="558" y="445" />
+            <Position x="378" y="433" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7134,7 +7337,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="248">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="330" width="140.8385" height="19" />
+        <Position x="54" y="318" width="140.8385" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -7152,7 +7355,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="409" />
+            <Position x="114" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7248,7 +7451,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="409" />
+            <Position x="222" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7300,7 +7503,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="517" />
+            <Position x="114" y="505" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7396,7 +7599,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="517" />
+            <Position x="222" y="505" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7448,7 +7651,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="625" />
+            <Position x="114" y="613" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7603,7 +7806,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="625" />
+            <Position x="222" y="613" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7655,7 +7858,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="733" />
+            <Position x="114" y="721" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7811,7 +8014,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="733" />
+            <Position x="222" y="721" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -7863,7 +8066,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="841" />
+            <Position x="114" y="829" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8019,7 +8222,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="841" />
+            <Position x="222" y="829" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8071,7 +8274,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="150">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="486" y="414" />
+            <Position x="306" y="402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8089,7 +8292,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="151">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="486" y="517" />
+            <Position x="306" y="505" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8107,7 +8310,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="152">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="486" y="625" />
+            <Position x="306" y="613" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8125,7 +8328,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="153">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="486" y="733" />
+            <Position x="306" y="721" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8143,7 +8346,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="154">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="486" y="841" />
+            <Position x="306" y="829" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8161,7 +8364,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="155">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="654" y="618" />
+            <Position x="474" y="606" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8180,7 +8383,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="157">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="978" y="505" width="100" height="40" />
+            <Position x="798" y="493" width="100" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8202,7 +8405,7 @@ YEAR - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="247">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="210" width="120" height="19" />
+        <Position x="54" y="198" width="120" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -8220,7 +8423,7 @@ YEAR - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="361" />
+            <Position x="114" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8424,7 +8627,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="361" />
+            <Position x="222" y="349" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8504,7 +8707,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="289" />
+            <Position x="114" y="277" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8597,7 +8800,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="289" />
+            <Position x="222" y="277" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8645,7 +8848,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="433" />
+            <Position x="114" y="421" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8724,7 +8927,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="433" />
+            <Position x="222" y="421" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8768,7 +8971,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="294" y="505" />
+            <Position x="114" y="493" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8827,7 +9030,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="505" />
+            <Position x="222" y="493" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -8861,7 +9064,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="128">
           <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-            <Position x="510" y="397" />
+            <Position x="330" y="385" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -9031,7 +9234,7 @@ YEAR - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="162">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="642" y="397" />
+            <Position x="462" y="385" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -9125,23 +9328,35 @@ YEAR - Descending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="301" Connection="Join" />
-      <Destination ToolID="303" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="301" Connection="Join" />
       <Destination ToolID="320" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="324" Connection="Output" />
-      <Destination ToolID="323" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="324" Connection="Output" />
-      <Destination ToolID="325" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="303" Connection="Output" />
+      <Origin ToolID="301" Connection="Join" />
       <Destination ToolID="307" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="301" Connection="Join" />
+      <Destination ToolID="335" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="333" Connection="Output" />
+      <Destination ToolID="334" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="333" Connection="Output" />
+      <Destination ToolID="341" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="335" Connection="Output" />
+      <Destination ToolID="341" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="341" Connection="Join" />
+      <Destination ToolID="342" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="341" Connection="Join" />
+      <Destination ToolID="343" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="307" Connection="Output" />
@@ -9198,6 +9413,18 @@ YEAR - Descending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="330" Connection="Output" />
       <Destination ToolID="331" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="324" Connection="Output" />
+      <Destination ToolID="323" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="324" Connection="Output" />
+      <Destination ToolID="325" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="325" Connection="Output" />
+      <Destination ToolID="333" Connection="Input" />
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="268" Connection="Output" />
