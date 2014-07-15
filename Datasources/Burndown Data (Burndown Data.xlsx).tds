@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<datasource formatted-name='excel.41831.425391736113' inline='true' version='8.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8100.14.0312.2049                -->
+  <connection auto-extract='yes' class='excel' driver='Ace12' filename='C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Burndown Data.xlsx' header='yes' imex='1'>
+    <relation name='&apos;Burndown Data$&apos;' table='[&apos;Burndown Data$&apos;]' type='table' />
+  </connection>
+  <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+    <calculation class='tableau' formula='1' />
+  </column>
+  <column datatype='real' name='[Persist_number]' role='dimension' type='ordinal'>
+  </column>
+  <column datatype='real' name='[Reported Year]' role='dimension' type='quantitative'>
+  </column>
+  <column datatype='real' name='[YEAR]' role='dimension' type='quantitative'>
+  </column>
+  <column datatype='real' name='[dYear]' role='dimension' type='quantitative'>
+  </column>
+  <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+  </semantic-values>
+</datasource>

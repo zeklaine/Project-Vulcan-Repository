@@ -1,0 +1,1108 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gr200_08.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="unitid" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbarevct" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="barevct" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbaexclu" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="baexclu" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbaac150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="baac150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbanc100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="banc100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbagr100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="bagr100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbanc150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="banc150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbagr150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="bagr150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbaaexcl" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="baaexcl" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbaac200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="baac200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbanc20a" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="banc200a" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbanc200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="banc200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xbagr200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="bagr200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4revct" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4revct" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4exclu" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4exclu" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4ac150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4ac150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4nc100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4nc100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4gr100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4gr100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4nc150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4nc150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4gr150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4gr150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4aexcl" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4aexcl" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4ac200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4ac200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4nc20a" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4nc200a" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4nc200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4nc200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="xl4gr200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="l4gr200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\gr200_08.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gr200_09_rv.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBANC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BANC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XBAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="BAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4NC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4NC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="XL4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="L4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\gr200_09_rv.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gr200_10_rv.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBANC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BANC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XBAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="BAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4NC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4NC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="XL4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="L4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\gr200_10_rv.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gr200_11_rv.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBANC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BANC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBASTEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BASTEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XBAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="BAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4NC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4NC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4STEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4STEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="XL4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="L4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\gr200_11_rv.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gr200_12.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAREVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAEXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAAC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BANC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAGR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BANC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAGR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAAEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAAC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBANC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BANC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBASTEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BASTEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BANC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XBAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="BAGR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4REVCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4EXCLU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4AC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4NC100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4GR100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4NC150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4GR150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4AEXCL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4AC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4NC20A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4NC200A" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4STEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4STEND" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4NC200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="XL4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="L4GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\gr200_12.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="366" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="UNITID" selected="True" />
+            <SelectField field="BAREVCT" selected="True" />
+            <SelectField field="BAEXCLU" selected="True" />
+            <SelectField field="BAAC150" selected="True" />
+            <SelectField field="BANC100" selected="True" />
+            <SelectField field="BAGR100" selected="True" />
+            <SelectField field="BANC150" selected="True" />
+            <SelectField field="BAGR150" selected="True" />
+            <SelectField field="BAAEXCL" selected="True" />
+            <SelectField field="BAAC200" selected="True" />
+            <SelectField field="BANC200A" selected="True" />
+            <SelectField field="BANC200" selected="True" />
+            <SelectField field="BAGR200" selected="True" />
+            <SelectField field="L4REVCT" selected="True" />
+            <SelectField field="L4EXCLU" selected="True" />
+            <SelectField field="L4AC150" selected="True" />
+            <SelectField field="L4NC100" selected="True" />
+            <SelectField field="L4GR100" selected="True" />
+            <SelectField field="L4NC150" selected="True" />
+            <SelectField field="L4GR150" selected="True" />
+            <SelectField field="L4AEXCL" selected="True" />
+            <SelectField field="L4AC200" selected="True" />
+            <SelectField field="L4NC200A" selected="True" />
+            <SelectField field="L4NC200" selected="True" />
+            <SelectField field="L4GR200" selected="True" />
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1014" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="UNITID" selected="True" />
+            <SelectField field="reportedYear" selected="True" />
+            <SelectField field="BAREVCT" selected="True" rename="Revised Bach Cohort" />
+            <SelectField field="BAEXCLU" selected="True" rename="Bach Cohort Exclusions - 150" />
+            <SelectField field="BAAC150" selected="True" rename="Adjusted Bach Cohort - 150" />
+            <SelectField field="BANC100" selected="True" rename="Bach Persist Number - 100" />
+            <SelectField field="BAGR100" selected="True" rename="Bach Persist Percent - 100" />
+            <SelectField field="BANC150" selected="True" rename="Bach Persist Number - 150" />
+            <SelectField field="BAGR150" selected="True" rename="Bach Persist Percent - 150" />
+            <SelectField field="BAAEXCL" selected="True" rename="Bach Cohort Additional Exclusions - 200" />
+            <SelectField field="BAAC200" selected="True" rename="Adjusted Bach Cohort - 200" />
+            <SelectField field="BANC200A" selected="True" rename="Bach Persist Number - 150 to 200" />
+            <SelectField field="BANC200" selected="True" rename="Bach Persist Number - 200" />
+            <SelectField field="BAGR200" selected="True" rename="Bach Persist Percent - 200" />
+            <SelectField field="L4REVCT" selected="True" rename="Revised Cert Cohort" />
+            <SelectField field="L4EXCLU" selected="True" rename="Cert Cohort Exclusions - 150" />
+            <SelectField field="L4AC150" selected="True" rename="Adjusted Cert Cohort - 150" />
+            <SelectField field="L4NC100" selected="True" rename="Cert Persist Number - 100" />
+            <SelectField field="L4GR100" selected="True" rename="Cert Persist Percent - 100" />
+            <SelectField field="L4NC150" selected="True" rename="Cert Persist Number - 150" />
+            <SelectField field="L4GR150" selected="True" rename="Cert Persist Percent 150" />
+            <SelectField field="L4AEXCL" selected="True" rename="Cert Cohort Additional Exclusions - 200" />
+            <SelectField field="L4AC200" selected="True" rename="Adjusted Cert Cohort - 200" />
+            <SelectField field="L4NC200A" selected="True" rename="Cert Persist Number - 150 to 200" />
+            <SelectField field="L4NC200" selected="True" rename="Cert Persist Number - 200" />
+            <SelectField field="L4GR200" selected="True" rename="Cert Persist Percent - 200" />
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename Fields</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1086" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4212_46d8b20b6dfe42498c69bc903881d07b\Engine_5996_97fb0f8c73b84ed1b5a1ca8c7ad9f6a3.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="666" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="reportedYear" type="Int32" size="4" expression="    if [FileName] =='gr200_08' then 2008&#xA;elseif [FileName] =='gr200_09_rv' then 2009&#xA;elseif [FileName] =='gr200_10_rv' then 2010&#xA;elseif [FileName] =='gr200_11_rv' then 2011&#xA;elseif [FileName] =='gr200_12' then 2012&#xA;else Null()&#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>reportedYear=    if [FileName] =='gr200_08' then 2008
+elseif ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="942" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="UNITID" order="Ascending" />
+            <Field field="reportedYear" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>UNITID - Ascending
+reportedYear - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="762" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!isNull([reportedYear])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!isNull([reportedYear])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="558" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="BAREVCT" />
+            <Field name="BAEXCLU" />
+            <Field name="BAAC150" />
+            <Field name="BANC100" />
+            <Field name="BAGR100" />
+            <Field name="BANC150" />
+            <Field name="BAGR150" />
+            <Field name="BAAEXCL" />
+            <Field name="BAAC200" />
+            <Field name="BANC200A" />
+            <Field name="BANC200" />
+            <Field name="BAGR200" />
+            <Field name="L4REVCT" />
+            <Field name="L4EXCLU" />
+            <Field name="L4AC150" />
+            <Field name="L4NC100" />
+            <Field name="L4GR100" />
+            <Field name="L4NC150" />
+            <Field name="L4GR150" />
+            <Field name="L4AEXCL" />
+            <Field name="L4AC200" />
+            <Field name="L4NC200A" />
+            <Field name="L4NC200" />
+            <Field name="L4GR200" />
+            <Field name="UNITID" selected="False" />
+            <Field name="FileName" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>if [_CurrentField_] == '.' then Null()
+else
+toNumber([_CurrentField_])
+endif</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int32" size="4" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>toNumber</AnnotationText>
+          <DefaultAnnotationText>if [_CurrentField_] == '.' then Null()
+else
+toNumber([_Curren...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="858" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[BAEXCLU]&gt;0
+and
+[BAAEXCL]&gt;0</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[BAEXCLU]&gt;0
+and
+[BAAEXCL]&gt;0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+        <Position x="870" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <KeyFields orderChanged="False">
+            <Field name="UNITID" />
+            <Field name="FileName" />
+            <Field name="reportedYear" />
+          </KeyFields>
+          <OutputFields>
+            <Columns>
+              <Column name="Bach/Cert" type="text" context="Take from Descriptions" />
+              <Column name="revisedCohort" type="combobox" />
+              <Column name="excludeFromRevised" type="combobox" />
+              <Column name="adjustedCohort" type="combobox" />
+              <Column name="nPersist100" type="combobox" />
+              <Column name="pPersist100" type="combobox" />
+              <Column name="nPersist150" type="combobox" />
+              <Column name="pPersist150" type="combobox" />
+              <Column name="excludeFrom200" type="combobox" />
+              <Column name="adjustedCohort200" type="combobox" />
+              <Column name="nPersist150+" type="combobox" />
+              <Column name="nPersist200" type="combobox" />
+              <Column name="pPersist200" type="combobox" />
+            </Columns>
+            <Data>
+              <r>
+                <c>Bach</c>
+                <c>BAREVCT</c>
+                <c>BAEXCLU</c>
+                <c>BAAC150</c>
+                <c>BANC100</c>
+                <c>BAGR100</c>
+                <c>BANC150</c>
+                <c>BAGR150</c>
+                <c>BAAEXCL</c>
+                <c>BAAC200</c>
+                <c>BANC200A</c>
+                <c>BANC200</c>
+                <c>BAGR200</c>
+              </r>
+              <r>
+                <c>Cert</c>
+                <c>L4REVCT</c>
+                <c>L4EXCLU</c>
+                <c>L4AC150</c>
+                <c>L4NC100</c>
+                <c>L4GR100</c>
+                <c>L4NC150</c>
+                <c>L4GR150</c>
+                <c>L4AEXCL</c>
+                <c>L4AC200</c>
+                <c>L4NC200A</c>
+                <c>L4NC200</c>
+                <c>L4GR200</c>
+              </r>
+            </Data>
+          </OutputFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4212_46d8b20b6dfe42498c69bc903881d07b\Engine_5996_74049e2035924b85a06929cc8427038b.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="966" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="cAdjustedCohort" type="Double" size="8" expression="([revisedCohort]-[excludeFromRevised])&#xA;-[adjustedCohort]" />
+            <FormulaField field="cpPersist100" type="Int32" size="4" expression="round([nPersist100]/[adjustedCohort]*100,1)&#xA;-&#xA;[pPersist100]" />
+            <FormulaField field="cpPersist150" type="Int32" size="4" expression="round([nPersist150]/[adjustedCohort]*100,1)&#xA;-&#xA;[pPersist150]" />
+            <FormulaField field="cAdjustedCohort200" type="Double" size="8" expression="([adjustedCohort]-[excludeFrom200])&#xA;-[adjustedCohort200]" />
+            <FormulaField field="cpPersist200" type="Int32" size="4" expression="round([nPersist200]/[adjustedCohort200]*100,1)&#xA;-&#xA;[pPersist200]" />
+            <FormulaField field="cnPersist200" type="Double" size="8" expression="([nPersist150+]+[nPersist150])&#xA;-&#xA;[nPersist200]" />
+            <FormulaField field="totalError" type="Double" size="8" expression="[cAdjustedCohort]+[cpPersist100]+[cpPersist150]+[cAdjustedCohort200]+[cpPersist200]+[cnPersist200]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cAdjustedCohort=([revisedCohort]-[excludeFromRevised])
+-[adju...
+cpPersist100=round([nPersist100]/[adjustedCohort]*100,1)
+-
+[p...
+cpPersist150=round([nPersist150]/[adjustedCohort]*100,1)
+-
+[p...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1290" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4212_46d8b20b6dfe42498c69bc903881d07b\Engine_5996_93ad80ef4a6b46e5b201a93c19b00cc9.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1206" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="totalError" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>totalError - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1074" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[totalError]&gt;0</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[totalError]&gt;0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+        <Position x="1110" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <KeyFields orderChanged="False">
+            <Field name="UNITID" />
+            <Field name="FileName" />
+            <Field name="reportedYear" />
+            <Field name="Bach/Cert" />
+          </KeyFields>
+          <OutputFields>
+            <Columns>
+              <Column name="Complete" type="text" context="Take from Descriptions" />
+              <Column name="Completion Percent" type="text" context="Take from Descriptions" />
+              <Column name="cohortSize_denominator" type="combobox" />
+              <Column name="persistNumerator" type="combobox" />
+              <Column name="persistRateGiven" type="combobox" />
+              <Column name="exclusionCount" type="combobox" />
+              <Column name="preExclusionCohort" type="combobox" />
+              <Column name="calculatedError" type="combobox" />
+            </Columns>
+            <Data>
+              <r>
+                <c />
+                <c>100</c>
+                <c>adjustedCohort</c>
+                <c>nPersist100</c>
+                <c>pPersist100</c>
+                <c>excludeFromRevised</c>
+                <c>revisedCohort</c>
+                <c>cpPersist100</c>
+              </r>
+              <r>
+                <c />
+                <c>150</c>
+                <c>adjustedCohort</c>
+                <c>nPersist150</c>
+                <c>pPersist150</c>
+                <c>excludeFromRevised</c>
+                <c>revisedCohort</c>
+                <c>cpPersist150</c>
+              </r>
+              <r>
+                <c>No</c>
+                <c>150-200</c>
+                <c>adjustedCohort</c>
+                <c>nPersist150+</c>
+                <c>[none]</c>
+                <c>excludeFromRevised</c>
+                <c>revisedCohort</c>
+                <c>[none]</c>
+              </r>
+              <r>
+                <c />
+                <c>200</c>
+                <c>adjustedCohort200</c>
+                <c>nPersist200</c>
+                <c>pPersist200</c>
+                <c>excludeFrom200</c>
+                <c>adjustedCohort</c>
+                <c>cpPersist200</c>
+              </r>
+            </Data>
+          </OutputFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1338" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4212_46d8b20b6dfe42498c69bc903881d07b\Engine_5996_133a9eaebcf94b7a9dde3d2ca4adb42d.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1194" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Complete]=='No'</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Complete]=='No'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#5">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>repoRoot</Name>
+        <Value>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>GR File</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
