@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="666" y="678" />
+        <Position x="318" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -22,14 +22,14 @@
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="666" y="774" />
+        <Position x="318" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="True" />
           <SelectFields>
-            <SelectField field="CHRTSTAT" selected="False" description="key1" />
-            <SelectField field="COHORT" selected="False" description="key1" />
+            <SelectField field="CHRTSTAT" selected="True" description="key1" />
+            <SelectField field="COHORT" selected="True" description="key1" />
             <SelectField field="DVGRAIM" selected="True" description="American Indian or Alaska Native men - derived" />
             <SelectField field="DVGRAIT" selected="True" description="American Indian or Alaska Native total - derived" />
             <SelectField field="DVGRAIW" selected="True" description="American Indian or Alaska Native women - derived" />
@@ -92,7 +92,7 @@
             <SelectField field="GRWHITT" selected="True" description="White total - new" />
             <SelectField field="GRWHITW" selected="True" description="White women - new" />
             <SelectField field="LINE" selected="True" />
-            <SelectField field="SECTION" selected="False" description="key1" />
+            <SelectField field="SECTION" selected="True" description="key1" />
             <SelectField field="UNITID" selected="True" description="key1" />
             <SelectField field="XDVGRAIM" selected="False" />
             <SelectField field="XDVGRAIT" selected="False" />
@@ -168,7 +168,7 @@
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
-        <Position x="702" y="1362" />
+        <Position x="354" y="858" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -409,7 +409,7 @@
     </Node>
     <Node ToolID="36">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="702" y="1650" />
+        <Position x="354" y="1146" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -425,7 +425,7 @@
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="714" y="1266" />
+        <Position x="366" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -442,7 +442,7 @@
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="714" y="1122" />
+        <Position x="366" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -501,7 +501,7 @@
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="786" y="762" />
+        <Position x="438" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -564,7 +564,7 @@
     </Node>
     <Node ToolID="48">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="858" y="1734" />
+        <Position x="510" y="1230" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -586,7 +586,7 @@ or
     </Node>
     <Node ToolID="63">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="1290" y="1734" />
+        <Position x="942" y="1230" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -612,13 +612,13 @@ or
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="666" y="882" />
+        <Position x="318" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
             <FormulaField field="degreeType" type="String" size="15" expression="if [GRTYPE] in ('2','5','6','7','8','17','41','42','43','44','9','10','11','13','14','15','12','3','4','16','40')&#xA;then 'BACH'&#xA;elseif [GRTYPE] in&#xA;('27','28','29','34','30','31','32','35','36','37','33','47','48')&#xA;then 'DEGREE/CERT'&#xA;elseif [GRTYPE] in&#xA;('18','19','20','46','45','25','26','21','22','23','24')&#xA;then 'OTHER'&#xA;else null()&#xA;endif" />
-            <FormulaField field="cohortType" type="String" size="15" expression="if [GRTYPE] in ('2','6','27','18') then 'cohort'&#xA;elseif [GRTYPE] in ('8','29','20') then 'adj. cohort'&#xA;elseif [GRTYPE] in ('12','30','21') then '150% completers'&#xA;elseif [GRTYPE] in ('9') then '12-clone?'&#xA;elseif [GRTYPE] in ('5','17','34','26') then 'long programs'&#xA;elseif [GRTYPE] in ('35') then '100% completers'&#xA;elseif [GRTYPE] in ('7','28','40','19') then 'exclusions'&#xA;elseif [GRTYPE] in ('33','25','4','16') then 'transfer out'&#xA;elseif [GRTYPE] in ('3') then 'total complete'&#xA;//&#xA;elseif [GRTYPE] in ('10','11','13','14','15') then 'Completers_speed'&#xA;elseif [GRTYPE] in ('31','32','36','37') then 'Completers_speed'&#xA;elseif [GRTYPE] in ('22','23','24') then 'Completers_speed'&#xA;//&#xA;elseif [GRTYPE] in ('41','43','42','44','47','48','46','45') then 'Non completers'&#xA;//elseif [GRTYPE] in ('') then ''&#xA;else null()&#xA;endif" />
+            <FormulaField field="cohortType" type="String" size="25" expression="if [GRTYPE] in ('2','6','27','18') then 'cohort'&#xA;elseif [GRTYPE] in ('8','29','20') then 'adj. cohort'&#xA;elseif [GRTYPE] in ('12','30','21') then '150% completers'&#xA;elseif [GRTYPE] in ('9') then '12-clone?'&#xA;elseif [GRTYPE] in ('5','17','34','26') then 'long programs'&#xA;elseif [GRTYPE] in ('35') then '100% completers'&#xA;elseif [GRTYPE] in ('7','28','40','19') then 'exclusions'&#xA;elseif [GRTYPE] in ('33','25','4','16') then 'transfer out'&#xA;elseif [GRTYPE] in ('3') then 'total complete'&#xA;//&#xA;elseif [GRTYPE] in ('10','11','13','14','15') then 'Completers_speed'&#xA;elseif [GRTYPE] in ('31','32','36','37') then 'Completers_speed'&#xA;elseif [GRTYPE] in ('22','23','24') then 'Completers_speed'&#xA;//&#xA;elseif [GRTYPE] in ('41','43','42','44','47','48','46','45') then 'Non completers'&#xA;//elseif [GRTYPE] in ('') then ''&#xA;else null()&#xA;endif" />
             <FormulaField field="enrolledType" type="String" size="15" expression="if [GRTYPE] in ('41','43','45','47') then 'Still Enrolled'&#xA;elseif [GRTYPE] in ('42','44','48','46') then 'Not Enrolled'&#xA;elseif [GRTYPE] in ('3','30','31','32','35','36','37','21','22','23','24','9','10','11','12','13','14','15') then 'complete'&#xA;elseif [GRTYPE] in ('4','16','33','25') then 'Transfer'&#xA;elseif [GRTYPE] in ('5','34','17','26') then 'Long Programs'&#xA;elseif [GRTYPE] in ('2','6','8','27','29','18','20') then 'Enrolled'&#xA;elseif [GRTYPE] in ('40','7','28','19') then 'Excluded'&#xA;//elseif [GRTYPE] in ('') then ''&#xA;else null()&#xA;endif" />
             <FormulaField field="completedPercent" type="String" size="15" expression="if [GRTYPE] in ('12','9','30','21') then '&lt;150% total'&#xA;elseif [GRTYPE] in ('10','31') then '&lt;50%'&#xA;elseif [GRTYPE] in ('11') then '&lt;150%'&#xA;elseif [GRTYPE] in ('13') then '100%'&#xA;elseif [GRTYPE] in ('35') then '100% total'&#xA;elseif [GRTYPE] in ('14') then '125%'&#xA;elseif [GRTYPE] in ('15') then '150%'&#xA;elseif [GRTYPE] in ('3','30','31','32','35','36','37','21','22','23','24','9','10','11','12','13','14','15') then 'complete'&#xA;//elseif [GRTYPE] in ('') then ''&#xA;else null()&#xA;endif" />
             <FormulaField field="cohortStep" type="Int16" size="2" expression="if [cohortType] == 'adj. cohort' then 1&#xA;else null()&#xA;endif" />
@@ -639,11 +639,11 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
     </Node>
     <Node ToolID="77">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="1290" />
+        <Position x="114" y="786" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_e6908ae8d9f04ef29849e1ff5b28a063.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_3b6182a0f485450bb886d1732f7e942a.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -665,7 +665,7 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
     </Node>
     <Node ToolID="78">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="558" y="978" />
+        <Position x="210" y="474" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -678,6 +678,9 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
             <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
             <SummarizeField field="cohortStep" action="GroupBy" rename="cohortStep" />
             <SummarizeField field="UNITID" action="Count" rename="Count" />
+            <SummarizeField field="SECTION" action="GroupBy" rename="SECTION" />
+            <SummarizeField field="CHRTSTAT" action="GroupBy" rename="CHRTSTAT" />
+            <SummarizeField field="COHORT" action="GroupBy" rename="COHORT" />
           </SummarizeFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -690,7 +693,7 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
     </Node>
     <Node ToolID="79">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="558" y="1074" />
+        <Position x="210" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -701,6 +704,9 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
             <Field field="enrolledType" />
             <Field field="completedPercent" />
             <Field field="cohortStep" />
+            <Field field="SECTION" />
+            <Field field="CHRTSTAT" />
+            <Field field="COHORT" />
           </GroupFields>
           <HeaderField field="YEAR" />
           <DataField field="Count" />
@@ -717,10 +723,13 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
           <RecordInfo>
             <Field description="key1" name="GRTYPE" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field name="degreeType" size="15" source="CrossTab:Group:Sum:" type="String" />
-            <Field name="cohortType" size="15" source="CrossTab:Group:Sum:" type="String" />
+            <Field name="cohortType" size="25" source="CrossTab:Group:Sum:" type="String" />
             <Field name="enrolledType" size="15" source="CrossTab:Group:Sum:" type="String" />
             <Field name="completedPercent" size="15" source="CrossTab:Group:Sum:" type="String" />
             <Field name="cohortStep" source="CrossTab:Group:Sum:" type="Int16" />
+            <Field description="key1" name="SECTION" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field description="key1" name="CHRTSTAT" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field description="key1" name="COHORT" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field name="2008" source="CrossTab:Header:YEAR:2008:Sum:" type="Int64" />
             <Field name="2009" source="CrossTab:Header:YEAR:2009:Sum:" type="Int64" />
             <Field name="2010" source="CrossTab:Header:YEAR:2010:Sum:" type="Int64" />
@@ -734,6 +743,9 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
             <Field field="enrolledType" order="Asc" />
             <Field field="completedPercent" order="Asc" />
             <Field field="cohortStep" order="Asc" />
+            <Field field="SECTION" order="Asc" />
+            <Field field="CHRTSTAT" order="Asc" />
+            <Field field="COHORT" order="Asc" />
           </SortInfo>
         </MetaInfo>
       </Properties>
@@ -741,7 +753,7 @@ enrolledType=if [GRTYPE] in ('41','43','45','47') then 'Still...
     </Node>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="558" y="1170" />
+        <Position x="210" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -766,7 +778,7 @@ completedPercent - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="81">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="906" y="1362" />
+        <Position x="558" y="858" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -861,7 +873,7 @@ completedPercent - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="82">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="702" y="1554" />
+        <Position x="354" y="1050" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -896,7 +908,7 @@ completedPercent - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="83">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="714" y="1458" />
+        <Position x="366" y="954" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -924,17 +936,18 @@ IF !is...</DefaultAnnotationText>
     </Node>
     <Node ToolID="84">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="498" y="1842" />
+        <Position x="150" y="1338" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <GroupFields>
+            <Field field="COHORT" />
             <Field field="UNITID" />
             <Field field="YEAR" />
             <Field field="Race" />
             <Field field="Gender" />
           </GroupFields>
-          <HeaderField field="GRTYPE" />
+          <HeaderField field="CHRTSTAT" />
           <DataField field="value" />
           <Methods>
             <Method method="Sum" />
@@ -947,57 +960,31 @@ IF !is...</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
+            <Field description="key1" name="COHORT" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field description="key1" name="UNITID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field name="YEAR" source="CrossTab:Group:Sum:" type="Int32" />
             <Field name="Race" size="15" source="CrossTab:Group:Sum:" type="String" />
             <Field name="Gender" size="5" source="CrossTab:Group:Sum:" type="String" />
-            <Field name="2" source="CrossTab:Header:GRTYPE:2:Sum:" type="Double" />
-            <Field name="3" source="CrossTab:Header:GRTYPE:3:Sum:" type="Double" />
-            <Field name="4" source="CrossTab:Header:GRTYPE:4:Sum:" type="Double" />
-            <Field name="5" source="CrossTab:Header:GRTYPE:5:Sum:" type="Double" />
-            <Field name="6" source="CrossTab:Header:GRTYPE:6:Sum:" type="Double" />
-            <Field name="7" source="CrossTab:Header:GRTYPE:7:Sum:" type="Double" />
-            <Field name="8" source="CrossTab:Header:GRTYPE:8:Sum:" type="Double" />
-            <Field name="9" source="CrossTab:Header:GRTYPE:9:Sum:" type="Double" />
-            <Field name="10" source="CrossTab:Header:GRTYPE:10:Sum:" type="Double" />
-            <Field name="11" source="CrossTab:Header:GRTYPE:11:Sum:" type="Double" />
-            <Field name="12" source="CrossTab:Header:GRTYPE:12:Sum:" type="Double" />
-            <Field name="13" source="CrossTab:Header:GRTYPE:13:Sum:" type="Double" />
-            <Field name="14" source="CrossTab:Header:GRTYPE:14:Sum:" type="Double" />
-            <Field name="15" source="CrossTab:Header:GRTYPE:15:Sum:" type="Double" />
-            <Field name="16" source="CrossTab:Header:GRTYPE:16:Sum:" type="Double" />
-            <Field name="17" source="CrossTab:Header:GRTYPE:17:Sum:" type="Double" />
-            <Field name="18" source="CrossTab:Header:GRTYPE:18:Sum:" type="Double" />
-            <Field name="19" source="CrossTab:Header:GRTYPE:19:Sum:" type="Double" />
-            <Field name="20" source="CrossTab:Header:GRTYPE:20:Sum:" type="Double" />
-            <Field name="21" source="CrossTab:Header:GRTYPE:21:Sum:" type="Double" />
-            <Field name="22" source="CrossTab:Header:GRTYPE:22:Sum:" type="Double" />
-            <Field name="23" source="CrossTab:Header:GRTYPE:23:Sum:" type="Double" />
-            <Field name="24" source="CrossTab:Header:GRTYPE:24:Sum:" type="Double" />
-            <Field name="25" source="CrossTab:Header:GRTYPE:25:Sum:" type="Double" />
-            <Field name="26" source="CrossTab:Header:GRTYPE:26:Sum:" type="Double" />
-            <Field name="27" source="CrossTab:Header:GRTYPE:27:Sum:" type="Double" />
-            <Field name="28" source="CrossTab:Header:GRTYPE:28:Sum:" type="Double" />
-            <Field name="29" source="CrossTab:Header:GRTYPE:29:Sum:" type="Double" />
-            <Field name="30" source="CrossTab:Header:GRTYPE:30:Sum:" type="Double" />
-            <Field name="31" source="CrossTab:Header:GRTYPE:31:Sum:" type="Double" />
-            <Field name="32" source="CrossTab:Header:GRTYPE:32:Sum:" type="Double" />
-            <Field name="33" source="CrossTab:Header:GRTYPE:33:Sum:" type="Double" />
-            <Field name="34" source="CrossTab:Header:GRTYPE:34:Sum:" type="Double" />
-            <Field name="35" source="CrossTab:Header:GRTYPE:35:Sum:" type="Double" />
-            <Field name="36" source="CrossTab:Header:GRTYPE:36:Sum:" type="Double" />
-            <Field name="37" source="CrossTab:Header:GRTYPE:37:Sum:" type="Double" />
-            <Field name="40" source="CrossTab:Header:GRTYPE:40:Sum:" type="Double" />
-            <Field name="41" source="CrossTab:Header:GRTYPE:41:Sum:" type="Double" />
-            <Field name="42" source="CrossTab:Header:GRTYPE:42:Sum:" type="Double" />
-            <Field name="43" source="CrossTab:Header:GRTYPE:43:Sum:" type="Double" />
-            <Field name="44" source="CrossTab:Header:GRTYPE:44:Sum:" type="Double" />
-            <Field name="45" source="CrossTab:Header:GRTYPE:45:Sum:" type="Double" />
-            <Field name="46" source="CrossTab:Header:GRTYPE:46:Sum:" type="Double" />
-            <Field name="47" source="CrossTab:Header:GRTYPE:47:Sum:" type="Double" />
-            <Field name="48" source="CrossTab:Header:GRTYPE:48:Sum:" type="Double" />
+            <Field name="10" source="CrossTab:Header:CHRTSTAT:10:Sum:" type="Double" />
+            <Field name="11" source="CrossTab:Header:CHRTSTAT:11:Sum:" type="Double" />
+            <Field name="12" source="CrossTab:Header:CHRTSTAT:12:Sum:" type="Double" />
+            <Field name="13" source="CrossTab:Header:CHRTSTAT:13:Sum:" type="Double" />
+            <Field name="14" source="CrossTab:Header:CHRTSTAT:14:Sum:" type="Double" />
+            <Field name="15" source="CrossTab:Header:CHRTSTAT:15:Sum:" type="Double" />
+            <Field name="16" source="CrossTab:Header:CHRTSTAT:16:Sum:" type="Double" />
+            <Field name="17" source="CrossTab:Header:CHRTSTAT:17:Sum:" type="Double" />
+            <Field name="18" source="CrossTab:Header:CHRTSTAT:18:Sum:" type="Double" />
+            <Field name="19" source="CrossTab:Header:CHRTSTAT:19:Sum:" type="Double" />
+            <Field name="20" source="CrossTab:Header:CHRTSTAT:20:Sum:" type="Double" />
+            <Field name="21" source="CrossTab:Header:CHRTSTAT:21:Sum:" type="Double" />
+            <Field name="22" source="CrossTab:Header:CHRTSTAT:22:Sum:" type="Double" />
+            <Field name="23" source="CrossTab:Header:CHRTSTAT:23:Sum:" type="Double" />
+            <Field name="24" source="CrossTab:Header:CHRTSTAT:24:Sum:" type="Double" />
+            <Field name="31" source="CrossTab:Header:CHRTSTAT:31:Sum:" type="Double" />
+            <Field name="32" source="CrossTab:Header:CHRTSTAT:32:Sum:" type="Double" />
           </RecordInfo>
           <SortInfo>
+            <Field field="COHORT" order="Asc" />
             <Field field="UNITID" order="Asc" />
             <Field field="YEAR" order="Asc" />
             <Field field="Race" order="Asc" />
@@ -1009,11 +996,11 @@ IF !is...</DefaultAnnotationText>
     </Node>
     <Node ToolID="85">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="414" y="1950" />
+        <Position x="42" y="1446" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_c028a321d06145fcbe13e6f9160151a2.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_541af896a11b44d5b5e3ce96676d356c.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1034,7 +1021,7 @@ IF !is...</DefaultAnnotationText>
     </Node>
     <Node ToolID="87">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="786" y="858" />
+        <Position x="438" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1057,7 +1044,7 @@ and
     </Node>
     <Node ToolID="88">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="774" y="1026" />
+        <Position x="426" y="522" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1075,27 +1062,9 @@ and
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
     </Node>
-    <Node ToolID="89">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="498" y="1950" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField field="cohortSize" type="Double" size="8" expression="" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>cohortSize=</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
     <Node ToolID="91">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="450" y="774" />
+        <Position x="102" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1104,7 +1073,6 @@ and
             <SummarizeField field="CHRTSTAT" action="GroupBy" rename="CHRTSTAT" />
             <SummarizeField field="SECTION" action="GroupBy" rename="SECTION" />
             <SummarizeField field="COHORT" action="GroupBy" rename="COHORT" />
-            <SummarizeField field="LINE" action="Longest" rename="Longest_LINE" />
             <SummarizeField field="UNITID" action="Count" rename="Count" />
             <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
           </SummarizeFields>
@@ -1119,7 +1087,7 @@ and
     </Node>
     <Node ToolID="92">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="450" y="870" />
+        <Position x="102" y="366" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1128,7 +1096,6 @@ and
             <Field field="CHRTSTAT" />
             <Field field="SECTION" />
             <Field field="COHORT" />
-            <Field field="Longest_LINE" />
           </GroupFields>
           <HeaderField field="YEAR" />
           <DataField field="Count" />
@@ -1147,14 +1114,17 @@ and
             <Field name="CHRTSTAT" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field name="SECTION" size="254" source="CrossTab:Group:Sum:" type="V_String" />
             <Field name="COHORT" size="254" source="CrossTab:Group:Sum:" type="V_String" />
-            <Field name="Longest_LINE" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="2008" source="CrossTab:Header:YEAR:2008:Sum:" type="Int64" />
+            <Field name="2009" source="CrossTab:Header:YEAR:2009:Sum:" type="Int64" />
+            <Field name="2010" source="CrossTab:Header:YEAR:2010:Sum:" type="Int64" />
+            <Field name="2011" source="CrossTab:Header:YEAR:2011:Sum:" type="Int64" />
+            <Field name="2012" source="CrossTab:Header:YEAR:2012:Sum:" type="Int64" />
           </RecordInfo>
           <SortInfo>
             <Field field="GRTYPE" order="Asc" />
             <Field field="CHRTSTAT" order="Asc" />
             <Field field="SECTION" order="Asc" />
             <Field field="COHORT" order="Asc" />
-            <Field field="Longest_LINE" order="Asc" />
           </SortInfo>
         </MetaInfo>
       </Properties>
@@ -1162,7 +1132,7 @@ and
     </Node>
     <Node ToolID="93">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="450" y="966" />
+        <Position x="102" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1171,16 +1141,15 @@ and
             <Field field="COHORT" order="Ascending" />
             <Field field="CHRTSTAT" order="Ascending" />
             <Field field="GRTYPE" order="Ascending" />
-            <Field field="Longest_LINE" order="Ascending" />
           </SortInfo>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
+          <AnnotationText />
           <DefaultAnnotationText>SECTION - Ascending
 COHORT - Ascending
 CHRTSTAT - Ascending
-GRTYPE - Ascending
-...</DefaultAnnotationText>
+GRTYPE - Ascending</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -1188,11 +1157,11 @@ GRTYPE - Ascending
     </Node>
     <Node ToolID="94">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="450" y="1074" />
+        <Position x="102" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_d8b5f7cd27fa4fd1a4d56b7f677430f1.yxdb</TempFile>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_70546224d23945f5a780988053edf7b8.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1211,9 +1180,31 @@ GRTYPE - Ascending
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="1446" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="revisedCalc" type="Int32" size="4" expression="[12]+[11] //==[10]" />
+            <FormulaField field="revisedCheck" type="Double" size="8" expression="if [10] then [10]-[revisedCalc]&#xA;else null()&#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>revisedCalc=[12]+[11] //==[10]
+revisedCheck=if [10] then [10]-[revisedCalc]
+else null()
+endif</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
     <Node ToolID="73">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="618" y="558" width="141.7032" height="19" />
+        <Position x="270" y="54" width="141.7033" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1231,7 +1222,7 @@ GRTYPE - Ascending
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="678" y="637" />
+            <Position x="330" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1327,7 +1318,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="678" y="745" />
+            <Position x="330" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1346,7 +1337,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="774" y="637" />
+            <Position x="426" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1442,7 +1433,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="774" y="745" />
+            <Position x="426" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1461,7 +1452,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="882" y="637" />
+            <Position x="534" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1616,7 +1607,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="882" y="745" />
+            <Position x="534" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1635,7 +1626,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="990" y="637" />
+            <Position x="642" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1791,7 +1782,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="990" y="745" />
+            <Position x="642" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1810,7 +1801,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1098" y="637" />
+            <Position x="750" y="133" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1966,7 +1957,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="10">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1098" y="745" />
+            <Position x="750" y="241" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1985,7 +1976,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="678" y="829" />
+            <Position x="330" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2003,7 +1994,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="774" y="829" />
+            <Position x="426" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2021,7 +2012,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="882" y="829" />
+            <Position x="534" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2039,7 +2030,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="990" y="829" />
+            <Position x="642" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2057,7 +2048,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1098" y="829" />
+            <Position x="750" y="325" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2077,7 +2068,7 @@ GRTYPE - Ascending
     </Node>
     <Node ToolID="54">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="750" y="1878" width="315.8763" height="421" />
+        <Position x="402" y="1374" width="315.8763" height="421" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2095,7 +2086,7 @@ GRTYPE - Ascending
       <ChildNodes>
         <Node ToolID="45">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="810" y="2012" />
+            <Position x="462" y="1508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2137,11 +2128,11 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="810" y="2180" />
+            <Position x="462" y="1676" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_11ca956fa30a4663a5010ae87f459fba.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_77f97fe9ede341f599fc1002bd72606a.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -2162,7 +2153,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="918" y="2012" />
+            <Position x="570" y="1508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2211,11 +2202,11 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="918" y="2180" />
+            <Position x="570" y="1676" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_1965e7fc8cbe4279913c62ae06fe5a82.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_676c8a743d934ba4a850fdc14f6a794b.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -2236,7 +2227,7 @@ GRTYPE - Ascending
         </Node>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="810" y="2096" />
+            <Position x="462" y="1592" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2259,7 +2250,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="918" y="2096" />
+            <Position x="570" y="1592" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2282,7 +2273,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="846" y="1957" width="100" height="40" />
+            <Position x="498" y="1453" width="100" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2304,7 +2295,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="402" y="1722" width="171.2336" height="19" />
+        <Position x="54" y="1254" width="171.2336" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2322,11 +2313,11 @@ GRTYPE - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="510" y="2010" />
+            <Position x="162" y="1542" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_5576_a9607e673e2a416798ac8185e1cf912b\Engine_8860_0ce75f0818264eb1bd76276b0cbc5f75.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_2120_7792c42e062542449e45501dae605bb2\Engine_6952_ad7a6d63b89f44d7a4549c4b88ba9360.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -2347,7 +2338,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="462" y="1801" />
+            <Position x="114" y="1333" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2368,11 +2359,11 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="462" y="2106" />
+            <Position x="114" y="1638" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_5576_a9607e673e2a416798ac8185e1cf912b\Engine_8860_8332e39b147b4c6d8dd88d23679b49df.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_2120_7792c42e062542449e45501dae605bb2\Engine_6952_fa10849a5a61429bbf45e9c48a376d87.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -2393,7 +2384,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="462" y="2010" />
+            <Position x="114" y="1542" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2433,7 +2424,7 @@ GRTYPE - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="522" y="1801" />
+            <Position x="174" y="1333" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2455,7 +2446,7 @@ and
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="882" y="918" width="120" height="19" />
+        <Position x="534" y="414" width="120" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2473,7 +2464,7 @@ and
       <ChildNodes>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
-            <Position x="1038" y="1321" />
+            <Position x="690" y="817" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2714,7 +2705,7 @@ and
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1038" y="1129" />
+            <Position x="690" y="625" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2858,7 +2849,7 @@ and
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1050" y="1753" />
+            <Position x="702" y="1249" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2883,7 +2874,7 @@ and
         </Node>
         <Node ToolID="21">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1038" y="1417" />
+            <Position x="690" y="913" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2906,7 +2897,7 @@ IF !is...</DefaultAnnotationText>
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="942" y="1513" />
+            <Position x="594" y="1009" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2927,7 +2918,7 @@ IF !is...</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="942" y="1705" />
+            <Position x="594" y="1201" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2952,7 +2943,7 @@ IF !is...</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="941.9999" y="1609" />
+            <Position x="593.9999" y="1105" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2992,7 +2983,7 @@ IF !is...</DefaultAnnotationText>
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1050" y="1225" />
+            <Position x="702" y="721" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3015,7 +3006,7 @@ and
         </Node>
         <Node ToolID="30">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1098" y="997" />
+            <Position x="750" y="493" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3078,7 +3069,7 @@ and
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1038" y="1057" />
+            <Position x="690" y="553" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3170,7 +3161,7 @@ and
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1038" y="1537" />
+            <Position x="690" y="1033" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3192,7 +3183,7 @@ and
     </Node>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1170" y="1763" width="315.8763" height="426" />
+        <Position x="822" y="1259" width="315.8763" height="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3210,7 +3201,7 @@ and
       <ChildNodes>
         <Node ToolID="55">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="1230" y="1902" />
+            <Position x="882" y="1398" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3249,11 +3240,11 @@ and
         </Node>
         <Node ToolID="56">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1230" y="2070" />
+            <Position x="882" y="1566" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_8501f3b092bf4cd1be45a393424f2087.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_c224c91592b8438e8db10a38b75e9e7f.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -3274,7 +3265,7 @@ and
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="1338" y="1902" />
+            <Position x="990" y="1398" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3320,11 +3311,11 @@ and
         </Node>
         <Node ToolID="58">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1338" y="2070" />
+            <Position x="990" y="1566" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7352_cef06adbd34042a88b016e494215387d\Engine_8860_0d5ef267f8bb4eceb41c7ec076a22b04.yxdb</TempFile>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_9116_8b14a2bc0bb1496a8fed1760a8e83991\Engine_6952_bc6d4cebbe5e4b23865fd2631cff3da9.yxdb</TempFile>
               <Layout>
                 <ViewMode>Single</ViewMode>
                 <ViewSize value="100" />
@@ -3345,7 +3336,7 @@ and
         </Node>
         <Node ToolID="59">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1230" y="1986" />
+            <Position x="882" y="1482" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3366,7 +3357,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="60">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1338" y="1986" />
+            <Position x="990" y="1482" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3387,7 +3378,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1266" y="1842" width="100" height="40" />
+            <Position x="918" y="1338" width="100" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3409,7 +3400,7 @@ YEAR - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="990" y="1314" width="142.901" height="19" />
+        <Position x="642" y="810" width="142.901" height="19" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3427,7 +3418,7 @@ YEAR - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="64">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1050" y="1393" />
+            <Position x="702" y="889" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3450,7 +3441,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="65">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1050" y="1489" />
+            <Position x="702" y="985" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3474,7 +3465,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="66">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1050" y="1597" />
+            <Position x="702" y="1093" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3494,7 +3485,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="67">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1050" y="1885" />
+            <Position x="702" y="1381" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3519,7 +3510,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1050" y="1789" />
+            <Position x="702" y="1285" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3537,7 +3528,7 @@ YEAR - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="69">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="1050" y="1693" />
+            <Position x="702" y="1189" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3686,7 +3677,7 @@ YEAR - Ascending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="84" Connection="Output" />
-      <Destination ToolID="89" Connection="Input" />
+      <Destination ToolID="96" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="87" Connection="True" />
