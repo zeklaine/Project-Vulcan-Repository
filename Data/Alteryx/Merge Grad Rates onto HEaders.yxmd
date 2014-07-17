@@ -1,0 +1,2089 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="4.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDS_MASTER_2008-12.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Institution Name" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ADDR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="State Abrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="IPEDS Region_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="OPEFLAG" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="WEBADDR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ADMINURL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CONTROL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="HOSPITAL_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Medical_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Tribal_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Title IV_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Instituton Category_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Landgrant School_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Institution Size_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CBSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CBSATYPE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Zip5" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Zip4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Phone Area" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Phone Exchange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="PhoneDisplay" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Selectivity_Admission Rate" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Selectivity_Test_Scores" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Level_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Phone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Urbanization_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Historically Black_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Binary IC" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Open Admission_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATNUM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATPCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTNUM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTPCT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATVR25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATVR75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATMT25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATMT75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATWR25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="SATWR75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTCM25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTCM75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTEN25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTEN75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTMT25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTMT75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTWR25" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACTWR75" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CALSYS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Binary GR200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Binary EF" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="YEAR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="ACT_CODE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CONF" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Less Than 1Yr Cert_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="One but Less Than 2Yr Cert_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Associates Deg_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Two but Less Than 4Yr Cert_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Deg_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Postbacc Cert_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Masters Deg_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Post-Masters Deg_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Other Deg_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Research/School_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Prof Practice_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Other_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Secondary School GPA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Secondary School Rank" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Secondary School Record" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Recommendations" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Admission Test Scores_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Applicants - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Applicants - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Admissions - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Admissions - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled FT - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled FT - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled PT - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled PT - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Remedial Services_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Academic/Career Counseling_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Employment Services_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Placement Services_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="On-Campus Daycare_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="No Services_code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Applicants Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled Full Time Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Enrolled Part Time Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Revised Bach Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Cohort Exclusions - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Adjusted Bach Cohort - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Number - 100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Percent - 100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Number - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Percent - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Cohort Additional Exclusions - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Adjusted Bach Cohort - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Number - 150 to 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Cohort Still Enrolled - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Number - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Persist Percent - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Revised Cert Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Cohort Exclusions - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Adjusted Cert Cohort - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Number - 100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Percent - 100" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Number - 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Percent 150" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Cohort Additional Exclusions - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Adjusted Cert Cohort - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Number - 150 to 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Cohort Still Enrolled - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Number - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Cert Persist Percent - 200" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="FT First Time UG" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Total Entering Undergrad" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Current Year Cohort Percent of Entering Class" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="FT Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Exclusions from Full Time Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="FT Adjusted Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Retention Number - FT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Retention Percent - FT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="PT Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Exclusions from PT Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Adjusted PT Prev Year Cohort" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Retention Number - PT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Retention Percent - PT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Student/Faculty Ratio" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Admissions Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="State Name" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="IPEDS Region" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Level" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CONTROL_value" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Historically Black" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Medical" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Tribal" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Title IV" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Institution Category" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Landgrant School" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Institution Size" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CBSATYPE_value" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Less Than 1Yr Cert" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="One but Less Than 2Yr Cert" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Associates Deg" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Two but Less Than 4Yr Cert" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Bach Deg" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Postbacc Cert" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Masters Deg" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Post-Masters Deg" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Other Deg" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Research/School" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Prof Practice" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Doctors Deg - Other" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Open Admission" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Admission Test Scores" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Remedial Services" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Academic/Career Counseling" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Employment Services" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Placement Services" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="On-Campus Daycare" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="No Services" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="CALSYS_value" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="prevYearRetentionRate" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="prevYearCohortSize" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="prevYearRetentionNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="admissionRateTotal" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="enrollmentYieldTotal" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="appToEnrollTotal" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="admissionRateMale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="enrollmentYieldMale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="appToEnrollMale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="admissionRateFemale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="enrollmentYieldFemale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+            <Field name="appToEnrollFemale" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_MASTER_2008-12.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDS_GRADRATES_WIDE.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="YEAR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="COHORT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateT_Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateG_Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateG_Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_White" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_Black" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_Asian" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_Hispanic" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_AmInd" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_NatHawaii" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_NonResident" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_2orMore" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+            <Field name="gradRateR_Unknown" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_GRADRATES_WIDE.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="186" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="UNITID" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="UNITID" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_UNITID" selected="True" rename="Right_UNITID" />
+                <SelectField field="Right_YEAR" selected="True" rename="Right_YEAR" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_674cdb3d171d4934a7c6915c5912f494.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="UNITID" action="GroupBy" rename="UNITID" />
+            <SummarizeField field="Admissions Total" action="Sum" rename="Sum_Admissions Total" />
+            <SummarizeField field="Enrolled - Total" action="Sum" rename="Sum_Enrolled - Total" />
+            <SummarizeField field="Bach Persist Number - 150" action="Sum" rename="Sum_Bach Persist Number - 150" />
+            <SummarizeField field="Cert Persist Number - 150" action="Sum" rename="Sum_Cert Persist Number - 150" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="138" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Enrolled - Total" />
+            <Field name="Admissions Total" />
+            <Field name="UNITID" selected="False" />
+            <Field name="Institution Name" selected="False" />
+            <Field name="ADDR" selected="False" />
+            <Field name="CITY" selected="False" />
+            <Field name="State Abrev" selected="False" />
+            <Field name="ZIP" selected="False" />
+            <Field name="FIPS" selected="False" />
+            <Field name="IPEDS Region_code" selected="False" />
+            <Field name="OPEFLAG" selected="False" />
+            <Field name="WEBADDR" selected="False" />
+            <Field name="ADMINURL" selected="False" />
+            <Field name="CONTROL" selected="False" />
+            <Field name="HOSPITAL_code" selected="False" />
+            <Field name="Medical_code" selected="False" />
+            <Field name="Tribal_code" selected="False" />
+            <Field name="Title IV_code" selected="False" />
+            <Field name="Instituton Category_code" selected="False" />
+            <Field name="Landgrant School_code" selected="False" />
+            <Field name="Institution Size_code" selected="False" />
+            <Field name="CBSA" selected="False" />
+            <Field name="CBSATYPE" selected="False" />
+            <Field name="CSA" selected="False" />
+            <Field name="Latitude" selected="False" />
+            <Field name="Zip5" selected="False" />
+            <Field name="Zip4" selected="False" />
+            <Field name="Phone Area" selected="False" />
+            <Field name="Phone Exchange" selected="False" />
+            <Field name="PhoneDisplay" selected="False" />
+            <Field name="Selectivity_Admission Rate" selected="False" />
+            <Field name="Selectivity_Test_Scores" selected="False" />
+            <Field name="Level_code" selected="False" />
+            <Field name="Phone" selected="False" />
+            <Field name="Urbanization_code" selected="False" />
+            <Field name="Longitude" selected="False" />
+            <Field name="Historically Black_code" selected="False" />
+            <Field name="Binary IC" selected="False" />
+            <Field name="Open Admission_code" selected="False" />
+            <Field name="SATNUM" selected="False" />
+            <Field name="SATPCT" selected="False" />
+            <Field name="ACTNUM" selected="False" />
+            <Field name="ACTPCT" selected="False" />
+            <Field name="SATVR25" selected="False" />
+            <Field name="SATVR75" selected="False" />
+            <Field name="SATMT25" selected="False" />
+            <Field name="SATMT75" selected="False" />
+            <Field name="SATWR25" selected="False" />
+            <Field name="SATWR75" selected="False" />
+            <Field name="ACTCM25" selected="False" />
+            <Field name="ACTCM75" selected="False" />
+            <Field name="ACTEN25" selected="False" />
+            <Field name="ACTEN75" selected="False" />
+            <Field name="ACTMT25" selected="False" />
+            <Field name="ACTMT75" selected="False" />
+            <Field name="ACTWR25" selected="False" />
+            <Field name="ACTWR75" selected="False" />
+            <Field name="CALSYS" selected="False" />
+            <Field name="Binary GR200" selected="False" />
+            <Field name="Binary EF" selected="False" />
+            <Field name="YEAR" selected="False" />
+            <Field name="ACT_CODE" selected="False" />
+            <Field name="CONF" selected="False" />
+            <Field name="Less Than 1Yr Cert_code" selected="False" />
+            <Field name="One but Less Than 2Yr Cert_code" selected="False" />
+            <Field name="Associates Deg_code" selected="False" />
+            <Field name="Two but Less Than 4Yr Cert_code" selected="False" />
+            <Field name="Bach Deg_code" selected="False" />
+            <Field name="Postbacc Cert_code" selected="False" />
+            <Field name="Masters Deg_code" selected="False" />
+            <Field name="Post-Masters Deg_code" selected="False" />
+            <Field name="Other Deg_code" selected="False" />
+            <Field name="Doctors Deg - Research/School_code" selected="False" />
+            <Field name="Doctors Deg - Prof Practice_code" selected="False" />
+            <Field name="Doctors Deg - Other_code" selected="False" />
+            <Field name="Secondary School GPA" selected="False" />
+            <Field name="Secondary School Rank" selected="False" />
+            <Field name="Secondary School Record" selected="False" />
+            <Field name="Recommendations" selected="False" />
+            <Field name="Admission Test Scores_code" selected="False" />
+            <Field name="Applicants - Men" selected="False" />
+            <Field name="Applicants - Women" selected="False" />
+            <Field name="Admissions - Men" selected="False" />
+            <Field name="Admissions - Women" selected="False" />
+            <Field name="Enrolled FT - Men" selected="False" />
+            <Field name="Enrolled FT - Women" selected="False" />
+            <Field name="Enrolled PT - Men" selected="False" />
+            <Field name="Enrolled PT - Women" selected="False" />
+            <Field name="Remedial Services_code" selected="False" />
+            <Field name="Academic/Career Counseling_code" selected="False" />
+            <Field name="Employment Services_code" selected="False" />
+            <Field name="Placement Services_code" selected="False" />
+            <Field name="On-Campus Daycare_code" selected="False" />
+            <Field name="No Services_code" selected="False" />
+            <Field name="Enrolled - Men" selected="False" />
+            <Field name="Enrolled - Women" selected="False" />
+            <Field name="Applicants Total" selected="False" />
+            <Field name="Enrolled Full Time Total" selected="False" />
+            <Field name="Enrolled Part Time Total" selected="False" />
+            <Field name="Revised Bach Cohort" selected="False" />
+            <Field name="Bach Cohort Exclusions - 150" selected="False" />
+            <Field name="Adjusted Bach Cohort - 150" selected="False" />
+            <Field name="Bach Persist Number - 100" selected="False" />
+            <Field name="Bach Persist Percent - 100" selected="False" />
+            <Field name="Bach Persist Number - 150" selected="False" />
+            <Field name="Bach Persist Percent - 150" selected="False" />
+            <Field name="Bach Cohort Additional Exclusions - 200" selected="False" />
+            <Field name="Adjusted Bach Cohort - 200" selected="False" />
+            <Field name="Bach Persist Number - 150 to 200" selected="False" />
+            <Field name="Bach Cohort Still Enrolled - 200" selected="False" />
+            <Field name="Bach Persist Number - 200" selected="False" />
+            <Field name="Bach Persist Percent - 200" selected="False" />
+            <Field name="Revised Cert Cohort" selected="False" />
+            <Field name="Cert Cohort Exclusions - 150" selected="False" />
+            <Field name="Adjusted Cert Cohort - 150" selected="False" />
+            <Field name="Cert Persist Number - 100" selected="False" />
+            <Field name="Cert Persist Percent - 100" selected="False" />
+            <Field name="Cert Persist Number - 150" selected="False" />
+            <Field name="Cert Persist Percent 150" selected="False" />
+            <Field name="Cert Cohort Additional Exclusions - 200" selected="False" />
+            <Field name="Adjusted Cert Cohort - 200" selected="False" />
+            <Field name="Cert Persist Number - 150 to 200" selected="False" />
+            <Field name="Cert Cohort Still Enrolled - 200" selected="False" />
+            <Field name="Cert Persist Number - 200" selected="False" />
+            <Field name="Cert Persist Percent - 200" selected="False" />
+            <Field name="FT First Time UG" selected="False" />
+            <Field name="Total Entering Undergrad" selected="False" />
+            <Field name="Current Year Cohort Percent of Entering Class" selected="False" />
+            <Field name="FT Prev Year Cohort" selected="False" />
+            <Field name="Exclusions from Full Time Prev Year Cohort" selected="False" />
+            <Field name="FT Adjusted Prev Year Cohort" selected="False" />
+            <Field name="Retention Number - FT" selected="False" />
+            <Field name="Retention Percent - FT" selected="False" />
+            <Field name="PT Prev Year Cohort" selected="False" />
+            <Field name="Exclusions from PT Prev Year Cohort" selected="False" />
+            <Field name="Adjusted PT Prev Year Cohort" selected="False" />
+            <Field name="Retention Number - PT" selected="False" />
+            <Field name="Retention Percent - PT" selected="False" />
+            <Field name="Student/Faculty Ratio" selected="False" />
+            <Field name="State Name" selected="False" />
+            <Field name="IPEDS Region" selected="False" />
+            <Field name="Level" selected="False" />
+            <Field name="CONTROL_value" selected="False" />
+            <Field name="Historically Black" selected="False" />
+            <Field name="HOSPITAL" selected="False" />
+            <Field name="Medical" selected="False" />
+            <Field name="Tribal" selected="False" />
+            <Field name="Title IV" selected="False" />
+            <Field name="Institution Category" selected="False" />
+            <Field name="Landgrant School" selected="False" />
+            <Field name="Institution Size" selected="False" />
+            <Field name="CBSATYPE_value" selected="False" />
+            <Field name="Less Than 1Yr Cert" selected="False" />
+            <Field name="One but Less Than 2Yr Cert" selected="False" />
+            <Field name="Associates Deg" selected="False" />
+            <Field name="Two but Less Than 4Yr Cert" selected="False" />
+            <Field name="Bach Deg" selected="False" />
+            <Field name="Postbacc Cert" selected="False" />
+            <Field name="Masters Deg" selected="False" />
+            <Field name="Post-Masters Deg" selected="False" />
+            <Field name="Other Deg" selected="False" />
+            <Field name="Doctors Deg - Research/School" selected="False" />
+            <Field name="Doctors Deg - Prof Practice" selected="False" />
+            <Field name="Doctors Deg - Other" selected="False" />
+            <Field name="Open Admission" selected="False" />
+            <Field name="Admission Test Scores" selected="False" />
+            <Field name="Remedial Services" selected="False" />
+            <Field name="Academic/Career Counseling" selected="False" />
+            <Field name="Employment Services" selected="False" />
+            <Field name="Placement Services" selected="False" />
+            <Field name="On-Campus Daycare" selected="False" />
+            <Field name="No Services" selected="False" />
+            <Field name="CALSYS_value" selected="False" />
+            <Field name="Urbanization" selected="False" />
+            <Field name="prevYearRetentionRate" selected="False" />
+            <Field name="prevYearCohortSize" selected="False" />
+            <Field name="prevYearRetentionNumber" selected="False" />
+            <Field name="admissionRateTotal" selected="False" />
+            <Field name="enrollmentYieldTotal" selected="False" />
+            <Field name="appToEnrollTotal" selected="False" />
+            <Field name="admissionRateMale" selected="False" />
+            <Field name="enrollmentYieldMale" selected="False" />
+            <Field name="appToEnrollMale" selected="False" />
+            <Field name="admissionRateFemale" selected="False" />
+            <Field name="enrollmentYieldFemale" selected="False" />
+            <Field name="appToEnrollFemale" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>if isnull([_CurrentField_]) then 0
+else toNumber([_CurrentField_])
+endif</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int32" size="4" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if isnull([_CurrentField_]) then 0
+else toNumber([_CurrentFie...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_af6d33a733b741c8bef772fa920613d4.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="UNITID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="UNITID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_UNITID" selected="False" rename="Right_UNITID" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="606" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDS_HEADERS_MASTER.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="ADDR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="STABBR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="OBEREG" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="OPEFLAG" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="WEBADDR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="ADMINURL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="CONTROL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="MEDICAL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="TRIBAL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="PSET4FLG" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="INSTCAT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="LANDGRNT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="INSTSIZE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="CBSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="CBSATYPE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="CSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="Zip5" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="Zip4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="Phone Area" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="Phone Exchange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="PhoneDisplay" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="ICLEVEL" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="GENTELE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="LOCALE" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="LONGITUD" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+            <Field name="HBCU" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_HEADERS_MASTER.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_b1c2a898aad1431380aac582fe24a5fc.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_2713a0c57c3d4b0097f7d15685fb35de.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_a9ff62c8a04f4160a2a27ce931aca56f.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="594" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>1000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hd2008.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="unitid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="instnm" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="addr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="city" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="stabbr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="zip" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="fips" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="obereg" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="chfnm" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="chftitle" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="gentele" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ein" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="opeid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="opeflag" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="webaddr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="adminurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="faidurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="applurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="sector" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="iclevel" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="control" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="hloffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ugoffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="groffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="fpoffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="hdegoffr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="deggrant" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="hbcu" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="hospital" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="medical" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="tribal" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="locale" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="openpubl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="act" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="newid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="deathyr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="closedat" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="cyactive" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="postsec" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="pseflag" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="pset4flg" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="rptmth" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ialias" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="instcat" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccbasic" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccipug" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccipgrad" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccugprof" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccenrprf" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="ccsizset" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="carnegie" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="tenursys" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="landgrnt" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="instsize" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="cbsa" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="cbsatype" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="csa" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="necta" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2008\hd2008.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="690" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>1000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hd2009.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="unitid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="instnm" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="addr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="city" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="stabbr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="zip" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="fips" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="obereg" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="chfnm" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="chftitle" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="gentele" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ein" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="opeid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="opeflag" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="webaddr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="adminurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="faidurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="applurl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="sector" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="iclevel" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="control" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="hloffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ugoffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="groffer" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="hdegofr1" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="deggrant" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="hbcu" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="hospital" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="medical" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="tribal" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="locale" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="openpubl" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="act" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="newid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="deathyr" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="closedat" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="cyactive" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="postsec" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="pseflag" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="pset4flg" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="rptmth" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ialias" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="instcat" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccbasic" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccipug" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccipgrad" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccugprof" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccenrprf" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="ccsizset" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="carnegie" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="tenursys" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="landgrnt" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="instsize" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="cbsa" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="cbsatype" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="csa" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="necta" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="longitud" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="latitude" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="countycd" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="countynm" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="cngdstcd" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="dfrcgid" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2009\hd2009.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="786" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>1000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hd2010.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="INSTNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="ADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CITY" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="STABBR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="ZIP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="FIPS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="OBEREG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CHFNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CHFTITLE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="GENTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="EIN" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="OPEID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="OPEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="WEBADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="ADMINURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="FAIDURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="APPLURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="SECTOR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="ICLEVEL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CONTROL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="HLOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="UGOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="GROFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="HDEGOFR1" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="DEGGRANT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="HBCU" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="HOSPITAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="MEDICAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="TRIBAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="LOCALE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="OPENPUBL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="ACT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="NEWID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="DEATHYR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CLOSEDAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CYACTIVE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="POSTSEC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="PSEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="PSET4FLG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="RPTMTH" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="IALIAS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="INSTCAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCBASIC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCIPUG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCIPGRAD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCUGPROF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCENRPRF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CCSIZSET" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CARNEGIE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="TENURSYS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="LANDGRNT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="INSTSIZE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CBSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CBSATYPE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="NECTA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="F1SYSTYP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="F1SYSNAM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="FAXTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="COUNTYCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="COUNTYNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="CNGDSTCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="LONGITUD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="LATITUDE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="DFRCGID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2010\hd2010.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="882" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>1000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hd2011.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="INSTNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="ADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CITY" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="STABBR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="ZIP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="FIPS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="OBEREG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CHFNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CHFTITLE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="GENTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="EIN" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="OPEID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="OPEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="WEBADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="ADMINURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="FAIDURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="APPLURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="NPRICURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="SECTOR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="ICLEVEL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CONTROL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="HLOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="UGOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="GROFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="HDEGOFR1" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="DEGGRANT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="HBCU" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="HOSPITAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="MEDICAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="TRIBAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="LOCALE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="OPENPUBL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="ACT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="NEWID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="DEATHYR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CLOSEDAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CYACTIVE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="POSTSEC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="PSEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="PSET4FLG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="RPTMTH" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="IALIAS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="INSTCAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCBASIC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCIPUG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCIPGRAD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCUGPROF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCENRPRF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CCSIZSET" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CARNEGIE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="TENURSYS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="LANDGRNT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="INSTSIZE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CBSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CBSATYPE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="NECTA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="F1SYSTYP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="F1SYSNAM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="FAXTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="COUNTYCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="COUNTYNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="CNGDSTCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="LONGITUD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="LATITUDE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2011\hd2011.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="978" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>1000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hd2012.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="INSTNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="ADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CITY" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="STABBR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="ZIP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="FIPS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="OBEREG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CHFNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CHFTITLE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="GENTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="EIN" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="OPEID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="OPEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="WEBADDR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="ADMINURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="FAIDURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="APPLURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="NPRICURL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="SECTOR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="ICLEVEL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CONTROL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="HLOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="UGOFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="GROFFER" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="HDEGOFR1" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="DEGGRANT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="HBCU" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="HOSPITAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="MEDICAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="TRIBAL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="LOCALE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="OPENPUBL" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="ACT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="NEWID" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="DEATHYR" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CLOSEDAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CYACTIVE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="POSTSEC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="PSEFLAG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="PSET4FLG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="RPTMTH" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="IALIAS" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="INSTCAT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCBASIC" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCIPUG" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCIPGRAD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCUGPROF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCENRPRF" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CCSIZSET" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CARNEGIE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="LANDGRNT" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="INSTSIZE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CBSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CBSATYPE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CSA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="NECTA" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="F1SYSTYP" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="F1SYSNAM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="FAXTELE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="COUNTYCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="COUNTYNM" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="CNGDSTCD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="LONGITUD" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="LATITUDE" size="1000" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\Original IPEDs Data\2012\hd2012.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_81838099e9084494a354aafa3f82e5e9.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="786" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="ccbasic" selected="True" description="2" />
+            <SelectField field="ccipug" selected="True" description="5" />
+            <SelectField field="ccipgrad" selected="True" description="4" />
+            <SelectField field="ccugprof" selected="True" description="7" />
+            <SelectField field="ccenrprf" selected="True" description="3" />
+            <SelectField field="ccsizset" selected="True" description="6" />
+            <SelectField field="carnegie" selected="True" description="1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="unitid" selected="True" />
+            <SelectField field="ccbasic" selected="True" />
+            <SelectField field="ccipug" selected="True" />
+            <SelectField field="ccipgrad" selected="True" />
+            <SelectField field="ccugprof" selected="True" />
+            <SelectField field="ccenrprf" selected="True" />
+            <SelectField field="ccsizset" selected="True" />
+            <SelectField field="carnegie" selected="True" />
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="786" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="unitid" order="Ascending" />
+            <Field field="FileName" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>unitid - Ascending
+FileName - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="882" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="unitid" action="GroupBy" rename="unitid" />
+            <SummarizeField field="ccbasic" action="First" rename="First_ccbasic" />
+            <SummarizeField field="ccipug" action="First" rename="First_ccipug" />
+            <SummarizeField field="ccipgrad" action="First" rename="First_ccipgrad" />
+            <SummarizeField field="ccugprof" action="First" rename="First_ccugprof" />
+            <SummarizeField field="ccenrprf" action="First" rename="First_ccenrprf" />
+            <SummarizeField field="ccsizset" action="First" rename="First_ccsizset" />
+            <SummarizeField field="carnegie" action="First" rename="First_carnegie" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="822" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="UNITID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="unitid" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_unitid" selected="False" rename="Right_unitid" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_1925531186784ee1ba26a0ace5c4e62d.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_b5b4e55d7e7f428daef382fd96962e67.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="906" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_aac5141daa74431dbc0bf9919f674863.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="726" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[PSET4FLG]=='1'
+and
+[INSTCAT] in ('1','2','3','4')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>In / Out</AnnotationText>
+          <DefaultAnnotationText>[PSET4FLG]=='1'
+and
+[INSTCAT] in ('1','2','3','4')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1002" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="unitid" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="unitid" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_unitid" selected="True" rename="Right_unitid" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_f60fbfa55eb94d67a14830e238579bc2.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_23ced38c01a543dcb78f0c9f1c6b2d50.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1086" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_86ddb17fd878486dac3e11818e02fe7c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="186" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!isnull([UNITID])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!isnull([UNITID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="78" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Institution Name" action="GroupBy" rename="Institution Name" />
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="UNITID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="78" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Count" action="GroupBy" rename="Count" />
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="Institution Name" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="78" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Count" />
+          </GroupFields>
+          <HeaderField field="YEAR" />
+          <DataField field="Count2" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Count" source="CrossTab:Group:Sum:" type="Int64" />
+            <Field name="2008" source="CrossTab:Header:YEAR:2008:Sum:" type="Int64" />
+            <Field name="2009" source="CrossTab:Header:YEAR:2009:Sum:" type="Int64" />
+            <Field name="2010" source="CrossTab:Header:YEAR:2010:Sum:" type="Int64" />
+            <Field name="2011" source="CrossTab:Header:YEAR:2011:Sum:" type="Int64" />
+            <Field name="2012" source="CrossTab:Header:YEAR:2012:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Count" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="78" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_b138181e073749cba16d93af90403917.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Institution Name" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Institution Name" />
+            <Field field="YEAR" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Institution Name" selected="True" rename="Right_Institution Name" />
+                <SelectField field="Right_YEAR" selected="True" rename="Right_YEAR" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="150" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Count]&gt;1</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Count]&gt;1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="126" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_4f351f91c65e42cbae93b73fd285b988.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_e9266d21221c4588805fd121c5b694c1.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_d4f26a959bfb422399a04459796caa7d.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="210" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Institution Name" order="Ascending" />
+            <Field field="UNITID" order="Ascending" />
+            <Field field="YEAR" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Institution Name - Ascending
+UNITID - Ascending
+YEAR - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="294" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Institution Name" action="GroupBy" rename="Institution Name" />
+            <SummarizeField field="UNITID" action="First" rename="First_UNITID" />
+            <SummarizeField field="CITY" action="First" rename="First_CITY" />
+            <SummarizeField field="State Abrev" action="First" rename="First_State Abrev" />
+            <SummarizeField field="UNITID" action="Last" rename="Last_UNITID" />
+            <SummarizeField field="CITY" action="Last" rename="Last_CITY" />
+            <SummarizeField field="State Abrev" action="Last" rename="Last_State Abrev" />
+            <SummarizeField field="Institution Name" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="1170" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_7324_e395080ca22c48f98d077ea519115f43\Engine_2628_de19e6ab1da24360a9e2d5fed47ac75c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="44" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="True" />
+      <Destination ToolID="44" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Left" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Right" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Right" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Left" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Right" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Left" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Right" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Left" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Right" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Join" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Vertical</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>repoRoot</Name>
+        <Value>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Merge Grad Rates onto HEaders</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
