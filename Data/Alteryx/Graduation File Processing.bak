@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%User.repoRoot%\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IPEDS_RACE_2008-12.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Cohort Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Cohort Status" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Grand Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Total - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Total - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="American Indian - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="American Indian - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="American Indian - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Asian - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Asian - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Asian - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Black - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Black - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Black - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Hispanic - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Hispanic - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Hispanic - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Pacific Islander - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Pacific Islander - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Pacific Islander - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="White - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="White - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="White - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Multirace - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Multirace - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Multirace - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Unknown Race - Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Unknown Race - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Unknown Race - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Nonresident Total" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Nonresident - Men" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="Nonresident - Women" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+            <Field name="YEAR" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\IPEDS\IPEDs Subset\IPEDS_RACE_2008-12.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="cohortDesc" type="String" size="64" expression="if [Cohort Type] == '8' then 'BACH DEG DENOM'&#xA;elseif [Cohort Type] == '13' then 'BACH DEG NUMER 4'&#xA;elseif [Cohort Type] == '14' then 'BACH DEG NUMER 5'&#xA;elseif [Cohort Type] == '15' then 'BACH DEG NUMER 6'&#xA;elseif [Cohort Type] == '29' then 'ASSOC DEG DENOM'&#xA;elseif [Cohort Type] == '30' then 'ASSOC DEG NUMER 3'&#xA;elseif [Cohort Type] == '35' then 'ASSOC DEG NUMER 2'&#xA;else Null()&#xA;endif" />
+            <FormulaField field="cohortDegree" type="String" size="64" expression="if [Cohort Type] == '8' then 'BACH'&#xA;elseif [Cohort Type] == '13' then 'BACH'&#xA;elseif [Cohort Type] == '14' then 'BACH'&#xA;elseif [Cohort Type] == '15' then 'BACH'&#xA;elseif [Cohort Type] == '29' then 'ASSOC'&#xA;elseif [Cohort Type] == '30' then 'ASSOC'&#xA;elseif [Cohort Type] == '35' then 'ASSOC'&#xA;else Null()&#xA;endif" />
+            <FormulaField field="dYear" type="Double" size="8" expression="if [Cohort Type] == '8' then -6&#xA;elseif [Cohort Type] == '13' then -6&#xA;elseif [Cohort Type] == '14' then -6&#xA;elseif [Cohort Type] == '15' then -6&#xA;elseif [Cohort Type] == '29' then -3&#xA;elseif [Cohort Type] == '30' then -3&#xA;elseif [Cohort Type] == '35' then -3&#xA;else Null()&#xA;endif" />
+            <FormulaField field="describedYear" type="Int16" size="2" expression="toNumber(YEAR) + dYear" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cohortDesc=if [Cohort Type] == '8' then 'BACH DEG DENOM'
+else...
+cohortDegree=if [Cohort Type] == '8' then 'BACH'
+elseif [Coho...
+dYear=if [Cohort Type] == '8' then -6
+elseif [Cohort Type] ==...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="618" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!isNull([cohortDesc])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!isNull([cohortDesc])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_be584783336040d89d6855d253f58d5d.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Arrange.Arrange">
+        <Position x="726" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <KeyFields orderChanged="False">
+            <Field name="UNITID" />
+            <Field name="Cohort Type" />
+            <Field name="Grand Total" />
+            <Field name="YEAR" />
+            <Field name="cohortDesc" />
+            <Field name="cohortDegree" />
+            <Field name="dYear" />
+            <Field name="describedYear" />
+          </KeyFields>
+          <OutputFields>
+            <Columns>
+              <Column name="Race/Ethnicity" type="text" context="Take from Descriptions" />
+              <Column name="Total" type="combobox" />
+              <Column name="TotalType" type="text" context="Take from Descriptions" />
+              <Column name="Men" type="combobox" />
+              <Column name="Women" type="combobox" />
+              <Column name="CohortGrandTotal" type="combobox" />
+            </Columns>
+            <Data>
+              <r>
+                <c />
+                <c>Grand Total</c>
+                <c>Total</c>
+                <c>Total - Men</c>
+                <c>Total - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>American Indian</c>
+                <c>American Indian - Total</c>
+                <c />
+                <c>American Indian - Men</c>
+                <c>American Indian - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Asian</c>
+                <c>Asian - Total</c>
+                <c />
+                <c>Asian - Men</c>
+                <c>Asian - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Black</c>
+                <c>Black - Total</c>
+                <c />
+                <c>Black - Men</c>
+                <c>Black - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Hispanic</c>
+                <c>Hispanic - Total</c>
+                <c />
+                <c>Hispanic - Men</c>
+                <c>Hispanic - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Pacific Islander</c>
+                <c>Pacific Islander - Total</c>
+                <c />
+                <c>Pacific Islander - Men</c>
+                <c>Pacific Islander - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>White</c>
+                <c>White - Total</c>
+                <c />
+                <c>White - Men</c>
+                <c>White - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Multirace</c>
+                <c>Multirace - Total</c>
+                <c />
+                <c>Multirace - Men</c>
+                <c>Multirace - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Unknown</c>
+                <c>Unknown Race - Total</c>
+                <c />
+                <c>Unknown Race - Men</c>
+                <c>Unknown Race - Women</c>
+                <c>Grand Total</c>
+              </r>
+              <r>
+                <c>Nonresident</c>
+                <c>Nonresident Total</c>
+                <c />
+                <c>Nonresident - Men</c>
+                <c>Nonresident - Women</c>
+                <c>Grand Total</c>
+              </r>
+            </Data>
+          </OutputFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxArrange" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_6792bb882dc643858127b5efd109224d.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="930" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[TotalType]=='Total'
+and
+[Cohort Type] in ('8', '29')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TotalType]=='Total'
+and
+[Cohort Type] in ('8', '29')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="834" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="noGender_subtotal" type="Int32" size="4" expression="[Men]+[Women]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>noGender_subtotal=[Men]+[Women]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="366" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Grand Total" />
+            <Field name="Total - Men" />
+            <Field name="Total - Women" />
+            <Field name="American Indian - Total" />
+            <Field name="American Indian - Men" />
+            <Field name="American Indian - Women" />
+            <Field name="Asian - Total" />
+            <Field name="Asian - Men" />
+            <Field name="Asian - Women" />
+            <Field name="Black - Total" />
+            <Field name="Black - Men" />
+            <Field name="Black - Women" />
+            <Field name="Hispanic - Total" />
+            <Field name="Hispanic - Men" />
+            <Field name="Hispanic - Women" />
+            <Field name="Pacific Islander - Total" />
+            <Field name="Pacific Islander - Men" />
+            <Field name="Pacific Islander - Women" />
+            <Field name="White - Total" />
+            <Field name="White - Men" />
+            <Field name="White - Women" />
+            <Field name="Multirace - Total" />
+            <Field name="Multirace - Men" />
+            <Field name="Multirace - Women" />
+            <Field name="Unknown Race - Total" />
+            <Field name="Unknown Race - Men" />
+            <Field name="Unknown Race - Women" />
+            <Field name="Nonresident Total" />
+            <Field name="Nonresident - Men" />
+            <Field name="Nonresident - Women" />
+            <Field name="UNITID" selected="False" />
+            <Field name="Cohort Type" selected="False" />
+            <Field name="Cohort Status" selected="False" />
+            <Field name="YEAR" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>toNumber([_CurrentField_])</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int32" size="4" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>toNumber([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1074" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="UNITID" />
+            <Field field="describedYear" />
+            <Field field="cohortDegree" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="UNITID" />
+            <Field field="describedYear" />
+            <Field field="cohortDegree" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_UNITID" selected="True" rename="Right_UNITID" />
+                <SelectField field="Right_Cohort Type" selected="True" rename="Right_Cohort Type" />
+                <SelectField field="Right_Grand Total" selected="True" rename="Right_Grand Total" />
+                <SelectField field="Right_YEAR" selected="True" rename="Right_YEAR" />
+                <SelectField field="Right_cohortDesc" selected="True" rename="Right_cohortDesc" />
+                <SelectField field="Right_cohortDegree" selected="True" rename="Right_cohortDegree" />
+                <SelectField field="Right_dYear" selected="True" rename="Right_dYear" />
+                <SelectField field="Right_describedYear" selected="True" rename="Right_describedYear" />
+                <SelectField field="Right_Race/Ethnicity" selected="True" rename="Right_Race/Ethnicity" />
+                <SelectField field="Right_Total" selected="True" rename="Right_Total" />
+                <SelectField field="Right_TotalType" selected="True" rename="Right_TotalType" />
+                <SelectField field="Right_Men" selected="True" rename="Right_Men" />
+                <SelectField field="Right_Women" selected="True" rename="Right_Women" />
+                <SelectField field="Right_CohortGrandTotal" selected="True" rename="Right_CohortGrandTotal" />
+                <SelectField field="Right_noGender_subtotal" selected="True" rename="Right_noGender_subtotal" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1314" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_82608524ba2048638ec1b84e87183c32.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_030e82121ccb4be89a3f467734482d2c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1218" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="cohortDegree" action="GroupBy" rename="cohortDegree" />
+            <SummarizeField field="describedYear" action="GroupBy" rename="describedYear" />
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="UNITID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_a229e557bf1849f39bd30cd2c81759b4.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_e1cc4d0068474d08837c8b41ee7b6e87.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1218" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="UNITID" selected="True" />
+            <SelectField field="cohortDesc" selected="True" rename="LEFT_DATA" />
+            <SelectField field="Right_cohortDesc" selected="True" rename="RIGHT_DATA" />
+            <SelectField field="Grand Total" selected="True" />
+            <SelectField field="Right_Grand Total" selected="True" />
+            <SelectField field="dYear" selected="False" />
+            <SelectField field="Race/Ethnicity" selected="True" />
+            <SelectField field="Total" selected="True" rename="COHORT_TOTAL" />
+            <SelectField field="Right_Total" selected="True" rename="GRAD_TOTAL" />
+            <SelectField field="Men" selected="True" rename="COHORT_MEN" />
+            <SelectField field="Right_Men" selected="True" rename="GRAD_MEN" />
+            <SelectField field="Women" selected="True" rename="COHORT_WOMEN" />
+            <SelectField field="Right_Women" selected="True" rename="GRAD_WOMEN" />
+            <SelectField field="CohortGrandTotal" selected="True" />
+            <SelectField field="Right_CohortGrandTotal" selected="True" />
+            <SelectField field="noGender_subtotal" selected="True" />
+            <SelectField field="Right_noGender_subtotal" selected="True" />
+            <SelectField field="TotalType" selected="True" />
+            <SelectField field="Right_TotalType" selected="True" />
+            <SelectField field="Right_UNITID" selected="False" />
+            <SelectField field="Right_YEAR" selected="False" />
+            <SelectField field="Right_cohortDegree" selected="False" />
+            <SelectField field="Right_dYear" selected="False" />
+            <SelectField field="Right_describedYear" selected="False" />
+            <SelectField field="Right_Race/Ethnicity" selected="True" />
+            <SelectField field="Cohort Type" selected="True" rename="LEFT_COHORTTYPE" />
+            <SelectField field="Right_Cohort Type" selected="True" rename="RIGHT_COHORTTYPE" />
+            <SelectField field="cohortDegree" selected="True" />
+            <SelectField field="describedYear" selected="True" />
+            <SelectField field="YEAR" selected="True" rename="reportedYear" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1362" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LEFT_DATA" action="GroupBy" rename="LEFT_DATA" />
+            <SummarizeField field="RIGHT_DATA" action="GroupBy" rename="RIGHT_DATA" />
+            <SummarizeField field="Race/Ethnicity" action="GroupBy" rename="Race/Ethnicity" />
+            <SummarizeField field="Right_Race/Ethnicity" action="GroupBy" rename="Right_Race/Ethnicity" />
+            <SummarizeField field="TotalType" action="GroupBy" rename="TotalType" />
+            <SummarizeField field="Right_TotalType" action="GroupBy" rename="Right_TotalType" />
+            <SummarizeField field="LEFT_COHORTTYPE" action="GroupBy" rename="LEFT_COHORTTYPE" />
+            <SummarizeField field="RIGHT_COHORTTYPE" action="GroupBy" rename="RIGHT_COHORTTYPE" />
+            <SummarizeField field="cohortDegree" action="GroupBy" rename="cohortDegree" />
+            <SummarizeField field="describedYear" action="GroupBy" rename="describedYear" />
+            <SummarizeField field="reportedYear" action="GroupBy" rename="reportedYear" />
+            <SummarizeField field="UNITID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1602" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_908f1bf2cfcb447992d15693c5b54a59.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1482" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="UNITID" />
+            <Field field="RIGHT_DATA" />
+            <Field field="Race/Ethnicity" />
+            <Field field="TotalType" />
+            <Field field="Right_TotalType" />
+            <Field field="Right_Race/Ethnicity" />
+            <Field field="LEFT_COHORTTYPE" />
+            <Field field="RIGHT_COHORTTYPE" />
+            <Field field="cohortDegree" />
+            <Field field="describedYear" />
+            <Field field="reportedYear" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Sum" />
+            <Method method="Count" />
+            <Method method="First" />
+            <Method method="Last" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNITID" size="254" source="CrossTab:Group:Sum:Count:First:Last:" type="V_String" />
+            <Field name="RIGHT_DATA" size="64" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="Race/Ethnicity" size="16" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="TotalType" size="5" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="Right_TotalType" size="5" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="Right_Race/Ethnicity" size="16" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="LEFT_COHORTTYPE" size="254" source="CrossTab:Group:Sum:Count:First:Last:" type="V_String" />
+            <Field name="RIGHT_COHORTTYPE" size="254" source="CrossTab:Group:Sum:Count:First:Last:" type="V_String" />
+            <Field name="cohortDegree" size="64" source="CrossTab:Group:Sum:Count:First:Last:" type="String" />
+            <Field name="describedYear" source="CrossTab:Group:Sum:Count:First:Last:" type="Int16" />
+            <Field name="reportedYear" size="254" source="CrossTab:Group:Sum:Count:First:Last:" type="V_String" />
+            <Field name="Sum_Grand_Total" source="CrossTab:Header:Name:Grand Total:Sum:" type="Int64" />
+            <Field name="Count_Grand_Total" source="CrossTab:Header:Name:Grand Total:Count:" type="Double" />
+            <Field name="First_Grand_Total" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_Grand_Total" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_Right_Grand_Total" source="CrossTab:Header:Name:Right_Grand Total:Sum:" type="Int64" />
+            <Field name="Count_Right_Grand_Total" source="CrossTab:Header:Name:Right_Grand Total:Count:" type="Double" />
+            <Field name="First_Right_Grand_Total" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_Right_Grand_Total" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_COHORT_TOTAL" source="CrossTab:Header:Name:COHORT_TOTAL:Sum:" type="Int64" />
+            <Field name="Count_COHORT_TOTAL" source="CrossTab:Header:Name:COHORT_TOTAL:Count:" type="Double" />
+            <Field name="First_COHORT_TOTAL" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_COHORT_TOTAL" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_GRAD_TOTAL" source="CrossTab:Header:Name:GRAD_TOTAL:Sum:" type="Int64" />
+            <Field name="Count_GRAD_TOTAL" source="CrossTab:Header:Name:GRAD_TOTAL:Count:" type="Double" />
+            <Field name="First_GRAD_TOTAL" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_GRAD_TOTAL" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_COHORT_MEN" source="CrossTab:Header:Name:COHORT_MEN:Sum:" type="Int64" />
+            <Field name="Count_COHORT_MEN" source="CrossTab:Header:Name:COHORT_MEN:Count:" type="Double" />
+            <Field name="First_COHORT_MEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_COHORT_MEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_GRAD_MEN" source="CrossTab:Header:Name:GRAD_MEN:Sum:" type="Int64" />
+            <Field name="Count_GRAD_MEN" source="CrossTab:Header:Name:GRAD_MEN:Count:" type="Double" />
+            <Field name="First_GRAD_MEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_GRAD_MEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_COHORT_WOMEN" source="CrossTab:Header:Name:COHORT_WOMEN:Sum:" type="Int64" />
+            <Field name="Count_COHORT_WOMEN" source="CrossTab:Header:Name:COHORT_WOMEN:Count:" type="Double" />
+            <Field name="First_COHORT_WOMEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_COHORT_WOMEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_GRAD_WOMEN" source="CrossTab:Header:Name:GRAD_WOMEN:Sum:" type="Int64" />
+            <Field name="Count_GRAD_WOMEN" source="CrossTab:Header:Name:GRAD_WOMEN:Count:" type="Double" />
+            <Field name="First_GRAD_WOMEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_GRAD_WOMEN" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_CohortGrandTotal" source="CrossTab:Header:Name:CohortGrandTotal:Sum:" type="Int64" />
+            <Field name="Count_CohortGrandTotal" source="CrossTab:Header:Name:CohortGrandTotal:Count:" type="Double" />
+            <Field name="First_CohortGrandTotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_CohortGrandTotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_Right_CohortGrandTotal" source="CrossTab:Header:Name:Right_CohortGrandTotal:Sum:" type="Int64" />
+            <Field name="Count_Right_CohortGrandTotal" source="CrossTab:Header:Name:Right_CohortGrandTotal:Count:" type="Double" />
+            <Field name="First_Right_CohortGrandTotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_Right_CohortGrandTotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_noGender_subtotal" source="CrossTab:Header:Name:noGender_subtotal:Sum:" type="Int64" />
+            <Field name="Count_noGender_subtotal" source="CrossTab:Header:Name:noGender_subtotal:Count:" type="Double" />
+            <Field name="First_noGender_subtotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_noGender_subtotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Sum_Right_noGender_subtotal" source="CrossTab:Header:Name:Right_noGender_subtotal:Sum:" type="Int64" />
+            <Field name="Count_Right_noGender_subtotal" source="CrossTab:Header:Name:Right_noGender_subtotal:Count:" type="Double" />
+            <Field name="First_Right_noGender_subtotal" source="Formula: (Multiple Sources)" type="Int32" />
+            <Field name="Last_Right_noGender_subtotal" source="Formula: (Multiple Sources)" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="UNITID" order="Asc" />
+            <Field field="RIGHT_DATA" order="Asc" />
+            <Field field="Race/Ethnicity" order="Asc" />
+            <Field field="TotalType" order="Asc" />
+            <Field field="Right_TotalType" order="Asc" />
+            <Field field="Right_Race/Ethnicity" order="Asc" />
+            <Field field="LEFT_COHORTTYPE" order="Asc" />
+            <Field field="RIGHT_COHORTTYPE" order="Asc" />
+            <Field field="cohortDegree" order="Asc" />
+            <Field field="describedYear" order="Asc" />
+            <Field field="reportedYear" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1314" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4156_d286ba8ab3644cf5b4067fffb1d7f4ec\Engine_5996_2ac92d5ad1fd4b5295ee3a7bae2d913e.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1362" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="UNITID" />
+            <Field field="LEFT_DATA" />
+            <Field field="RIGHT_DATA" />
+            <Field field="Race/Ethnicity" />
+            <Field field="TotalType" />
+            <Field field="Right_TotalType" />
+            <Field field="Right_Race/Ethnicity" />
+            <Field field="LEFT_COHORTTYPE" />
+            <Field field="RIGHT_COHORTTYPE" />
+            <Field field="cohortDegree" />
+            <Field field="describedYear" />
+            <Field field="reportedYear" />
+          </KeyFields>
+          <DataFields>
+            <Field field="UNITID" selected="False" />
+            <Field field="LEFT_DATA" selected="False" />
+            <Field field="RIGHT_DATA" selected="False" />
+            <Field field="Grand Total" selected="True" />
+            <Field field="Right_Grand Total" selected="True" />
+            <Field field="Race/Ethnicity" selected="False" />
+            <Field field="COHORT_TOTAL" selected="True" />
+            <Field field="GRAD_TOTAL" selected="True" />
+            <Field field="COHORT_MEN" selected="True" />
+            <Field field="GRAD_MEN" selected="True" />
+            <Field field="COHORT_WOMEN" selected="True" />
+            <Field field="GRAD_WOMEN" selected="True" />
+            <Field field="CohortGrandTotal" selected="True" />
+            <Field field="Right_CohortGrandTotal" selected="True" />
+            <Field field="noGender_subtotal" selected="True" />
+            <Field field="Right_noGender_subtotal" selected="True" />
+            <Field field="TotalType" selected="False" />
+            <Field field="Right_TotalType" selected="False" />
+            <Field field="Right_Race/Ethnicity" selected="False" />
+            <Field field="LEFT_COHORTTYPE" selected="False" />
+            <Field field="RIGHT_COHORTTYPE" selected="False" />
+            <Field field="cohortDegree" selected="False" />
+            <Field field="describedYear" selected="False" />
+            <Field field="reportedYear" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="822" y="666" width="120" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Transpose</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1230" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4160_68dd098cccc14ba383cd37a3c40ba0c8\Engine_5996_24fd2cb02d5642079643461021fcbd8a.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1050" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="UNITID" order="Ascending" />
+                <Field field="cohortDesc" order="Ascending" />
+                <Field field="Race/Ethnicity" order="Ascending" />
+                <Field field="YEAR" order="Descending" />
+                <Field field="dYear" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>UNITID - Ascending
+cohortDesc - Ascending
+Race/Ethnicity - Ascending
+YEAR - Descending
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1146" y="973" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="UNITID" />
+                <Field field="Grand Total" />
+                <Field field="YEAR" />
+                <Field field="cohortDesc" />
+                <Field field="cohortDegree" />
+                <Field field="dYear" />
+                <Field field="describedYear" />
+                <Field field="Race/Ethnicity" />
+                <Field field="TotalType" />
+                <Field field="CohortGrandTotal" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNITID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="Grand Total" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="YEAR" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="cohortDesc" size="64" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="cohortDegree" size="64" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="dYear" source="CrossTab:Group:Sum:" type="Double" />
+                <Field name="describedYear" source="CrossTab:Group:Sum:" type="Int16" />
+                <Field name="Race/Ethnicity" size="16" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="TotalType" size="5" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="CohortGrandTotal" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="Total" source="CrossTab:Header:Name:Total:Sum:" type="Int64" />
+                <Field name="Men" source="CrossTab:Header:Name:Men:Sum:" type="Int64" />
+                <Field name="Women" source="CrossTab:Header:Name:Women:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="UNITID" order="Asc" />
+                <Field field="Grand Total" order="Asc" />
+                <Field field="YEAR" order="Asc" />
+                <Field field="cohortDesc" order="Asc" />
+                <Field field="cohortDegree" order="Asc" />
+                <Field field="dYear" order="Asc" />
+                <Field field="describedYear" order="Asc" />
+                <Field field="Race/Ethnicity" order="Asc" />
+                <Field field="TotalType" order="Asc" />
+                <Field field="CohortGrandTotal" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1146" y="901" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4160_68dd098cccc14ba383cd37a3c40ba0c8\Engine_5996_5a47bc37cb37407e8a1efa8ab8b31bee.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="882" y="841" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="UNITID" />
+                <Field field="Cohort Type" />
+                <Field field="Grand Total" />
+                <Field field="YEAR" />
+                <Field field="cohortDesc" />
+                <Field field="cohortDegree" />
+                <Field field="dYear" />
+                <Field field="describedYear" />
+                <Field field="Race/Ethnicity" />
+                <Field field="TotalType" />
+                <Field field="CohortGrandTotal" />
+              </KeyFields>
+              <DataFields>
+                <Field field="UNITID" selected="False" />
+                <Field field="Cohort Type" selected="False" />
+                <Field field="Grand Total" selected="False" />
+                <Field field="YEAR" selected="False" />
+                <Field field="cohortDesc" selected="False" />
+                <Field field="cohortDegree" selected="False" />
+                <Field field="dYear" selected="False" />
+                <Field field="describedYear" selected="False" />
+                <Field field="Race/Ethnicity" selected="False" />
+                <Field field="Total" selected="True" />
+                <Field field="TotalType" selected="False" />
+                <Field field="Men" selected="True" />
+                <Field field="Women" selected="True" />
+                <Field field="CohortGrandTotal" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="882" y="745" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="UNITID" />
+                <Field field="Grand Total" />
+                <Field field="YEAR" />
+                <Field field="cohortDegree" />
+                <Field field="dYear" />
+                <Field field="describedYear" />
+                <Field field="Race/Ethnicity" />
+                <Field field="TotalType" />
+                <Field field="CohortGrandTotal" />
+              </GroupFields>
+              <HeaderField field="Cohort Type" />
+              <DataField field="Total" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNITID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="Grand Total" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="YEAR" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="cohortDegree" size="64" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="dYear" source="CrossTab:Group:Sum:" type="Double" />
+                <Field name="describedYear" source="CrossTab:Group:Sum:" type="Int16" />
+                <Field name="Race/Ethnicity" size="16" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="TotalType" size="5" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="CohortGrandTotal" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="8" source="CrossTab:Header:Cohort Type:8:Sum:" type="Int64" />
+                <Field name="13" source="CrossTab:Header:Cohort Type:13:Sum:" type="Int64" />
+                <Field name="14" source="CrossTab:Header:Cohort Type:14:Sum:" type="Int64" />
+                <Field name="15" source="CrossTab:Header:Cohort Type:15:Sum:" type="Int64" />
+                <Field name="29" source="CrossTab:Header:Cohort Type:29:Sum:" type="Int64" />
+                <Field name="30" source="CrossTab:Header:Cohort Type:30:Sum:" type="Int64" />
+                <Field name="35" source="CrossTab:Header:Cohort Type:35:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="UNITID" order="Asc" />
+                <Field field="Grand Total" order="Asc" />
+                <Field field="YEAR" order="Asc" />
+                <Field field="cohortDegree" order="Asc" />
+                <Field field="dYear" order="Asc" />
+                <Field field="describedYear" order="Asc" />
+                <Field field="Race/Ethnicity" order="Asc" />
+                <Field field="TotalType" order="Asc" />
+                <Field field="CohortGrandTotal" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="978" y="745" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_4160_68dd098cccc14ba383cd37a3c40ba0c8\Engine_5996_01011762f4954a2bbd06bc71be4711f8.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="False" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Right" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Left" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>repoRoot</Name>
+        <Value>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Graduation File Processing</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

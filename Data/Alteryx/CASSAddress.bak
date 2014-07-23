@@ -1,0 +1,1073 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="140" y="121" width="763" height="429.8516" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>CASS_Address</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="150" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv</File>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 1_1000.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1_1000.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="210" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv</File>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 1k_2k.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 1k_2k.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="270" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv</File>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 2k_3k.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 2k_3k.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="330" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv</File>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 3k_4k.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 3k_4k.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="390" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File>C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv</File>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 4k_5k.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 4k_5k.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="450" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Geocode Results Universities 5k_6k.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Results" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="RecordNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="UNITID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="INSTNM" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_GeoLevel" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MatchStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_Score" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_FirstLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Address" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_DeliveryPointCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_ErrorCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_LastLine" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Plus4" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_State" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_StatusCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_ZIP" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Census_BLOCK" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Census_ID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Census_TRACT" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_County_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Latitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Longitude" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Match_Code" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_Record_Type" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="Z9_State_FIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_City" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_Province" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_PostalCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_HouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_UnitDesignator" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_UnitNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_StateAbbrev" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_CensusId" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_ClusterLevelID" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingHouseNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPreType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_IntersectingStreetPostDir" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFPreDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFStreetNameChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPreChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFStreetPostChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFPostDirChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFUnitDesAssumed" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFAddNumberOutOfRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFAddLetterMovedToUnitNum" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFEvenOddAddDiffer" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedCity" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedState" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFSuppliedPostCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFCityChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFStateChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFPostCodeChanged" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="GEO_MFUsedCityAlias" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_AddressRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_AddressTypeString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CityAbbreviation" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CMRA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CongressionalDistrict" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CountyFIPS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_CountyName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_ErrorString" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_EWSFlag" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_LACS" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_MSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PMSA" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PostDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PreDirection" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailbox" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_PrivateMailboxNumber" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_StreetName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Suffix" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Suite" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_SuiteName" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_SuiteRange" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_SuiteStatus" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_TimeZone" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_TimeZoneCode" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_Urbanization" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+                <Field name="CASS_ZIPType" size="254" source="File: C:\Users\edwardsd\Documents\GitHub\Project-Vulcan-Repository\Data\Alteryx\Geocode Results Universities 5k_6k.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="534" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="618" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="GEO_MFStreetPreChanged" selected="False" />
+                <SelectField field="GEO_MFPostDirChanged" selected="False" />
+                <SelectField field="GEO_IntersectingStreetPostType" selected="False" />
+                <SelectField field="GEO_MFAddNumberOutOfRange" selected="False" />
+                <SelectField field="GEO_LastLine" selected="False" />
+                <SelectField field="GEO_MFPreDirChanged" selected="False" />
+                <SelectField field="GEO_IntersectingStreetPostDir" selected="False" />
+                <SelectField field="GEO_MFSuppliedCity" selected="False" />
+                <SelectField field="GEO_MFStreetPostChanged" selected="False" />
+                <SelectField field="GEO_MFEvenOddAddDiffer" selected="False" />
+                <SelectField field="GEO_MFStreetNameChanged" selected="False" />
+                <SelectField field="GEO_MFCityChanged" selected="False" />
+                <SelectField field="GEO_IntersectingHouseNumber" selected="False" />
+                <SelectField field="GEO_PostalCode" selected="False" />
+                <SelectField field="Z9_State_FIPS" selected="False" />
+                <SelectField field="GEO_CensusId" selected="False" />
+                <SelectField field="Zip" selected="False" />
+                <SelectField field="GEO_IntersectingStreetPreDir" selected="False" />
+                <SelectField field="GEO_MFAddLetterMovedToUnitNum" selected="False" />
+                <SelectField field="GEO_StreetPostType" selected="False" />
+                <SelectField field="GEO_MatchStatus" selected="False" />
+                <SelectField field="GEO_IntersectingStreetPreType" selected="False" />
+                <SelectField field="GEO_GeoLevel" selected="False" />
+                <SelectField field="GEO_MFSuppliedPostCode" selected="False" />
+                <SelectField field="GEO_UnitDesignator" selected="False" />
+                <SelectField field="Z9_Census_BLOCK" selected="False" />
+                <SelectField field="GEO_StreetPreType" selected="False" />
+                <SelectField field="CASS_ErrorString" selected="False" />
+                <SelectField field="GEO_MFUsedCityAlias" selected="False" />
+                <SelectField field="Z9_Census_ID" selected="False" />
+                <SelectField field="Z9_Longitude" selected="False" />
+                <SelectField field="GEO_UnitNumber" selected="False" />
+                <SelectField field="Z9_Latitude" selected="False" />
+                <SelectField field="Z9_Census_TRACT" selected="False" />
+                <SelectField field="GEO_StreetPreDir" selected="False" />
+                <SelectField field="CASS_LACS" selected="False" />
+                <SelectField field="Z9_County_FIPS" selected="False" />
+                <SelectField field="GEO_HouseNumber" selected="False" />
+                <SelectField field="GEO_Score" selected="False" />
+                <SelectField field="GEO_MFSuppliedState" selected="False" />
+                <SelectField field="GEO_MFUnitDesAssumed" selected="False" />
+                <SelectField field="GEO_MFStateChanged" selected="False" />
+                <SelectField field="GEO_StateAbbrev" selected="False" />
+                <SelectField field="CASS_EWSFlag" selected="False" />
+                <SelectField field="CASS_CongressionalDistrict" selected="False" />
+                <SelectField field="State" selected="False" />
+                <SelectField field="GEO_Province" selected="False" />
+                <SelectField field="RecordNum" selected="False" />
+                <SelectField field="CASS_CountyFIPS" selected="False" />
+                <SelectField field="CASS_CountyName" selected="False" />
+                <SelectField field="CASS_ErrorCode" selected="False" />
+                <SelectField field="CASS_CMRA" selected="False" />
+                <SelectField field="CASS_PrivateMailbox" selected="False" />
+                <SelectField field="CASS_AddressPlusSuite" selected="False" />
+                <SelectField field="CASS_MSA" selected="False" />
+                <SelectField field="Zip Code" selected="False" />
+                <SelectField field="CASS_PrivateMailboxName" selected="False" />
+                <SelectField field="Z9_Match_Code" selected="False" />
+                <SelectField field="CASS_DeliveryPointCode" selected="False" />
+                <SelectField field="GEO_StreetPostDir" selected="False" />
+                <SelectField field="Address" selected="False" />
+                <SelectField field="GEO_IntersectingStreetName" selected="False" />
+                <SelectField field="CASS_CarrierRoute" selected="False" />
+                <SelectField field="CASS_CityAbbreviation" selected="False" />
+                <SelectField field="CASS_AddressTypeString" selected="False" />
+                <SelectField field="CASS_DeliveryPointCheckDigit" selected="False" />
+                <SelectField field="GEO_StreetName" selected="False" />
+                <SelectField field="CASS_TimeZoneCode" selected="False" />
+                <SelectField field="Z9_Record_Type" selected="False" />
+                <SelectField field="CASS_TimeZone" selected="False" />
+                <SelectField field="CASS_AddressRange" selected="False" />
+                <SelectField field="CASS_SuiteRange" selected="False" />
+                <SelectField field="CASS_SuiteName" selected="False" />
+                <SelectField field="CASS_StreetName" selected="False" />
+                <SelectField field="GEO_FirstLine" selected="False" />
+                <SelectField field="GEO_City" selected="False" />
+                <SelectField field="City" selected="False" />
+                <SelectField field="CASS_Urbanization" selected="False" />
+                <SelectField field="CASS_ZIPType" selected="False" />
+                <SelectField field="CASS_SuiteStatus" selected="False" />
+                <SelectField field="CASS_PMSA" selected="False" />
+                <SelectField field="CASS_PrivateMailboxNumber" selected="False" />
+                <SelectField field="CASS_PreDirection" selected="False" />
+                <SelectField field="CASS_AddressTypeCode" selected="False" />
+                <SelectField field="CASS_PostDirection" selected="False" />
+                <SelectField field="CASS_Results" selected="False" />
+                <SelectField field="CASS_Suite" selected="False" />
+                <SelectField field="CASS_StatusCode" selected="False" />
+                <SelectField field="GEO_ClusterLevelID" selected="False" />
+                <SelectField field="CASS_Suffix" selected="False" />
+                <SelectField field="GEO_MFPostCodeChanged" selected="False" />
+                <SelectField field="UNITID" selected="True" description="1" />
+                <SelectField field="INSTNM" selected="True" description="2" />
+                <SelectField field="GEO_Latitude" selected="True" description="3" />
+                <SelectField field="GEO_Longitude" selected="True" description="4" />
+                <SelectField field="CASS_Address" selected="True" description="5" />
+                <SelectField field="CASS_LastLine" selected="True" description="10" />
+                <SelectField field="CASS_City" selected="True" description="6" />
+                <SelectField field="CASS_State" selected="True" description="7" />
+                <SelectField field="CASS_ZIP" selected="True" description="8" />
+                <SelectField field="CASS_Plus4" selected="True" description="9" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="834" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6564_396d4b7eeed2429f845de4fb29a1e6b2\Engine_2392_438d4872ca324f3db458b2a619a5a9c0.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\edwardsd\AppData\Local\Temp\Engine_6564_396d4b7eeed2429f845de4fb29a1e6b2\Engine_2392_978cd50747694a25b409092e5feed02a.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="690" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Latitude" type="Double" size="8" expression="round(tonumber([GEO_Latitude]),.001)" />
+                <FormulaField field="Longitude" type="Double" size="8" expression="round(tonumber([GEO_Longitude]),.001)" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Lat/Long</AnnotationText>
+              <DefaultAnnotationText>Latitude=round(tonumber([GEO_Latitude]),.001)
+Longitude=round(tonumber([GEO_Longitude]),.001)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="762" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="GEO_Latitude" selected="False" />
+                <SelectField field="GEO_Longitude" selected="False" />
+                <SelectField field="CASS_Address" selected="True" rename="Address" />
+                <SelectField field="CASS_LastLine" selected="True" rename="Address_lastLine" />
+                <SelectField field="CASS_City" selected="True" rename="City" />
+                <SelectField field="CASS_State" selected="True" rename="State" />
+                <SelectField field="CASS_ZIP" selected="True" rename="ZIP" />
+                <SelectField field="CASS_Plus4" selected="True" rename="ZIP_plus4" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CASSAddress</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

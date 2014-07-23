@@ -1,0 +1,165 @@
+ACT_CODE,CONF_INSTITUTION,CONF,UNITID
+56,UAB,Conference USA,100663
+52,University of Alabama,SEC,100751
+11,Auburn University,SEC,100858
+59,south alabama,Sun Belt,102094
+48,troy,Sun Belt,102368
+88,Arizona State,Pac-12,104151
+96,Arizona,Pac-12,104179
+132,arkansas little rock,Sun Belt,106245
+144,Arkansas,SEC,106397
+116,arkansas state,Sun Belt,106458
+266,Fresno state,Mountain West,110556
+444,Cal Berkley,Pac-12,110635
+448,UCLA,Pac-12,110662
+398,San Diego State,Mountain West,122409
+410,San Jose State,Mountain West,122755
+470,USC,Pac-12,123961
+532,Colorado  ,Pac-12,126614
+504,Colorado State,Mountain West,126818
+530,Air Force,Mountain West,128328
+604,Connecticut,American,129020
+618,Yale,Ivy,130794
+668,Georgetown,Big East,131496
+735,Central Florida,American,132903
+729,Florida Atalantic,Conference USA,133669
+776,florida international,Conference USA,133951
+734,Florida State,ACC,134097
+758,University of Florida,SEC,134130
+760,Miami,ACC,135726
+761,South Florida,American,137351
+818,Georgia Tech,ACC,139755
+830,georgia southern,Sun Belt,139931
+826,georgia state,Sun Belt,139940
+872,Georgia,SEC,139959
+902,Hawaii,Mountain West,141574
+914,Boise State,Mountain West,142115
+928,idaho,Sun Belt,142285
+960,Bradley,Missouri Valley,143358
+1012,DePaul,Big East,144740
+1155,Illinois-Chicago,Horizon League,145600
+1154,University of Illinois,Big Ten,145637
+1042,Illinois State,Missouri Valley,145813
+1064,loyola,Missouri Valley,146719
+1102,northern illinois,MAC,147703
+1106,Northwestern University,Big Ten,147767
+1144,southern illinois,Missouri Valley,149222
+1176,Ball state,MAC,150136
+1180,Butler,Big East,150163
+1188,Evansville,Missouri Valley,150534
+1206,indiana state,Missouri Valley,151324
+1210,Indiana University,Big Ten,151351
+236,Notre Dame,ACC,152080
+1256,Valparaiso,Horizon League,152600
+1302,Drake,Missouri Valley,153269
+1320,Iowa State University,Big 12,153603
+1356,University of Iowa,Big Ten,153658
+1322,northern iowa,Missouri Valley,154095
+1394,louisiana lafayette,Sun Belt,154855
+1470,University of Kansas,Big 12,155317
+1428,Kansas State University,Big 12,155399
+1472,wichita state,Missouri Valley,156125
+1554,University of Kentucky,SEC,157085
+1556,Louisville,ACC,157289
+1562,Western Kentucky,Conference USA,157951
+1590,LSU,SEC,159391
+1588,louisiana tech,Conference USA,159647
+1598,louisana monroe,Sun Belt,159993
+1614,Tulane,American,160755
+1746,University of Maryland,Big Ten,163286
+1788,Boston College,ACC,164924
+1840,Harvard,Ivy,166027
+1972,central michigan,MAC,169248
+2060,Detroit,Horizon League,169716
+1990,eastern michigan,MAC,169798
+2062,University of Michigan,Big Ten,170976
+2032,Michigan State University,Big Ten,171100
+2033,Oakland ,Horizon League,171571
+2066,western michigan,MAC,172699
+2156,University of Minnesota,Big Ten,174066
+2250,Ole Miss,SEC,176017
+2220,Mississippi State ,SEC,176080
+2218,southern mississippi,Conference USA,176372
+2382,Missouri,SEC,178396
+2370,missouri state,Missouri Valley,179566
+2444,Creighton,Big East,181002
+2482,University of Nebraska,Big Ten,181464
+2496,UNLV,Mountain West,182281
+2494,Nevada,Mountain West,182290
+2508,Dartmouth,Ivy,182670
+2588,Princeton,Ivy,186131
+2592,Rutgers University,Big Ten,186380
+2606,Seton Hall ,Big East,186584
+2650,New Mexico,Mountain West,187985
+2638,new mexico state,Sun Belt,188030
+2726,Cornell,Ivy,190415
+2888,St. John's,Big East,195809
+2930,Buffalo,MAC,196130
+2968,Syracuse,ACC,196413
+2717,Columbia,Ivy,196468
+3062,appalachian state,Sun Belt,197869
+3088,Duke,ACC,198419
+3094,East Carolina,American,198464
+3162,UNC,ACC,199120
+3163,UNC-Charlotte,Conference USA,199139
+3164,NC State,ACC,199193
+3168,Wake Forest,ACC,199847
+3338,Akron,MAC,200800
+3240,Bowling Green,MAC,201441
+3340,Cinncinnati,American,201885
+3270,Cleveland State,Horizon League,202134
+3284,Kent State,MAC,203517
+3294,Miami of Ohio,MAC,204024
+3312,Ohio State University,Big Ten,204796
+3314,Ohio  ,MAC,204857
+3344,toledo,MAC,206084
+3295,Wright State,Horizon League,206604
+3366,Xavier,Big East,206622
+3368,Youngstown State,Horizon League,206695
+3424,Oklahoma State University,Big 12,207388
+3442,University of Oklahoma,Big 12,207500
+3425,texas-arlington,Sun Belt,207564
+3444,Tulsa,American,207971
+3482,Oregon State,Pac-12,209542
+3498,Oregon,Pac-12,209551
+3656,Penn State University,Big Ten,214777
+3732,Penn  ,Ivy,215062
+3734,Pittsburgh,ACC,215293
+3744,Villanova,Big East,216597
+3800,Brown,Ivy,217156
+3806,Providence,Big East,217402
+3842,Clemson,ACC,217882
+3880,South Carolina,SEC,218663
+3992,Memphis,American,220862
+3994,middle tennessee state,Conference USA,220978
+4026,University of Tennessee,SEC,221759
+4036,Vanderbilt,SEC,221999
+4062,Baylor University,Big 12,223232
+4236,Houston,American,225511
+4136,north texas,Conference USA,227216
+4152,rice,Conference USA,227757
+4174,SMU,American,228246
+4178,texas state,Sun Belt,228459
+4192,Temple,American,228608
+4198,Texas A&M,SEC,228723
+4240,University of Texas,Big 12,228778
+4223,UTEP,Conference USA,228796
+4206,Texas Christian University,Big 12,228875
+4239,texas-san antonio,Conference USA,229027
+4220,Texas Tech University,Big 12,229115
+4276,Utah State,Mountain West,230728
+4274,Utah  ,Pac-12,230764
+4347,old dominion,Conference USA,232982
+4420,Virginia Tech,ACC,233921
+4412,Virginia,ACC,234076
+4482,Washington State,Pac-12,236939
+4484,Washington,Pac-12,236948
+4526,marshall,Conference USA,237525
+4540,West Virginia University,Big 12,238032
+4610,Marquette,Big East,239105
+4688,Wisconsin-Green Bay,Horizon League,240277
+4656,University of Wisconsin,Big Ten,240444
+4658,Wisconsin-Milwaukee,Horizon League,240453
+5006,Wyoming,Mountain West,240727
+434,Stanford,Pac-12,243744
+1230,Purdue University,Big Ten,243780
